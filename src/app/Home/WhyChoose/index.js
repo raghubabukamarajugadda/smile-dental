@@ -18,47 +18,44 @@ export default function WhyChoose() {
           <div className="row">
             <div className="col-lg-6 col-12">
               <div className="choose-left">
-                <h3>Our Dental Legacy</h3>
-                <p>
-                  Established in 1999, Dr. Kiran's Smile Group has grown from a
-                  single clinic to a network of 8+ state-of-the-art dental
-                  hospitals across India and Kuwait. Our team of 25+ specialists
-                  brings global expertise to every treatment, ensuring
-                  world-class care close to home.
+              <h3>Our Dental Legacy</h3>
+              <p>
+                  Established in 1999, Dr. Kiran's Smile Group has grown from a single clinic to a network of 8+ 
+                  state-of-the-art dental hospitals across India and Kuwait. Our team of 25+ specialists brings 
+                  global expertise to every treatment, ensuring world-class care close to home.
                 </p>
                 <p>
-                  We prioritize pain-free dentistry using cutting-edge
-                  technologies like digital scans, laser treatments, and premium
-                  implants, making dental visits comfortable for patients of all
-                  ages.
+                  We prioritize pain-free dentistry using cutting-edge technologies like digital scans, laser treatments, 
+                  and premium implants, making dental visits comfortable for patients of all ages.
                 </p>
                 <div className="row">
                   <div className="col-lg-6">
                     <ul className="list">
                       <li>
-                        <i className="fa fa-caret-right"></i>25+ Years Expertise
+                        <i className="fa fa-caret-right"></i>Maecenas vitae
+                        luctus nibh.
                       </li>
                       <li>
-                        <i className="fa fa-caret-right"></i>Pain-Free
-                        Technology
+                        <i className="fa fa-caret-right"></i>Duis massa massa.
                       </li>
                       <li>
-                        <i className="fa fa-caret-right"></i>8 Modern Clinics
+                        <i className="fa fa-caret-right"></i>Aliquam feugiat
+                        interdum.
                       </li>
                     </ul>
                   </div>
                   <div className="col-lg-6">
                     <ul className="list">
                       <li>
-                        <i className="fa fa-caret-right"></i>Child-Friendly Care
+                        <i className="fa fa-caret-right"></i>Maecenas vitae
+                        luctus nibh.
                       </li>
                       <li>
-                        <i className="fa fa-caret-right"></i>24/7 Emergency
-                        Service
+                        <i className="fa fa-caret-right"></i>Duis massa massa.
                       </li>
                       <li>
-                        <i className="fa fa-caret-right"></i>Multilingual
-                        Support
+                        <i className="fa fa-caret-right"></i>Aliquam feugiat
+                        interdum.
                       </li>
                     </ul>
                   </div>
