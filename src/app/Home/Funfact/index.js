@@ -8,30 +8,30 @@ export default function Funfact() {
           <div className="row">
             <div className="col-lg-3 col-md-6 col-12">
               <FunfactCard
-                icon="icofont icofont-home"
-                number="3468"
-                desc="Hospital Rooms"
+                icon="icofont icofont-tooth"
+                number="8"
+                desc="Clinics Nationwide"
               />
             </div>
             <div className="col-lg-3 col-md-6 col-12">
               <FunfactCard
                 icon="icofont icofont-user-alt-3"
-                number="557"
-                desc="Specialist Doctors"
+                number="25+"
+                desc="Expert Specialists"
               />
             </div>
             <div className="col-lg-3 col-md-6 col-12">
               <FunfactCard
                 icon="icofont-simple-smile"
-                number="4379"
-                desc="Happy Patients"
+                number="25000+"
+                desc="Smiles Transformed"
               />
             </div>
             <div className="col-lg-3 col-md-6 col-12">
               <FunfactCard
-                icon="icofont icofont-table"
-                number="32"
-                desc="Years of Experience"
+                icon="icofont icofont-history"
+                number="25"
+                desc="Years of Excellence"
               />
             </div>
           </div>
