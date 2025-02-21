@@ -16,10 +16,9 @@ export default function Sliders(props) {
       id: "slider1",
       bgImg: HeroBg1,
       title:
-        "We Provide <span>Medical</span> Services <br/> That You Can <span>Trust!</span>",
+        "Welcome to <span>Dr. Kiran's Smile Group</span> <br/> Where Care Meets <span>Excellence!</span>",
       subTitle:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque,<br/>faucibus libero eu, gravida quam. ",
-      button: {
+        "Experience world-class dental care with state-of-the-art treatments, trusted by</br> families across India and Kuwait for over 25 years.",      button: {
         text: "Get Appointment",
         link: "/appointment",
       },
@@ -32,10 +31,10 @@ export default function Sliders(props) {
       id: "slider2",
       bgImg: HeroBg2,
       title:
-        "We Provide <span>Medical</span> Services <br/> That You Can <span>Trust!</span>",
+        "Your Smile Deserves <span>Expert</span> Care <br/> You Can <span>Rely On!</span>",
       subTitle:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque,<br/>faucibus libero eu, gravida quam. ",
-      button: {
+        "From precision treatments to compassionate service, we prioritize your comfort and</br>confidence at every step of your dental journey.",
+        button: {
         text: "Get Appointment",
         link: "/appointment",
       },
@@ -48,10 +47,10 @@ export default function Sliders(props) {
       id: "slider3",
       bgImg: HeroBg3,
       title:
-        "Welcome to <span>Dr. Kiran's Smile Group of Dental Hospitals</span> </br>Your Trusted Destination for Comprehensive Dental Care ",
+      "Experience <span>Pain-Free</span> Dentistry <br/> With a <span>Trusted Team!</span>",
 
       subTitle:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque,<br/>faucibus libero eu, gravida quam. ",
+      "Our specialists use cutting-edge techniques to ensure gentle, effective care for</br> patients of all ages—because your smile matters.",
       button: {
         text: "Get Appointment",
         link: "/appointment",
