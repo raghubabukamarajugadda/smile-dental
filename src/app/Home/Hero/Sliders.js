@@ -37,7 +37,7 @@ export default function Sliders(props) {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque,<br/>faucibus libero eu, gravida quam. ",
       button: {
         text: "Get Appointment",
-        link: "/appoinment",
+        link: "/appointment",
       },
       button2: {
         text: "About Us",
@@ -53,7 +53,7 @@ export default function Sliders(props) {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque,<br/>faucibus libero eu, gravida quam. ",
       button: {
         text: "Get Appointment",
-        link: "/appoinment",
+        link: "/appointment",
       },
       button2: {
         text: "Conatct Now",
