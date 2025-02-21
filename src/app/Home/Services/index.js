@@ -72,7 +72,7 @@ export default function Services() {
             {/* Teeth Whitening & Scaling */}
             <div className="col-lg-4 col-md-6 col-12">
               <ServiceCard
-                icon="fa-solid fa-toothbrush"
+                icon="bi bi-0-square"
                 title="Teeth Whitening & Scaling"
                 desc="Professional cleaning & whitening. Remove 10+ years of stains in one session."
               />
