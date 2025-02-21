@@ -10,58 +10,52 @@ export default function WhyChoose() {
           <div className="row">
             <div className="col-lg-12">
               <SectionHead
-                title="Where Exceptional Dental Care Meets Compassion"
-                desc="For over two decades, we've combined cutting-edge technology with personalized care to transform smiles across India and Kuwait."
+                title="We Offer Different Services To Improve Your Health"
+                desc="Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts"
               />
             </div>
           </div>
           <div className="row">
             <div className="col-lg-6 col-12">
               <div className="choose-left">
-                <h3>Pioneers in Dental Excellence</h3>
+                <h3>Who We Are</h3>
                 <p>
-                  Established in 1999, Dr. Kiran's Smile Group has grown from a
-                  single clinic in Andhra Pradesh to a network of 8+
-                  state-of-the-art dental hospitals. Our journey has been guided
-                  by a simple philosophy: every smile deserves expert care and
-                  lasting solutions.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Maecenas pharetra antege vel est lobortis, a commodo magna
+                  rhoncus. In quis nisi non emet quam pharetra commodo.
                 </p>
                 <p>
-                  From routine check-ups to complex smile makeovers, our team of
-                  25+ specialists leverages advanced digital imaging, painless
-                  laser treatments, and implant technologies to deliver results
-                  that exceed expectations.
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                  nostra, per inceptos himenaeos.
                 </p>
                 <div className="row">
                   <div className="col-lg-6">
                     <ul className="list">
                       <li>
-                        <i className="fa fa-caret-right"></i>25+ Years of
-                        Expertise
+                        <i className="fa fa-caret-right"></i>Maecenas vitae
+                        luctus nibh.
                       </li>
                       <li>
-                        <i className="fa fa-caret-right"></i>Pain-Free Treatment
-                        Protocols
+                        <i className="fa fa-caret-right"></i>Duis massa massa.
                       </li>
                       <li>
-                        <i className="fa fa-caret-right"></i>8 Modern Clinics
-                        Nationwide
+                        <i className="fa fa-caret-right"></i>Aliquam feugiat
+                        interdum.
                       </li>
                     </ul>
                   </div>
                   <div className="col-lg-6">
                     <ul className="list">
                       <li>
-                        <i className="fa fa-caret-right"></i>Child-Friendly
-                        Dental Care
+                        <i className="fa fa-caret-right"></i>Maecenas vitae
+                        luctus nibh.
                       </li>
                       <li>
-                        <i className="fa-caret-right"></i>24/7 Emergency
-                        Services
+                        <i className="fa fa-caret-right"></i>Duis massa massa.
                       </li>
                       <li>
-                        <i className="fa fa-caret-right"></i>Multilingual
-                        Support Team
+                        <i className="fa fa-caret-right"></i>Aliquam feugiat
+                        interdum.
                       </li>
                     </ul>
                   </div>
@@ -69,7 +63,6 @@ export default function WhyChoose() {
               </div>
             </div>
             <div className="col-lg-6 col-12">
-              {/* Video component remains unchanged */}
               <div className="choose-right">
                 <div className="video-image">
                   <div className="promo-video">
