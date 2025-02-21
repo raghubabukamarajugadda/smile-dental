@@ -48,7 +48,8 @@ export default function Sliders(props) {
       id: "slider3",
       bgImg: HeroBg3,
       title:
-        "We Provide <span>Medical</span> Services <br/> That You Can <span>Trust!</span>",
+        "Welcome to <span>Dr. Kiran's Smile Group of Dental Hospitals</span> </br>Your Trusted Destination for Comprehensive Dental Care ",
+
       subTitle:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque,<br/>faucibus libero eu, gravida quam. ",
       button: {
