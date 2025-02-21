@@ -13,7 +13,8 @@ export default function Navbar() {
           <ul className="nav menu">
             <li>
               <Link href="#">
-                Home <i className="icofont-rounded-down"></i>
+                Home <i className={` ${pathname === "/" ? "active" : ""}`}
+                    href="/"></i>
               </Link>
               <ul className="dropdown">
                 <li>

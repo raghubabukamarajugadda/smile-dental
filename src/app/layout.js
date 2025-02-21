@@ -38,8 +38,8 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Mediplus - Medical and Doctor Next.js Template.",
-  description: "Mediplus - Medical and Doctor Next.js Template.",
+  title: "Dr.Kiran's Smile Group of Dental Hospitals",
+  description: "Dr.Kiran's Smile Group of Dental Hospitals",
 };
 
 export default function RootLayout({ children }) {
