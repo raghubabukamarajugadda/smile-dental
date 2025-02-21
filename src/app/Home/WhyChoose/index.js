@@ -18,9 +18,9 @@ export default function WhyChoose() {
           <div className="row">
             <div className="col-lg-6 col-12">
               <div className="choose-left">
-              <h3>Our Dental Legacy</h3>
-              <p>
-                  Established in 1999, Dr. Kiran's Smile Group has grown from a single clinic to a network of 8+ 
+                <h3>Our Dental Legacy</h3>
+                <p>
+                  Established in 1999, Dr. Kiran&apos;s Smile Group has grown from a single clinic to a network of 8+ 
                   state-of-the-art dental hospitals across India and Kuwait. Our team of 25+ specialists brings 
                   global expertise to every treatment, ensuring world-class care close to home.
                 </p>
@@ -32,30 +32,26 @@ export default function WhyChoose() {
                   <div className="col-lg-6">
                     <ul className="list">
                       <li>
-                        <i className="fa fa-caret-right"></i>Maecenas vitae
-                        luctus nibh.
+                        <i className="fa fa-caret-right"></i>25+ Years Expertise
                       </li>
                       <li>
-                        <i className="fa fa-caret-right"></i>Duis massa massa.
+                        <i className="fa fa-caret-right"></i>Pain-Free Technology
                       </li>
                       <li>
-                        <i className="fa fa-caret-right"></i>Aliquam feugiat
-                        interdum.
+                        <i className="fa fa-caret-right"></i>8 Modern Clinics
                       </li>
                     </ul>
                   </div>
                   <div className="col-lg-6">
                     <ul className="list">
                       <li>
-                        <i className="fa fa-caret-right"></i>Maecenas vitae
-                        luctus nibh.
+                        <i className="fa fa-caret-right"></i>Child-Friendly Care
                       </li>
                       <li>
-                        <i className="fa fa-caret-right"></i>Duis massa massa.
+                        <i className="fa fa-caret-right"></i>24/7 Emergency Service
                       </li>
                       <li>
-                        <i className="fa fa-caret-right"></i>Aliquam feugiat
-                        interdum.
+                        <i className="fa fa-caret-right"></i>Multilingual Support
                       </li>
                     </ul>
                   </div>
