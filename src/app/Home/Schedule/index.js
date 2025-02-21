@@ -40,13 +40,12 @@ export default function Schedule() {
                       <span>Schedule Smart</span>
                       <h4>Doctors Timetable</h4>
                       <p>
-                        Plan your visit with ease! Our experienced specialists
+                        Our experienced specialists
                         are available Monday to Saturday, with flexible hours to
-                        suit your busy schedule. Browse slots and book
-                        appointments online or in-clinic.
+                        suit your busy schedule.
                       </p>
                       <Link href="#">
-                        LEARN MORE <i className="fa fa-long-arrow-right"></i>
+                        BOOK APPOINTMENT <i className="fa fa-long-arrow-right"></i>
                       </Link>
                     </div>
                   </div>
@@ -70,6 +69,9 @@ export default function Schedule() {
                           Sunday <span>Closed (Emergencies Only)</span>
                         </li>
                       </ul>
+                      <p>
+                        Above timetable is applicable for all our branches throught India.
+                      </p>
                       <Link href="#">
                         LEARN MORE<i className="fa fa-long-arrow-right"></i>
                       </Link>
