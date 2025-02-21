@@ -12,28 +12,11 @@ export default function Navbar() {
         <nav className="navigation">
           <ul className="nav menu">
             <li>
-              <Link href="#">
-                Home <i className={` ${pathname === "/" ? "active" : ""}`}
-                    href="/"></i>
+              <Link className={` ${pathname === "/" ? "active" : ""}`} href="/">
+                Home 
               </Link>
-              <ul className="dropdown">
-                <li>
-                  <Link
-                    className={` ${pathname === "/" ? "active" : ""}`}
-                    href="/"
-                  >
-                    Home Page 1
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className={` ${pathname === "/home-2" ? "active" : ""}`}
-                    href="/home-2"
-                  >
-                    Home Page 2
-                  </Link>
-                </li>
-              </ul>
+              
+              
             </li>
             <li>
               <Link href="#">
