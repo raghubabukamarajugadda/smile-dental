@@ -15,11 +15,12 @@ export default function Schedule() {
                       <i className="fa fa-ambulance"></i>
                     </div>
                     <div className="single-content">
-                      <span>Lorem Amet</span>
+                      <span>Dental Emergencies? We’re Here to Help!</span>
                       <h4>Emergency Cases</h4>
                       <p>
-                        Lorem ipsum sit amet consectetur adipiscing elit.
-                        Vivamus et erat in lacus convallis sodales.
+                        Toothaches, broken crowns, or sudden injuries? Our
+                        expert team provides immediate care, 24/7, to relieve
+                        pain and protect your smile.
                       </p>
                       <Link href="#">
                         LEARN MORE<i className="fa fa-long-arrow-right"></i>
@@ -36,14 +37,16 @@ export default function Schedule() {
                       <i className="icofont-prescription"></i>
                     </div>
                     <div className="single-content">
-                      <span>Fusce Porttitor</span>
+                      <span>Schedule Smart</span>
                       <h4>Doctors Timetable</h4>
                       <p>
-                        Lorem ipsum sit amet consectetur adipiscing elit.
-                        Vivamus et erat in lacus convallis sodales.
+                        Plan your visit with ease! Our experienced specialists
+                        are available Monday to Saturday, with flexible hours to
+                        suit your busy schedule. Browse slots and book
+                        appointments online or in-clinic.
                       </p>
                       <Link href="#">
-                        LEARN MORE<i className="fa fa-long-arrow-right"></i>
+                        LEARN MORE <i className="fa fa-long-arrow-right"></i>
                       </Link>
                     </div>
                   </div>
@@ -57,17 +60,14 @@ export default function Schedule() {
                       <i className="icofont-ui-clock"></i>
                     </div>
                     <div className="single-content">
-                      <span>Donec luctus</span>
+                      <span>Convenient Hours</span>
                       <h4>Opening Hours</h4>
                       <ul className="time-sidual">
                         <li className="day">
-                          Monday - Fridayp <span>8.00-20.00</span>
+                          Monday - Saturday <span>8:00 AM - 8:00 PM</span>
                         </li>
                         <li className="day">
-                          Saturday <span>9.00-18.30</span>
-                        </li>
-                        <li className="day">
-                          Monday - Thusday <span>9.00-15.00</span>
+                          Sunday <span>Closed (Emergencies Only)</span>
                         </li>
                       </ul>
                       <Link href="#">
