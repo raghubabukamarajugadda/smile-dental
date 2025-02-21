@@ -16,14 +16,14 @@ export default function Funfact() {
             <div className="col-lg-3 col-md-6 col-12">
               <FunfactCard
                 icon="icofont icofont-user-alt-3"
-                number="25+"
+                number="25"
                 desc="Expert Specialists"
               />
             </div>
             <div className="col-lg-3 col-md-6 col-12">
               <FunfactCard
                 icon="icofont-simple-smile"
-                number="25000+"
+                number="25000"
                 desc="Smiles Transformed"
               />
             </div>
