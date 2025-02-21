@@ -9,52 +9,81 @@ export default function Services() {
           <div className="row">
             <div className="col-lg-12">
               <SectionHead
-                title="Comprehensive Dental Care for All Ages"
-                desc="From routine checkups to advanced smile transformations, we combine cutting-edge technology with expert care for optimal oral health."
+                title="Complete Dental Solutions for Your Smile"
+                desc="From preventive care to advanced treatments, we offer comprehensive dental services tailored to patients of all ages."
               />
             </div>
           </div>
           <div className="row">
+            {/* Crowns & Bridges */}
             <div className="col-lg-4 col-md-6 col-12">
               <ServiceCard
-                icon="icofont icofont-tooth"
-                title="General Dentistry"
-                desc="Regular checkups, cleanings, and fillings to maintain your oral health and prevent dental issues."
+                icon="icofont icofont-crown"
+                title="Crowns & Bridges"
+                desc="Restore tooth functionality and aesthetics with custom-designed crowns & bridges. Durable solutions for damaged/missing teeth."
               />
             </div>
+
+            {/* Root Canal Treatment */}
             <div className="col-lg-4 col-md-6 col-12">
               <ServiceCard
-                icon="icofont icofont-flash"
-                title="Teeth Whitening"
-                desc="Professional-grade whitening solutions for a brighter smile - available in-chair or take-home kits."
+                icon="icofont icofont-dental-drill"
+                title="Root Canal Treatment"
+                desc="Pain-free RCT using rotary endodontics to save infected teeth. 98% success rate with permanent relief."
               />
             </div>
+
+            {/* Cosmetic Dentistry */}
             <div className="col-lg-4 col-md-6 col-12">
               <ServiceCard
-                icon="icofont icofont-tooth"
-                title="Dental Implants"
-                desc="Permanent, natural-looking replacements for missing teeth using premium implant systems."
+                icon="icofont icofont-smile"
+                title="Cosmetic Dentistry"
+                desc="Smile makeovers with veneers, laminates & teeth contouring. Achieve Hollywood-worthy smiles."
               />
             </div>
+
+            {/* Pediatric Dentistry */}
             <div className="col-lg-4 col-md-6 col-12">
               <ServiceCard
                 icon="icofont icofont-baby"
-                title="Pediatric Care"
-                desc="Gentle dental treatments and education to establish lifelong healthy habits for children."
+                title="Pediatric Dentistry"
+                desc="Fun, fear-free visits for kids. Specialized care for milk teeth and early orthodontic guidance."
               />
             </div>
+
+            {/* Dental Implants */}
             <div className="col-lg-4 col-md-6 col-12">
               <ServiceCard
-                icon="icofont icofont-tooth"
+                icon="icofont icofont-implant"
+                title="Dental Implants"
+                desc="Permanent tooth replacements with 95% osseointegration success. Metal-free zirconia options available."
+              />
+            </div>
+
+            {/* Orthodontics */}
+            <div className="col-lg-4 col-md-6 col-12">
+              <ServiceCard
+                icon="icofont icofont-braces"
                 title="Orthodontics"
-                desc="Braces & clear aligners for perfectly aligned teeth - customized for teens and adults."
+                desc="Invisible aligners & modern braces for all ages. Correct crowding, gaps, and bite issues."
               />
             </div>
+
+            {/* Teeth Whitening & Scaling */}
             <div className="col-lg-4 col-md-6 col-12">
               <ServiceCard
-                icon="icofont icofont-tooth"
-                title="Root Canal Therapy"
-                desc="Pain-free treatment to save infected teeth using advanced rotary endodontics."
+                icon="icofont icofont-toothbrush"
+                title="Teeth Whitening & Scaling"
+                desc="Professional cleaning & whitening. Remove 10+ years of stains in one session."
+              />
+            </div>
+
+            {/* Gum Treatment */}
+            <div className="col-lg-4 col-md-6 col-12">
+              <ServiceCard
+                icon="icofont icofont-medical-sign"
+                title="Gum Treatment"
+                desc="Laser therapy & flap surgery for severe periodontitis. Stop gum recession effectively."
               />
             </div>
           </div>
