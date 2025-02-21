@@ -9,58 +9,52 @@ export default function Services() {
           <div className="row">
             <div className="col-lg-12">
               <SectionHead
-                title="We Offer Different Services To Improve Your Health"
-                desc="Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts"
+                title="Comprehensive Dental Care for All Ages"
+                desc="From routine checkups to advanced smile transformations, we combine cutting-edge technology with expert care for optimal oral health."
               />
             </div>
           </div>
           <div className="row">
             <div className="col-lg-4 col-md-6 col-12">
               <ServiceCard
-                icon="icofont icofont-prescription"
-                title="General Treatment"
-                desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                luctus dictum eros ut imperdiet."
+                icon="icofont icofont-tooth"
+                title="General Dentistry"
+                desc="Regular checkups, cleanings, and fillings to maintain your oral health and prevent dental issues."
+              />
+            </div>
+            <div className="col-lg-4 col-md-6 col-12">
+              <ServiceCard
+                icon="icofont icofont-flash"
+                title="Teeth Whitening"
+                desc="Professional-grade whitening solutions for a brighter smile - available in-chair or take-home kits."
               />
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <ServiceCard
                 icon="icofont icofont-tooth"
-                title="Teeth Whitening"
-                desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                  luctus dictum eros ut imperdiet."
+                title="Dental Implants"
+                desc="Permanent, natural-looking replacements for missing teeth using premium implant systems."
               />
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <ServiceCard
-                icon="icofont icofont-heart-alt"
-                title="Heart Surgery"
-                desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                  luctus dictum eros ut imperdiet."
+                icon="icofont icofont-baby"
+                title="Pediatric Care"
+                desc="Gentle dental treatments and education to establish lifelong healthy habits for children."
               />
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <ServiceCard
-                icon="icofont icofont-listening"
-                title="Ear Treatment"
-                desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                  luctus dictum eros ut imperdiet."
+                icon="icofont icofont-tooth"
+                title="Orthodontics"
+                desc="Braces & clear aligners for perfectly aligned teeth - customized for teens and adults."
               />
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <ServiceCard
-                icon="icofont icofont-eye-alt"
-                title="Vision Problems"
-                desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                  luctus dictum eros ut imperdiet."
-              />
-            </div>
-            <div className="col-lg-4 col-md-6 col-12">
-              <ServiceCard
-                icon="icofont icofont-blood"
-                title="Blood Transfusion"
-                desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                  luctus dictum eros ut imperdiet."
+                icon="icofont icofont-tooth"
+                title="Root Canal Therapy"
+                desc="Pain-free treatment to save infected teeth using advanced rotary endodontics."
               />
             </div>
           </div>
