@@ -4,7 +4,7 @@ const Data = [
   {
     title: "Teeth Whitening",
     icon: "icofont-tooth",
-    price: Upon-req,
+    price: 9999,
     features: [
       { name: "Professional in-chair whitening", status: true },
       { name: "Stain removal & polishing", status: true },
