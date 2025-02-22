@@ -8,19 +8,19 @@ export default function Vission() {
       id: "item1",
       icon: "icofont-tick-mark",
       title: "Our Mission",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Quis ipsum suspendisse.",
+      desc: "To provide exceptional dental care that transforms smiles and enhances lives, using advanced technology and a patient-first approach.",
     },
     {
       id: "item2",
       icon: "icofont-tick-mark",
       title: "Our Planning",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Quis ipsum suspendisse.",
+      desc: "We continuously innovate and expand our services to make world-class dental care accessible to patients across India and Kuwait.",
     },
     {
       id: "item3",
       icon: "icofont-tick-mark",
       title: "Our Vision",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Quis ipsum suspendisse.",
+      desc: "To be the leading dental healthcare provider, known for excellence in service, innovation, and patient satisfaction.",
     },
   ]);
 

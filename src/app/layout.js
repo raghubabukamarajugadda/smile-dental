@@ -38,8 +38,8 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Dr.Kiran's Smile Group of Dental Hospitals",
-  description: "Dr.Kiran's Smile Group of Dental Hospitals",
+  title: "Dr.Kiran&apos;s Smile Group of Dental Hospitals",
+  description: "Dr.Kiran&apos;s Smile Group of Dental Hospitals",
 };
 
 export default function RootLayout({ children }) {

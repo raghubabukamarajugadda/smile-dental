@@ -16,24 +16,36 @@ export default function Appointment() {
             <div className="col-lg-7 col-md-12 col-12">
               <div className="appointment-inner">
                 <div className="title">
-                  <h3>Book your appointment</h3>
+                  <h3>Book Your Appointment</h3>
                   <p>We will confirm your appointment within 2 hours</p>
                 </div>
                 <form className="form" action="#">
                   <div className="row">
                     <div className="col-lg-6 col-md-6 col-12">
                       <div className="form-group">
-                        <input name="name" type="text" placeholder="Name" />
+                        <input
+                          name="name"
+                          type="text"
+                          placeholder="Your Name"
+                        />
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-6 col-12">
                       <div className="form-group">
-                        <input name="email" type="email" placeholder="Email" />
+                        <input
+                          name="email"
+                          type="email"
+                          placeholder="Your Email"
+                        />
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-6 col-12">
                       <div className="form-group">
-                        <input name="phone" type="text" placeholder="Phone" />
+                        <input
+                          name="phone"
+                          type="text"
+                          placeholder="Your Phone"
+                        />
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-6 col-12">
@@ -42,11 +54,16 @@ export default function Appointment() {
                           aria-label="Default select example"
                           className="form-select"
                         >
-                          <option>Department</option>
-                          <option value="1"> Cardiac Clinic</option>
-                          <option value="2"> Neurology</option>
-                          <option value="3"> Dentistry</option>
-                          <option value="4"> Gastroenterology</option>
+                          <option>Select Branch</option>
+                          <option value="1">Guntur - Brindavan Gardens</option>
+                          <option value="2">Hyderabad - Kukatpally</option>
+                          <option value="3">Bengaluru - Bellandur</option>
+                          <option value="4">
+                            Nellore - Ramesh Reddy Nagar
+                          </option>
+                          <option value="5">
+                            Kuwait - Hawally Poly Clinic
+                          </option>
                         </select>
                       </div>
                     </div>
@@ -56,10 +73,12 @@ export default function Appointment() {
                           aria-label="Default select example"
                           className="form-select"
                         >
-                          <option>Doctor</option>
-                          <option value="1"> Dr. Akther Hossain</option>
-                          <option value="2">Dr. Dery Alex</option>
-                          <option value="3"> Dr. Jovis Karon</option>
+                          <option>Select Department</option>
+                          <option value="1">General Dentistry</option>
+                          <option value="2">Orthodontics</option>
+                          <option value="3">Cosmetic Dentistry</option>
+                          <option value="4">Pediatric Dentistry</option>
+                          <option value="5">Dental Implants</option>
                         </select>
                       </div>
                     </div>
@@ -72,7 +91,7 @@ export default function Appointment() {
                       <div className="form-group">
                         <textarea
                           name="message"
-                          placeholder="Write Your Message Here....."
+                          placeholder="Tell us about your dental concerns..."
                         ></textarea>
                       </div>
                     </div>
@@ -91,7 +110,7 @@ export default function Appointment() {
                 </form>
               </div>
             </div>
-            <div className="col-lg-5 col-md-12 ">
+            <div className="col-lg-5 col-md-12">
               <WorkHour />
             </div>
           </div>

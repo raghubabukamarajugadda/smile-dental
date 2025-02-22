@@ -1,10 +1,10 @@
 import Breadcrumbs from "@/components/Breadcrumbs";
 import TeamCard from "@/components/TeamCard";
 
-import TeamImg1 from "../../../public/img/team1.jpg";
-import TeamImg2 from "../../../public/img/team2.jpg";
-import TeamImg3 from "../../../public/img/team3.jpg";
-import TeamImg4 from "../../../public/img/team4.jpg";
+import TeamImg1 from "../../../public/img/kiran_img.jpg";
+import TeamImg2 from "../../../public/img/kavitha_img.jpg";
+import TeamImg3 from "../../../public/img/manasa_img.jpg";
+import TeamImg4 from "../../../public/img/venkatesh_img.jpg";
 import Header from "@/components/Header/Header";
 
 export default function Doctors() {
@@ -12,7 +12,7 @@ export default function Doctors() {
     <>
       <Header />
 
-      <Breadcrumbs title="Meet Our Qualified Doctors" menuText="Doctors" />
+      <Breadcrumbs title="Meet Our Expert Dental Team" menuText="Doctors" />
 
       <section id="team" className="team section single-page">
         <div className="container">
@@ -21,48 +21,48 @@ export default function Doctors() {
               <TeamCard
                 tilt="tilt-disable"
                 image={TeamImg1}
-                name="Collis Molate"
-                desgination="Neurosurgeon"
+                name="Dr. Kiran Golla"
+                designation="MD & Founder"
               />
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <TeamCard
                 tilt="tilt-disable"
                 image={TeamImg2}
-                name="Domani Plavon"
-                desgination="Neurosurgeon"
+                name="Dr. Kavitha Reddy"
+                designation="Founder & General Dentist"
               />
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <TeamCard
                 tilt="tilt-disable"
                 image={TeamImg3}
-                name="John Mard"
-                desgination="Dental Surgeon"
+                name="Dr. Manasa Reddy"
+                designation="CEO & Prosthodontist"
               />
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <TeamCard
                 tilt="tilt-disable"
                 image={TeamImg4}
-                name="Amanal Frond"
-                desgination="Neurosurgeon"
+                name="Dr. Venkatesh"
+                designation="Orthodontist"
               />
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <TeamCard
                 tilt="tilt-disable"
-                image={TeamImg1}
-                name="Collis Molate"
-                desgination="Neurosurgeon"
+                image={TeamImg1} // Replace with Dr. Pranavi's image if available
+                name="Dr. Kiran"
+                designation="General Dentist"
               />
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <TeamCard
                 tilt="tilt-disable"
-                image={TeamImg2}
-                name="Domani Plavon"
-                desgination="Neurosurgeon"
+                image={TeamImg2} // Replace with another doctor's image if available
+                name="Dr. Anjali Reddy"
+                designation="Pediatric Dentist"
               />
             </div>
           </div>
