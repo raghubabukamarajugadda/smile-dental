@@ -13,8 +13,8 @@ export default function Blog() {
           <div className="row">
             <div className="col-lg-12">
               <SectionHead
-                title="Keep up with Our Most Recent Medical News."
-                desc="Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts"
+                title="Stay Updated with the Latest in Dental Care"
+                desc="Explore our blog for expert tips, news, and insights on maintaining a healthy smile and the latest advancements in dental treatments."
               />
             </div>
           </div>
@@ -22,25 +22,25 @@ export default function Blog() {
             <div className="col-lg-4 col-md-6 col-12">
               <BlogCard
                 image={BlogImg1}
-                date="22 Aug, 2020"
-                title="We have annnocuced our new product."
-                desc="Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed."
+                date="22 Aug, 2023"
+                title="5 Tips for Maintaining Oral Health During Festive Seasons"
+                desc="Learn how to enjoy sweets and treats without compromising your dental health. Discover simple habits to keep your smile bright and healthy."
               />
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <BlogCard
                 image={BlogImg2}
-                date="15 Jul, 2020"
-                title="Top five way for solving teeth problems."
-                desc="Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed."
+                date="15 Jul, 2023"
+                title="The Benefits of Invisalign: A Clear Path to Straighter Teeth"
+                desc="Explore how Invisalign aligners work, their advantages over traditional braces, and why they’re a popular choice for teens and adults."
               />
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <BlogCard
                 image={BlogImg3}
-                date="05 Jan, 2020"
-                title="We provide highly business soliutions."
-                desc="Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed."
+                date="05 Jan, 2023"
+                title="Understanding Dental Implants: A Permanent Solution for Missing Teeth"
+                desc="Everything you need to know about dental implants, from the procedure to aftercare, and why they’re the gold standard for tooth replacement."
               />
             </div>
           </div>

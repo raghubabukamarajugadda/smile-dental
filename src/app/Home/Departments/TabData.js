@@ -4,7 +4,10 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
-import DepartmentImg1 from "../../../../public/img/department.jpg";
+import DepartmentImg1 from "../../../../public/img/rootcanal.jpeg";
+import DepartmentImg2 from "../../../../public/img/ortho.jpeg";
+import DepartmentImg3 from "../../../../public/img/dentalimplants.jpeg";
+import DepartmentImg4 from "../../../../public/img/pediatric_dentistry.jpeg";
 
 const departments = [
   {
@@ -33,7 +36,7 @@ const departments = [
       "Ceramic and self-ligating braces",
       "3D smile simulation technology"
     ],
-    image: DepartmentImg1,
+    image: DepartmentImg2,
   },
   {
     id: 3,
@@ -47,7 +50,7 @@ const departments = [
       "Bone grafting for optimal support",
       "Custom crowns for seamless aesthetics"
     ],
-    image: DepartmentImg1,
+    image: DepartmentImg3,
   },
   
   {
@@ -62,7 +65,7 @@ const departments = [
       "Nitrous oxide for anxiety-free visits",
       "Habit-breaking appliances"
     ],
-    image: DepartmentImg1,
+    image: DepartmentImg4,
   }
 ];
 

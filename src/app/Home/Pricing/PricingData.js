@@ -26,7 +26,7 @@ const Data = [
     ],
   },
   {
-    title: "Outpatient Consultation (OP)",
+    title: "Outpatient Consultation",
     icon: "icofont-stethoscope",
     price: 299,
     features: [
