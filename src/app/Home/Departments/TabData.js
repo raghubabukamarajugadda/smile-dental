@@ -23,7 +23,7 @@ const departments = [
   },
   {
     id: 2,
-    icon: "icofont-braces",
+    icon: "icofont-ebook",
     title: "Orthodontics",
     secondTitle: "Straighten Your Smile",
     Quote: "“Achieve a perfectly aligned smile with modern orthodontic solutions tailored to your lifestyle.”",
@@ -37,7 +37,7 @@ const departments = [
   },
   {
     id: 3,
-    icon: "icofont-implant",
+    icon: "icofont-tooth",
     title: "Dental Implants",
     secondTitle: "Restore Missing Teeth",
     Quote: "“A permanent, natural-looking solution to replace missing teeth and restore your smile’s functionality.”",
