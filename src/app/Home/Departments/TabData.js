@@ -9,43 +9,43 @@ import DepartmentImg1 from "../../../../public/img/department.jpg";
 const departments = [
   {
     id: 1,
-    icon: "icofont-dental",
-    title: "General Dentistry",
-    secondTitle: "Preventive Care",
-    Quote: "“Painless cleanings and expert advice keep my smile healthy!”",
-    content: "Routine checkups, digital X-rays, and fluoride treatments to maintain optimal oral health.",
+    icon: "icofont-tooth",
+    title: "Root Canal Therapy",
+    secondTitle: "Save Your Natural Tooth",
+    Quote: "“A pain-free solution to preserve your natural teeth and eliminate discomfort caused by infection or decay.”",
+    content: "Root canal therapy is a highly effective treatment to save severely damaged or infected teeth. Using advanced rotary endodontics and surgical microscopes, we ensure precise, painless procedures with a 98% success rate.",
     listItems: [
-      "Laser cavity detection",
-      "Oral cancer screening",
-      "Gum disease prevention"
+      "Single-visit treatment options",
+      "Microscopic precision for complex cases",
+      "Post-treatment care for long-lasting results"
     ],
     image: DepartmentImg1,
   },
   {
     id: 2,
-    icon: "icofont-tooth",
-    title: "Root Canal Therapy",
-    secondTitle: "Save Your Tooth",
-    Quote: "“Quick and painless! Saved my infected tooth in one visit.”",
-    content: "Advanced rotary endodontics with 98% success rate using Nickel-Titanium files.",
+    icon: "icofont-braces",
+    title: "Orthodontics",
+    secondTitle: "Straighten Your Smile",
+    Quote: "“Achieve a perfectly aligned smile with modern orthodontic solutions tailored to your lifestyle.”",
+    content: "From traditional braces to clear aligners, our orthodontic treatments correct crowding, gaps, and bite issues. Customized plans ensure optimal results for teens and adults alike.",
     listItems: [
-      "Single-visit RCT",
-      "Surgical microscopy",
-      "Apex locators"
+      "Invisalign® clear aligners",
+      "Ceramic and self-ligating braces",
+      "3D smile simulation technology"
     ],
     image: DepartmentImg1,
   },
   {
     id: 3,
-    icon: "icofont-braces",
-    title: "Orthodontics",
-    secondTitle: "Align Your Smile",
-    Quote: "“Invisalign gave me perfect teeth without metal wires!”",
-    content: "Customized alignment solutions for teens and adults using clear aligners and self-ligating braces.",
+    icon: "icofont-implant",
+    title: "Dental Implants",
+    secondTitle: "Restore Missing Teeth",
+    Quote: "“A permanent, natural-looking solution to replace missing teeth and restore your smile’s functionality.”",
+    content: "Dental implants are the gold standard for tooth replacement. Using premium materials like titanium and zirconia, we provide durable, biocompatible implants with a 95% success rate.",
     listItems: [
-      "3D smile simulation",
-      "Accelerated orthodontics",
-      "Retention programs"
+      "Same-day implant placement",
+      "Bone grafting for optimal support",
+      "Custom crowns for seamless aesthetics"
     ],
     image: DepartmentImg1,
   },
@@ -53,26 +53,26 @@ const departments = [
     id: 4,
     icon: "icofont-smile",
     title: "Cosmetic Dentistry",
-    secondTitle: "Smile Makeovers",
-    Quote: "“Veneers transformed my smile for my wedding photos!”",
-    content: "Complete aesthetic solutions including porcelain veneers, teeth contouring, and gum reshaping.",
+    secondTitle: "Enhance Your Smile",
+    Quote: "“Transform your smile with advanced cosmetic procedures designed to boost your confidence and aesthetics.”",
+    content: "From teeth whitening to veneers, our cosmetic treatments address discoloration, chips, and gaps. Digital smile design ensures personalized, natural-looking results.",
     listItems: [
-      "Digital smile design",
-      "Lumineers®",
-      "Bleaching trays"
+      "Porcelain veneers for instant transformation",
+      "Professional Zoom! whitening",
+      "Laser gum contouring for symmetry"
     ],
     image: DepartmentImg1,
   },
   {
     id: 5,
     icon: "icofont-baby-milk-bottle",
-    title: "Pediatric Care",
-    secondTitle: "Little Smiles",
-    Quote: "“My kids actually enjoy their dental visits now!”",
-    content: "Gentle care for children with fun-themed clinics and preventive treatments.",
+    title: "Pediatric Dentistry",
+    secondTitle: "Care for Little Smiles",
+    Quote: "“Gentle, fun, and effective dental care to establish healthy habits for your child’s lifelong oral health.”",
+    content: "Our pediatric specialists create a welcoming environment for children, offering preventive care, fluoride treatments, and early orthodontic guidance.",
     listItems: [
-      "Fluoride varnish",
-      "Space maintainers",
+      "Cavity prevention programs",
+      "Nitrous oxide for anxiety-free visits",
       "Habit-breaking appliances"
     ],
     image: DepartmentImg1,
