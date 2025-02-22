@@ -15,7 +15,7 @@ const Data = [
   },
   {
     title: "Root Canal + Metal Crown",
-    icon: "icofont-dental",
+    icon: "icofont-crown",
     price: 5999,
     features: [
       { name: "Single-visit root canal therapy", status: true },
@@ -26,7 +26,7 @@ const Data = [
     ],
   },
   {
-    title: "Outpatient Consultation (OP)",
+    title: "Outpatient Consultation",
     icon: "icofont-stethoscope",
     price: 299,
     features: [
