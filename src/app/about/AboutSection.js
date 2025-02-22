@@ -12,7 +12,7 @@ export default function AboutSection() {
                 <span>About Us</span>
                 <h2>Transforming Smiles Since 1999</h2>
                 <p>
-                  Dr. Kiran's Smile Group of Dental Hospitals has been a trusted
+                  Dr. Kiran&apos;s Smile Group of Dental Hospitals has been a trusted
                   name in dental care for over two decades. With 8+ clinics
                   across India and Kuwait, we combine advanced technology,
                   expert care, and a patient-first approach to deliver

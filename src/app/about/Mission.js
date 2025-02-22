@@ -40,7 +40,7 @@ export default function Mission() {
                 <span className="sub-title">Our Mission & Vision</span>
                 <h2>Better Smiles, Better Lives</h2>
                 <p>
-                  At Dr. Kiran's Smile Group, our mission is to deliver
+                  At Dr. Kiran&apos;s Smile Group, our mission is to deliver
                   exceptional dental care that transforms smiles and enhances
                   lives. We envision a world where everyone has access to
                   affordable, pain-free, and world-class dental treatments.

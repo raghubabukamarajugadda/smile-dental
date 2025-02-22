@@ -20,9 +20,9 @@ const doctors = [
       { day: "Sunday", time: "Closed (Emergencies Only)" },
     ],
     biography: [
-      "Dr. Kiran Golla is the visionary founder of Dr. Kiran's Smile Group of Dental Hospitals. With over 25 years of experience in dentistry, he has established himself as a leading prosthodontist and a pioneer in pain-free dental care.",
+      "Dr. Kiran Golla is the visionary founder of Dr. Kiran&apos;s Smile Group of Dental Hospitals. With over 25 years of experience in dentistry, he has established himself as a leading prosthodontist and a pioneer in pain-free dental care.",
       "He completed his MDS in Prosthodontics from ABC University in 2005 and has since been dedicated to transforming smiles across India and Kuwait. Dr. Kiran is known for his expertise in advanced dental treatments, including dental implants, crowns, and bridges.",
-      "Under his leadership, Dr. Kiran's Smile Group has grown into a trusted name in dental care, with multiple branches across Andhra Pradesh, Telangana, Karnataka, and Kuwait. His commitment to patient satisfaction and innovative dental solutions has earned him the trust of thousands of patients.",
+      "Under his leadership, Dr. Kiran&apos;s Smile Group has grown into a trusted name in dental care, with multiple branches across Andhra Pradesh, Telangana, Karnataka, and Kuwait. His commitment to patient satisfaction and innovative dental solutions has earned him the trust of thousands of patients.",
     ],
     education: [
       "MDS in Prosthodontics from ABC University (2005)",
@@ -57,7 +57,7 @@ const doctors = [
       { day: "Sunday", time: "Closed (Emergencies Only)" },
     ],
     biography: [
-      "Dr. Kavitha Reddy is a highly experienced general dentist with over two decades of practice. She is one of the founding members of Dr. Kiran's Smile Group and has played a pivotal role in establishing the hospital's reputation for compassionate care.",
+      "Dr. Kavitha Reddy is a highly experienced general dentist with over two decades of practice. She is one of the founding members of Dr. Kiran&apos;s Smile Group and has played a pivotal role in establishing the hospital's reputation for compassionate care.",
       "She completed her MDS in General Dentistry from DEF University in 2003 and has since been dedicated to providing preventive and restorative dental care. Dr. Kavitha is particularly known for her gentle approach and expertise in treating children and elderly patients.",
       "Her commitment to patient education and preventive dentistry has helped thousands of patients maintain healthy smiles for life.",
     ],
@@ -94,7 +94,7 @@ const doctors = [
       { day: "Sunday", time: "Closed (Emergencies Only)" },
     ],
     biography: [
-      "Dr. Manasa Reddy is the CEO of Dr. Kiran's Smile Group and a highly skilled prosthodontist. With over 15 years of experience, she has been instrumental in expanding the hospital's services to new regions, including Hyderabad and Bengaluru.",
+      "Dr. Manasa Reddy is the CEO of Dr. Kiran&apos;s Smile Group and a highly skilled prosthodontist. With over 15 years of experience, she has been instrumental in expanding the hospital's services to new regions, including Hyderabad and Bengaluru.",
       "She completed her MDS in Prosthodontics from JKL University in 2010 and has since specialized in dental implants, full-mouth rehabilitation, and cosmetic dentistry. Dr. Manasa is known for her meticulous attention to detail and her ability to create natural-looking smiles.",
       "Under her leadership, the hospital has adopted state-of-the-art technology and advanced treatment protocols, ensuring the highest standards of patient care.",
     ],

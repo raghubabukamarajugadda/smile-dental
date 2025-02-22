@@ -15,7 +15,7 @@ export default function Sliders() {
     {
       id: "slider1",
       img: TestimonialImg1,
-      desc: "After years of hiding my smile, Dr. Kiran's team gave me perfect aligned teeth with invisible braces. Pain-free and professional - truly life-changing!",
+      desc: "After years of hiding my smile, Dr. Kiran&apos;s team gave me perfect aligned teeth with invisible braces. Pain-free and professional - truly life-changing!",
       name: "Priya S., Guntur",
     },
     {

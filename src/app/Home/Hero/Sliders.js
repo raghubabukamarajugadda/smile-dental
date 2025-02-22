@@ -16,7 +16,7 @@ export default function Sliders(props) {
       id: "slider1",
       bgImg: HeroBg1,
       title:
-        "Welcome to <span>Dr. Kiran's Smile Group</span> <br/> Where Care Meets <span>Excellence!</span>",
+        "Welcome to <span>Dr. Kiran&apos;s Smile Group</span> <br/> Where Care Meets <span>Excellence!</span>",
       subTitle:
         "Experience world-class dental care with state-of-the-art treatments, trusted by</br> families across India and Kuwait for over 25 years.",      button: {
         text: "Get Appointment",

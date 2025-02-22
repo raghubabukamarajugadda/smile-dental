@@ -16,7 +16,7 @@ export default function ServiceDetails() {
             <Image src={ServiceImg} alt="Service Details" width={1920} height={1000} />
             <h2>Comprehensive Dental Care Tailored to Your Needs</h2>
             <p>
-              At Dr. Kiran's Smile Group, we are committed to providing exceptional dental care that prioritizes your comfort and oral health. Whether you need routine checkups, advanced treatments, or cosmetic enhancements, our team of specialists is here to help you achieve a healthy, confident smile.
+              At Dr. Kiran&apos;s Smile Group, we are committed to providing exceptional dental care that prioritizes your comfort and oral health. Whether you need routine checkups, advanced treatments, or cosmetic enhancements, our team of specialists is here to help you achieve a healthy, confident smile.
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
@@ -38,7 +38,7 @@ export default function ServiceDetails() {
                   Why Choose Us for Your Dental Care?
                 </h2>
                 <p>
-                  With over 25 years of experience, Dr. Kiran's Smile Group has earned a reputation for excellence in dental care. Our team of highly skilled specialists uses the latest technologies and techniques to ensure pain-free, effective treatments. We prioritize your comfort and satisfaction, offering personalized care tailored to your unique needs.
+                  With over 25 years of experience, Dr. Kiran&apos;s Smile Group has earned a reputation for excellence in dental care. Our team of highly skilled specialists uses the latest technologies and techniques to ensure pain-free, effective treatments. We prioritize your comfort and satisfaction, offering personalized care tailored to your unique needs.
                 </p>
                 <p>
                   From routine cleanings to advanced procedures like dental implants and orthodontics, we provide comprehensive solutions to enhance your oral health and confidence. Our patient-centered approach ensures you receive the highest standard of care in a welcoming, stress-free environment.
