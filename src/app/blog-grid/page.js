@@ -25,48 +25,48 @@ export default function BlogGrid() {
                   <BlogCard
                     image={BlogImg1}
                     date="22 Aug, 2020"
-                    title="We have annnocuced our new product."
-                    desc="Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed."
+                    title="Introducing Our Latest Dental Innovation"
+                    desc="We are thrilled to announce our newest product, designed to revolutionize dental care. Experience faster recovery times and pain-free treatments with our cutting-edge technology."
                   />
                 </div>
                 <div className="col-lg-6 col-md-6 col-12">
                   <BlogCard
                     image={BlogImg2}
                     date="15 Jul, 2020"
-                    title="Top five way for solving teeth problems."
-                    desc="Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed."
+                    title="5 Effective Ways to Solve Common Dental Problems"
+                    desc="From cavities to gum disease, discover five proven methods to tackle common dental issues and maintain a healthy, radiant smile."
                   />
                 </div>
                 <div className="col-lg-6 col-md-6 col-12">
                   <BlogCard
                     image={BlogImg3}
                     date="05 Jan, 2020"
-                    title="We provide highly business soliutions."
-                    desc="Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed."
+                    title="Transforming Dental Practices with Advanced Solutions"
+                    desc="Our business solutions are tailored to modern dental practices, offering advanced tools and systems to enhance patient care and operational efficiency."
                   />
                 </div>
                 <div className="col-lg-6 col-md-6 col-12">
                   <BlogCard
                     image={BlogImg3}
-                    date="05 Jan, 2020"
-                    title="We provide highly business soliutions."
-                    desc="Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed."
+                    date="10 Mar, 2021"
+                    title="The Importance of Regular Dental Checkups"
+                    desc="Regular dental visits are crucial for maintaining oral health. Learn how routine checkups can prevent serious issues and keep your smile bright."
                   />
                 </div>
                 <div className="col-lg-6 col-md-6 col-12">
                   <BlogCard
                     image={BlogImg1}
-                    date="22 Aug, 2020"
-                    title="We have annnocuced our new product."
-                    desc="Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed."
+                    date="12 Sep, 2021"
+                    title="Choosing the Right Toothbrush for Optimal Oral Health"
+                    desc="Not all toothbrushes are created equal. Find out how to select the perfect toothbrush for your needs and ensure effective cleaning."
                   />
                 </div>
                 <div className="col-lg-6 col-md-6 col-12">
                   <BlogCard
                     image={BlogImg2}
-                    date="15 Jul, 2020"
-                    title="Top five way for solving teeth problems."
-                    desc="Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed."
+                    date="18 Nov, 2021"
+                    title="The Benefits of Cosmetic Dentistry for a Confident Smile"
+                    desc="Cosmetic dentistry can transform your smile and boost your confidence. Explore the benefits of procedures like teeth whitening, veneers, and more."
                   />
                 </div>
                 <div className="col-12">

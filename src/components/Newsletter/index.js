@@ -5,10 +5,10 @@ export default function Newsletter() {
         <div className="row">
           <div className="col-lg-6 col-12">
             <div className="subscribe-text">
-              <h6>Sign up for newsletter</h6>
+              <h6>Join Our Smile Community</h6>
               <p className="">
-                Cu qui soleat partiendo urbanitas. Eum aperiri indoctum eu,
-                <br /> homero alterum.
+                Stay updated with the latest dental tips, exclusive offers, and
+                <br /> expert advice to keep your smile healthy and bright.
               </p>
             </div>
           </div>

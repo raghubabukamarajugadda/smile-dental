@@ -25,12 +25,12 @@ export default function Topbar() {
             <div className="col-lg-6 col-md-7 col-12">
               <ul className="top-contact">
                 <li>
-                  <i className="fa fa-phone"></i>+880 1234 56789
+                  <i className="fa fa-phone"></i>+91 84978 14447
                 </li>
                 <li>
                   <i className="fa fa-envelope"></i>
                   <Link href="mailto:support@yourmail.com">
-                    support@yourmail.com
+                    contact@drkiranssmilegroup.com
                   </Link>
                 </li>
               </ul>

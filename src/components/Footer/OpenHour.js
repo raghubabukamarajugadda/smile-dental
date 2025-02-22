@@ -3,20 +3,20 @@ export default function OpenHour() {
     <>
       <div className="col-lg-3 col-md-6 col-12">
         <div className="single-footer">
-          <h2>Open Hours</h2>
+          <h2>Opening Hours</h2>
           <p>
-            Lorem ipsum dolor sit ame consectetur adipisicing elit do eiusmod
-            tempor incididunt.
+            We’re here to serve you with expert dental care at convenient times.
+            Schedule your visit today!
           </p>
           <ul className="time-sidual">
             <li className="day">
-              Monday - Fridayp <span>8.00-20.00</span>
+              Monday - Friday <span>8:00 AM - 8:00 PM</span>
             </li>
             <li className="day">
-              Saturday <span>9.00-18.30</span>
+              Saturday <span>9:00 AM - 6:30 PM</span>
             </li>
             <li className="day">
-              Monday - Thusday <span>9.00-15.00</span>
+              Sunday <span>Closed (Emergencies Only)</span>
             </li>
           </ul>
         </div>

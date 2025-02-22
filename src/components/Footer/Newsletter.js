@@ -3,10 +3,10 @@ export default function Newsletter() {
     <>
       <div className="col-lg-3 col-md-6 col-12">
         <div className="single-footer">
-          <h2>Newsletter</h2>
+          <h2>Join Our Smile Community</h2>
           <p>
-            subscribe to our newsletter to get allour news in your inbox.. Lorem
-            ipsum dolor sit amet, consectetur adipisicing elit,
+            Subscribe to our newsletter for the latest dental tips, exclusive
+            offers, and expert advice to keep your smile healthy and bright.
           </p>
           <form
             action="mail/mail.php"
@@ -15,10 +15,8 @@ export default function Newsletter() {
           >
             <input
               name="email"
-              placeholder="Email Address"
+              placeholder="Your email address"
               className="common-input"
-              // onfocus="this.placeholder = ''"
-              // onblur="this.placeholder = 'Your email address'"
               required=""
               type="email"
             />

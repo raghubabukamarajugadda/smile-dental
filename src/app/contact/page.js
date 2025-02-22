@@ -24,12 +24,11 @@ export default function Contact() {
               </div>
               <div className="col-lg-6">
                 <div className="contact-us-form">
-                  <h2>Contact With Us</h2>
+                  <h2>Contact Us</h2>
                   <p>
-                    If you have any questions please fell free to contact with
-                    us.
+                    Have questions or need to schedule an appointment? Reach out
+                    to us—we’re here to help!
                   </p>
-
                   <form className="form" method="post" action="mail/mail.php">
                     <div className="row">
                       <div className="col-lg-6">
@@ -37,7 +36,7 @@ export default function Contact() {
                           <input
                             type="text"
                             name="name"
-                            placeholder="Name"
+                            placeholder="Your Name"
                             required=""
                           />
                         </div>
@@ -47,7 +46,7 @@ export default function Contact() {
                           <input
                             type="email"
                             name="email"
-                            placeholder="Email"
+                            placeholder="Your Email"
                             required=""
                           />
                         </div>
@@ -57,7 +56,7 @@ export default function Contact() {
                           <input
                             type="text"
                             name="phone"
-                            placeholder="Phone"
+                            placeholder="Your Phone"
                             required=""
                           />
                         </div>
@@ -84,7 +83,7 @@ export default function Contact() {
                       <div className="col-12">
                         <div className="form-group login-btn">
                           <button className="btn" type="submit">
-                            Send
+                            Send Message
                           </button>
                         </div>
                         <div className="checkbox">
@@ -99,7 +98,8 @@ export default function Contact() {
                               className="form-check-label"
                               for="flexCheckDefault"
                             >
-                              Do you want to subscribe our Newsletter ?
+                              Subscribe to our newsletter for updates and
+                              offers.
                             </label>
                           </div>
                         </div>
@@ -112,30 +112,76 @@ export default function Contact() {
           </div>
           <div className="contact-info">
             <div className="row">
-              <div className="col-lg-4 col-12 ">
-                <div className="single-info">
-                  <i className="icofont icofont-ui-call"></i>
-                  <div className="content">
-                    <h3>+(000) 1234 56789</h3>
-                    <p>info@company.com</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-12 ">
+              {/* Guntur Branch */}
+              <div className="col-lg-4 col-12">
                 <div className="single-info">
                   <i className="icofont-google-map"></i>
                   <div className="content">
-                    <h3>2 Fir e Brigade Road</h3>
-                    <p>Chittagonj, Lakshmipur</p>
+                    <h3>Guntur</h3>
+                    <p>Brindavan Gardens, Opp. Ayyappa Swamy Temple</p>
+                    <p>Phone: +91 95502 31862</p>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-12 ">
+
+              {/* Nellore Branch */}
+              <div className="col-lg-4 col-12">
+                <div className="single-info">
+                  <i className="icofont-google-map"></i>
+                  <div className="content">
+                    <h3>Nellore</h3>
+                    <p>Kandukuri Shopping Mall, Ramesh Reddy Nagar</p>
+                    <p>Phone: +91 92464 34447</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Hyderabad Branch */}
+              <div className="col-lg-4 col-12">
+                <div className="single-info">
+                  <i className="icofont-google-map"></i>
+                  <div className="content">
+                    <h3>Hyderabad</h3>
+                    <p>Pipeline Road, Kukatpally</p>
+                    <p>Phone: +91 80963 34447</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="contact-info">
+            <div className="row">
+              {/* Kuwait Branch */}
+              <div className="col-lg-4 col-12">
+                <div className="single-info">
+                  <i className="icofont-google-map"></i>
+                  <div className="content">
+                    <h3>Kuwait</h3>
+                    <p>Hawally Poly Clinic, Salmiya</p>
+                    <p>Phone: +965 52224155</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Bengaluru Branch */}
+              <div className="col-lg-4 col-12">
+                <div className="single-info">
+                  <i className="icofont-google-map"></i>
+                  <div className="content">
+                    <h3>Bengaluru</h3>
+                    <p>Opposite Bangalore Central Mall, Bellandur</p>
+                    <p>Phone: +91 73537 24447</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Opening Hours */}
+              <div className="col-lg-4 col-12">
                 <div className="single-info">
                   <i className="icofont icofont-wall-clock"></i>
                   <div className="content">
-                    <h3>Mon - Sat: 8am - 5pm</h3>
-                    <p>Sunday Closed</p>
+                    <h3>Opening Hours</h3>
+                    <p>Mon - Sat: 8:00 AM - 8:00 PM</p>
                   </div>
                 </div>
               </div>

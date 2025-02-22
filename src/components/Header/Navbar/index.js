@@ -13,60 +13,24 @@ export default function Navbar() {
           <ul className="nav menu">
             <li>
               <Link className={` ${pathname === "/" ? "active" : ""}`} href="/">
-                Home 
+                Home
               </Link>
-              
+            </li>
+            <li>
+              <Link
+                className={` ${pathname === "/doctors" ? "active" : ""}`}
+                href="/doctors"
+              >
+                Doctors 
+              </Link>
               
             </li>
             <li>
-              <Link href="#">
-                Doctors <i className="icofont-rounded-down"></i>
+              <Link className={` ${pathname === "/service" ? "active" : ""}`}
+                    href="/service">
+                Services 
               </Link>
-              <ul className="dropdown">
-                <li>
-                  <Link
-                    className={` ${pathname === "/doctors" ? "active" : ""}`}
-                    href="/doctors"
-                  >
-                    Doctor
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className={` ${
-                      pathname === "/doctor-details" ? "active" : ""
-                    }`}
-                    href="/doctor-details"
-                  >
-                    Doctor Details
-                  </Link>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <Link href="#">
-                Services <i className="icofont-rounded-down"></i>
-              </Link>
-              <ul className="dropdown">
-                <li>
-                  <Link
-                    className={` ${pathname === "/service" ? "active" : ""}`}
-                    href="/service"
-                  >
-                    Service
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className={` ${
-                      pathname === "/service-details" ? "active" : ""
-                    }`}
-                    href="/service-details"
-                  >
-                    Service Details
-                  </Link>
-                </li>
-              </ul>
+              
             </li>
             <li>
               <Link href="#">
@@ -162,29 +126,11 @@ export default function Navbar() {
               </ul>
             </li>
             <li>
-              <Link href="#">
-                Blogs <i className="icofont-rounded-down"></i>
+              <Link className={` ${pathname === "/blog-grid" ? "active" : ""}`}
+                    href="/blog-grid">
+                Blogs 
               </Link>
-              <ul className="dropdown">
-                <li>
-                  <Link
-                    className={` ${pathname === "/blog-grid" ? "active" : ""}`}
-                    href="/blog-grid"
-                  >
-                    Blog Grid
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className={` ${
-                      pathname === "/blog-single" ? "active" : ""
-                    }`}
-                    href="/blog-single"
-                  >
-                    Blog Details
-                  </Link>
-                </li>
-              </ul>
+              
             </li>
             <li>
               <Link
