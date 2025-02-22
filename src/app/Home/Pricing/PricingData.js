@@ -15,7 +15,7 @@ const Data = [
   },
   {
     title: "Root Canal + Metal Crown",
-    icon: "icofont-dental",
+    icon: "icofont-crown",
     price: 5999,
     features: [
       { name: "Single-visit root canal therapy", status: true },
