@@ -1,13 +1,14 @@
 "use client";
 
 import { useSearchParams } from "next/navigation";
+import { Suspense } from "react"; // Import Suspense
 import Image from "next/image";
 import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Header from "@/components/Header/Header";
 import doctors from "@/data/doctors"; // Assuming you have a doctor data file
 
-export default function DoctorDetails() {
+function DoctorDetailsContent() {
   const searchParams = useSearchParams();
   const doctorId = searchParams.get("doctorId"); // Get doctorId from query params
 
@@ -86,5 +87,13 @@ export default function DoctorDetails() {
         </div>
       </div>
     </>
+  );
+}
+
+export default function DoctorDetails() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <DoctorDetailsContent />
+    </Suspense>
   );
 }
