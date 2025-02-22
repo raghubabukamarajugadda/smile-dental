@@ -9,47 +9,43 @@ import DepartmentImg1 from "../../../../public/img/department.jpg";
 const departments = [
   {
     id: 1,
-    icon: "icofont-tooth",
+    icon: "icofont-dental",
     title: "General Dentistry",
-    secondTitle: "Healthy Smiles",
-    Quote:
-      "“The painless cleaning and cavity treatments made me a lifelong patient!”",
-    content:
-      "Comprehensive dental care including routine checkups, cleanings, fillings, and digital X-rays. Our preventive approach ensures long-term oral health.",
+    secondTitle: "Preventive Care",
+    Quote: "“Painless cleanings and expert advice keep my smile healthy!”",
+    content: "Routine checkups, digital X-rays, and fluoride treatments to maintain optimal oral health.",
     listItems: [
-      "Advanced cavity detection with DIAGNOdent laser",
-      "Pain-free anesthesia techniques",
-      "Oral cancer screenings",
+      "Laser cavity detection",
+      "Oral cancer screening",
+      "Gum disease prevention"
     ],
     image: DepartmentImg1,
   },
   {
     id: 2,
-    icon: "icofont-braces",
-    title: "Orthodontics",
-    secondTitle: "Straighten & Align",
-    Quote: "“Invisalign transformed my smile without metal braces!”",
-    content:
-      "Modern alignment solutions including clear aligners, lingual braces, and accelerated orthodontics for all ages.",
+    icon: "icofont-tooth",
+    title: "Root Canal Therapy",
+    secondTitle: "Save Your Tooth",
+    Quote: "“Quick and painless! Saved my infected tooth in one visit.”",
+    content: "Advanced rotary endodontics with 98% success rate using Nickel-Titanium files.",
     listItems: [
-      "3D smile simulation technology",
-      "Ceramic & self-ligating braces",
-      "Retention programs",
+      "Single-visit RCT",
+      "Surgical microscopy",
+      "Apex locators"
     ],
     image: DepartmentImg1,
   },
   {
     id: 3,
-    icon: "icofont-implant",
-    title: "Dental Implants",
-    secondTitle: "Smile Again",
-    Quote: "“My implants feel and look completely natural!”",
-    content:
-      "Permanent tooth replacement using Nobel Biocare® and Straumann® implant systems with 98% success rate.",
+    icon: "icofont-braces",
+    title: "Orthodontics",
+    secondTitle: "Align Your Smile",
+    Quote: "“Invisalign gave me perfect teeth without metal wires!”",
+    content: "Customized alignment solutions for teens and adults using clear aligners and self-ligating braces.",
     listItems: [
-      "Same-day implants available",
-      "Bone grafting solutions",
-      "Full-arch rehabilitation",
+      "3D smile simulation",
+      "Accelerated orthodontics",
+      "Retention programs"
     ],
     image: DepartmentImg1,
   },
@@ -58,31 +54,29 @@ const departments = [
     icon: "icofont-smile",
     title: "Cosmetic Dentistry",
     secondTitle: "Smile Makeovers",
-    Quote: "“My veneers gave me the confidence to smile in photos again!”",
-    content:
-      "Smile enhancements through veneers, teeth whitening, gum contouring, and digital smile design.",
+    Quote: "“Veneers transformed my smile for my wedding photos!”",
+    content: "Complete aesthetic solutions including porcelain veneers, teeth contouring, and gum reshaping.",
     listItems: [
-      "Lumineers® & porcelain veneers",
-      "Laser gum reshaping",
-      "In-office Zoom! whitening",
+      "Digital smile design",
+      "Lumineers®",
+      "Bleaching trays"
     ],
     image: DepartmentImg1,
   },
   {
     id: 5,
-    icon: "icofont-baby",
+    icon: "icofont-baby-milk-bottle",
     title: "Pediatric Care",
     secondTitle: "Little Smiles",
-    Quote: "“My kids actually enjoy visiting the dentist now!”",
-    content:
-      "Specialized care for children including fluoride treatments, space maintainers, and habit-breaking appliances.",
+    Quote: "“My kids actually enjoy their dental visits now!”",
+    content: "Gentle care for children with fun-themed clinics and preventive treatments.",
     listItems: [
-      "Cavity prevention programs",
-      "Nitrous oxide sedation",
-      "Orthodontic early intervention",
+      "Fluoride varnish",
+      "Space maintainers",
+      "Habit-breaking appliances"
     ],
     image: DepartmentImg1,
-  },
+  }
 ];
 
 export default function TabData() {
