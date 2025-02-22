@@ -36,7 +36,7 @@ export default function Services() {
             {/* Cosmetic Dentistry */}
             <div className="col-lg-4 col-md-6 col-12">
               <ServiceCard
-                icon="icofont icofont-smile"
+                icon="icofont icofont-wink-smile"
                 title="Cosmetic Dentistry"
                 desc="Smile makeovers with veneers, laminates & teeth contouring. Achieve Hollywood-worthy smiles."
               />
@@ -72,7 +72,7 @@ export default function Services() {
             {/* Teeth Whitening & Scaling */}
             <div className="col-lg-4 col-md-6 col-12">
               <ServiceCard
-                icon="bi bi-0-square"
+                icon="icofont-patient-file"
                 title="Teeth Whitening & Scaling"
                 desc="Professional cleaning & whitening. Remove 10+ years of stains in one session."
               />
