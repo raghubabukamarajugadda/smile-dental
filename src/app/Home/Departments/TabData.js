@@ -49,22 +49,9 @@ const departments = [
     ],
     image: DepartmentImg1,
   },
+  
   {
     id: 4,
-    icon: "icofont-smile",
-    title: "Cosmetic Dentistry",
-    secondTitle: "Enhance Your Smile",
-    Quote: "“Transform your smile with advanced cosmetic procedures designed to boost your confidence and aesthetics.”",
-    content: "From teeth whitening to veneers, our cosmetic treatments address discoloration, chips, and gaps. Digital smile design ensures personalized, natural-looking results.",
-    listItems: [
-      "Porcelain veneers for instant transformation",
-      "Professional Zoom! whitening",
-      "Laser gum contouring for symmetry"
-    ],
-    image: DepartmentImg1,
-  },
-  {
-    id: 5,
     icon: "icofont-baby-milk-bottle",
     title: "Pediatric Dentistry",
     secondTitle: "Care for Little Smiles",
