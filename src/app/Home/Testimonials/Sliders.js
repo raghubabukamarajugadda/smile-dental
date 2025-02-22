@@ -15,32 +15,32 @@ export default function Sliders() {
     {
       id: "slider1",
       img: TestimonialImg1,
-      desc: "Lorem ipsum dolor sit amet consectetur eliet adipiscing. Aliquam nec suscipit turpis, vel pretium eros.",
-      name: "Ruhfayed Sakib",
+      desc: "After years of hiding my smile, Dr. Kiran's team gave me perfect aligned teeth with invisible braces. Pain-free and professional - truly life-changing!",
+      name: "Priya S., Guntur",
     },
     {
       id: "slider2",
       img: TestimonialImg2,
-      desc: "Lorem ipsum dolor sit amet consectetur eliet adipiscing. Aliquam nec suscipit turpis, vel pretium eros.",
-      name: "Shakil Hossain",
+      desc: "Emergency root canal at 11 PM! The team stayed late, eliminated my pain instantly. Grateful for their 24/7 care.",
+      name: "Ravi M., Hyderabad",
     },
     {
       id: "slider3",
       img: TestimonialImg3,
-      desc: "Lorem ipsum dolor sit amet consectetur eliet adipiscing. Aliquam nec suscipit turpis, vel pretium eros.",
-      name: "Naimur Rahman",
+      desc: "My dental implants feel completely natural. From consultation to final fitting, every step was explained clearly. 5-star experience!",
+      name: "Sameera K., Bellandur",
     },
     {
       id: "slider4",
       img: TestimonialImg2,
-      desc: "Lorem ipsum dolor sit amet consectetur eliet adipiscing. Aliquam nec suscipit turpis, vel pretium eros.",
-      name: "Shakil Hossain",
+      desc: "My kids actually enjoy dental visits! The pediatric team's gentle approach removed all their fears. Thank you!",
+      name: "Aarav P., Kuwait",
     },
     {
       id: "slider5",
       img: TestimonialImg3,
-      desc: "Lorem ipsum dolor sit amet consectetur eliet adipiscing. Aliquam nec suscipit turpis, vel pretium eros.",
-      name: "Naimur Rahman",
+      desc: "Professional whitening gave me a red-carpet smile for my wedding. Quick, effective, and worth every penny!",
+      name: "Fatima R., Nellore",
     },
   ]);
 
