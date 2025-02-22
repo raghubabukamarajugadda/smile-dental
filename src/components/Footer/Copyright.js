@@ -8,7 +8,7 @@ export default function Copyright() {
               <div className="copyright-content">
                 <p>
                   © Copyright 2025 | All Rights Reserved by{" "}
-                  <a href="#">Dr.Kiran's Smile Group of Dental Hospitals</a>{" "}
+                  <a href="#">Dr.Kiran&apos;s Smile Group of Dental Hospitals</a>{" "}
                 </p>
               </div>
             </div>
