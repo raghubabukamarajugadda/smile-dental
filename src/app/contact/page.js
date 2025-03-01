@@ -117,9 +117,9 @@ export default function Contact() {
                 <div className="single-info">
                   <i className="icofont-google-map"></i>
                   <div className="content">
-                    <h3>Guntur</h3>
+                    <h3>Smile Dental Clinics - Guntur</h3>
                     <p>Brindavan Gardens, Opp. Ayyappa Swamy Temple</p>
-                    <p>Phone: +91 95502 31862</p>
+                    <p>Phone: 0863-2329444, +91 95502 31862</p>
                   </div>
                 </div>
               </div>
@@ -129,9 +129,9 @@ export default function Contact() {
                 <div className="single-info">
                   <i className="icofont-google-map"></i>
                   <div className="content">
-                    <h3>Nellore</h3>
-                    <p>Kandukuri Shopping Mall, Ramesh Reddy Nagar</p>
-                    <p>Phone: +91 92464 34447</p>
+                    <h3>Smile Super Speciality Dental Hospital - Nellore</h3>
+                    <p>Kandukuri Shopping Mall, opposite Road, Ramesh Reddy Nagar, Nellore, Andhra Pradesh 524003</p>
+                    <p>Phone: +91 92464 34447 , 0861-2330949</p>
                   </div>
                 </div>
               </div>
@@ -141,9 +141,9 @@ export default function Contact() {
                 <div className="single-info">
                   <i className="icofont-google-map"></i>
                   <div className="content">
-                    <h3>Hyderabad</h3>
-                    <p>Pipeline Road, Kukatpally</p>
-                    <p>Phone: +91 80963 34447</p>
+                    <h3>Smile Dental Clinic Hyderabad - Kukatpally</h3>
+                    <p>#416A, Allwyn Colony Phase 1, Pipeline Road, Kukatpally - 500072</p>
+                    <p>Phone: +91 +91 72889 94441 </p>
                   </div>
                 </div>
               </div>
@@ -156,9 +156,9 @@ export default function Contact() {
                 <div className="single-info">
                   <i className="icofont-google-map"></i>
                   <div className="content">
-                    <h3>Kuwait</h3>
-                    <p>Hawally Poly Clinic, Salmiya</p>
-                    <p>Phone: +965 52224155</p>
+                    <h3>Smile Dental Clinics Hyderabad - Kukatpally</h3>
+                    <p>#2-23-483, HMT Hills, Ramalayam Temple Backside, Pragathi Nagar, Kukatpally - 500085</p>
+                    <p>Phone: +91 80963 34447</p>
                   </div>
                 </div>
               </div>
@@ -168,8 +168,48 @@ export default function Contact() {
                 <div className="single-info">
                   <i className="icofont-google-map"></i>
                   <div className="content">
-                    <h3>Bengaluru</h3>
-                    <p>Opposite Bangalore Central Mall, Bellandur</p>
+                    <h3>Smile Dental Clinics - Hyderabad - Bachupally</h3>
+                    <p>D.No. 2-62/94/HRCP/S-3/A/1, HRC Pride, Nizampet, Bachupally, Hyderabad - 500090 </p>
+                    <p>Phone: +91 80963 34447 </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Opening Hours */}
+              <div className="col-lg-4 col-12">
+              <div className="single-info">
+                  <i className="icofont-google-map"></i>
+                  <div className="content">
+                    <h3>Smilax Dental - Bellandur </h3>
+                    <p>78/11 old sy. no 78/3, opp: Bangalore Central Mall, behind Bhagini, Bellandur, Bengaluru, Karnataka 560103</p>
+                    <p>Phone: +91 73537 24447 , 084978 14447  </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="contact-info">
+            <div className="row">
+              {/* Kuwait Branch */}
+              <div className="col-lg-4 col-12">
+                <div className="single-info">
+                  <i className="icofont-google-map"></i>
+                  <div className="content">
+                    <h3>Smilax Dental Clinic - Thubrahalli </h3>
+                    <p>Bus Stop, No 2, 2nd Floor, Varthur Rd, near Thubrahalli, Thubarahalli, Thub, Bengaluru, Karnataka 560066 </p>
+                    <p>Phone: +91 73537 24447 , 08548 54447</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Bengaluru Branch */}
+              <div className="col-lg-4 col-12">
+                <div className="single-info">
+                  <i className="icofont-google-map"></i>
+                  <div className="content">
+                    <h3>E l Joun Medical Center - Kuwait</h3>
+                    <p>Edaillia, Kuwait </p>
                     <p>Phone: +91 73537 24447</p>
                   </div>
                 </div>
@@ -177,11 +217,12 @@ export default function Contact() {
 
               {/* Opening Hours */}
               <div className="col-lg-4 col-12">
-                <div className="single-info">
-                  <i className="icofont icofont-wall-clock"></i>
+              <div className="single-info">
+                  <i className="icofont-google-map"></i>
                   <div className="content">
-                    <h3>Opening Hours</h3>
-                    <p>Mon - Sat: 8:00 AM - 8:00 PM</p>
+                    <h3>Hawally Poly Clinic - Kuwait</h3>
+                    <p>B. Clinic, Modern Arab Dental Centre, 8th Floor, B. Tower, Salmiya  </p>
+                    <p>Phone: 0965 52224155 </p>
                   </div>
                 </div>
               </div>
