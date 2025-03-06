@@ -17,8 +17,9 @@ export default function Contact() {
                   <div id="myMap">
                     <iframe
                       id="gmap_canvas"
-                      src="https://maps.google.com/maps?q=new%20york&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                    ></iframe>
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3829.19250436279!2d80.41859207576356!3d16.3131052328618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4a757cd1e93281%3A0x175c834c89696b1f!2sSmile%20Dental%20Clinics%20-%20Best%20Dental%20Hospital%20in%20Guntur%20for%20RCT%2C%20Dental%20Implants%20and%20Oral%20Health%20Care!5e0!3m2!1sen!2sin!4v1741255258215!5m2!1sen!2sin">
+
+                      </iframe>
                   </div>
                 </div>
               </div>
@@ -177,7 +178,7 @@ export default function Contact() {
 
               {/* Opening Hours */}
               <div className="col-lg-4 col-12">
-              <div className="single-info">
+                <div className="single-info">
                   <i className="icofont-google-map"></i>
                   <div className="content">
                     <h3>Smilax Dental - Bellandur </h3>
@@ -217,7 +218,7 @@ export default function Contact() {
 
               {/* Opening Hours */}
               <div className="col-lg-4 col-12">
-              <div className="single-info">
+                <div className="single-info">
                   <i className="icofont-google-map"></i>
                   <div className="content">
                     <h3>Hawally Poly Clinic - Kuwait</h3>
