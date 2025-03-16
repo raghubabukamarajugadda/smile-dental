@@ -6,7 +6,7 @@ const doctors = [
     image: "/img/kiran_img.jpg",
     contact: {
       phone: "+91 95502 31862",
-      email: "kiran@drkiranssmile.com",
+      email: "kiran@drkiranssmilegroup.com",
       address: "Brindavan Gardens, Guntur, Andhra Pradesh - 522006",
     },
     social: {
@@ -43,7 +43,7 @@ const doctors = [
     image: "/img/kavitha_img.jpg",
     contact: {
       phone: "+91 92464 34447",
-      email: "kavitha@drkiranssmile.com",
+      email: "kavitha@drkiranssmilegroup.com",
       address: "Kandukuri Shopping Mall, Ramesh Reddy Nagar, Nellore, Andhra Pradesh - 524003",
     },
     social: {
@@ -80,7 +80,7 @@ const doctors = [
     image: "/img/manasa_img.jpg",
     contact: {
       phone: "+91 98765 43210",
-      email: "manasa@drkiranssmile.com",
+      email: "manasa@drkiranssmilegroup.com",
       address: "3rd Floor, Room 301, Dental Hospital, Hyderabad, Telangana - 500072",
     },
     social: {
@@ -117,7 +117,7 @@ const doctors = [
     image: "/img/venkatesh_img.jpg",
     contact: {
       phone: "+91 87654 32109",
-      email: "venkatesh@drkiranssmile.com",
+      email: "venkatesh@drkiranssmilegroup.com",
       address: "4th Floor, Room 401, Dental Hospital, Bengaluru, Karnataka - 560103",
     },
     social: {
@@ -145,6 +145,81 @@ const doctors = [
       "Awarded 'Best Orthodontist in Karnataka' by the Indian Dental Association (2019).",
       "Successfully treated over 2,000 patients with clear aligners.",
       "Recognized for excellence in lingual braces by the Indian Orthodontic Society.",
+    ],
+  },
+  {
+    id: "dr.-sandhya",
+    name: "Dr. Sandhya",
+    designation: "General Dentist",
+    image: "/img/sandhya_img.jpg",
+    contact: {
+      phone: "+91 91234 56789",
+      email: "sandhya@drkiranssmilegroup.com",
+      address: "2nd Floor, Dental Clinic, Guntur, Andhra Pradesh - 522006",
+    },
+    social: {
+      facebook: "#",
+      twitter: "#",
+      linkedin: "#",
+    },
+    workingHours: [
+      { day: "Monday - Friday", time: "9:00 AM - 7:00 PM" },
+      { day: "Saturday", time: "10:00 AM - 5:00 PM" },
+      { day: "Sunday", time: "Closed (Emergencies Only)" },
+    ],
+    biography: [
+      "Dr. Sandhya provides expert oral care tailored to your needs. From routine check-ups to advanced treatments, she ensures that your smile stays healthy and bright.",
+      "With over 10 years of experience in general dentistry, Dr. Sandhya specializes in preventive care, cavity treatments, dental fillings, and gum health.",
+      "Her patient-centric approach and attention to detail have earned her the trust of countless patients seeking comprehensive dental care.",
+    ],
+    education: [
+      "MDS in General Dentistry from XYZ University (2015)",
+      "BDS from ABC College (2012)",
+      "Advanced Training in Endodontics from the Indian Dental Association",
+      "Certification in Oral Surgery from the Dental Council of India",
+    ],
+    achievements: [
+      "Awarded 'Best General Dentist' by the Indian Dental Association (2021).",
+      "Successfully performed over 5,000 dental procedures.",
+      "Conducted community dental awareness programs for rural areas.",
+    ],
+  },
+
+  {
+    id: "dr.-inthihas",
+    name: "Dr. Inthihas",
+    designation: "Pediatric Dentist",
+    image: "/img/inthihas_img.jpg",
+    contact: {
+      phone: "+91 92345 67890",
+      email: "inthihas@drkiranssmilegroup.com",
+      address: "1st Floor, Children's Dental Wing, Hyderabad, Telangana - 500072",
+    },
+    social: {
+      facebook: "#",
+      twitter: "#",
+      linkedin: "#",
+    },
+    workingHours: [
+      { day: "Monday - Friday", time: "10:00 AM - 6:00 PM" },
+      { day: "Saturday", time: "10:00 AM - 4:00 PM" },
+      { day: "Sunday", time: "Closed (Emergencies Only)" },
+    ],
+    biography: [
+      "Dr. Inthihas, our experienced pedodontist, is committed to providing compassionate and specialized dental care for children, ensuring a comfortable and positive experience.",
+      "With over 8 years of experience in pediatric dentistry, Dr. Inthihas specializes in treating dental issues in infants, children, and teens, including cavities, misaligned teeth, and gum diseases.",
+      "His calm and friendly approach helps children feel at ease during dental visits, making the experience stress-free and enjoyable.",
+    ],
+    education: [
+      "MDS in Pediatric Dentistry from DEF University (2017)",
+      "BDS from GHI College (2013)",
+      "Advanced Certification in Child Sedation from the Indian Society of Pedodontics",
+      "Training in Orthodontics for Children from the International Orthodontic Academy",
+    ],
+    achievements: [
+      "Awarded 'Best Pediatric Dentist' by the Indian Dental Association (2022).",
+      "Successfully treated over 3,000 child patients.",
+      "Conducted dental awareness camps in schools across Telangana and Andhra Pradesh.",
     ],
   },
 ];
