@@ -15,7 +15,7 @@ export default function ServiceCard(props) {
         <p>
           {desc
             ? desc
-            : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut is imperdiet."}
+            : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet."}
         </p>
       </div>
     </>
