@@ -33,7 +33,7 @@ export default function ServiceCard(props) {
         <p style={{ marginTop: '10px', fontSize: '1rem', color: '#555' }}>
           {desc
             ? desc
-            : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet."}
+            : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros is imperdiet."}
         </p>
       </div>
     </>
