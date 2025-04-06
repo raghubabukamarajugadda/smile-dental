@@ -81,22 +81,8 @@ export default function Navbar() {
                     Our Pricing
                   </Link>
                 </li>
-                <li>
-                  <Link
-                    className={` ${pathname === "/register" ? "active" : ""}`}
-                    href="/register"
-                  >
-                    Sign Up
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className={` ${pathname === "/login" ? "active" : ""}`}
-                    href="/login"
-                  >
-                    Login
-                  </Link>
-                </li>
+                
+                
                 <li>
                   <Link
                     className={` ${pathname === "/faq" ? "active" : ""}`}
@@ -105,24 +91,8 @@ export default function Navbar() {
                     Faq
                   </Link>
                 </li>
-                <li>
-                  <Link
-                    className={` ${
-                      pathname === "/mail-success" ? "active" : ""
-                    }`}
-                    href="/mail-success"
-                  >
-                    Mail Success
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className={` ${pathname === "/404" ? "active" : ""}`}
-                    href="/404"
-                  >
-                    404 Error
-                  </Link>
-                </li>
+                
+                
               </ul>
             </li>
             <li>

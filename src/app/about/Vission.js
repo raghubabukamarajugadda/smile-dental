@@ -20,7 +20,7 @@ export default function Vission() {
       id: "item3",
       icon: "icofont-tick-mark",
       title: "Our Vision",
-      desc: "To be the leading dental healthcare provider, known for excellence in service, innovation, and patient satisfaction.",
+      desc: "Our vision is to lead in dental care by delivering advanced treatments, exceptional service, and consistently prioritizing patient satisfaction.",
     },
   ]);
 
