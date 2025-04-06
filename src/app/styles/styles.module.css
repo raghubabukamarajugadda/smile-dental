@@ -48,15 +48,6 @@ Version:	1.1
 /*=============================
 	Global CSS 
 ===============================*/
-.single-service .custom-icon {
-  display: inline-block;
-  font-size: 36px; /* Adjust to match icofont */
-  color: #007bff;  /* Match icofont color */
-  line-height: 1;
-  position: absolute;
-  left: 0;
-}
-
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
