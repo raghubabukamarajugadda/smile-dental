@@ -1,3 +1,4 @@
+// layout.js
 import Script from "next/script";
 import Newsletter from "@/components/Newsletter";
 import Footer from "@/components/Footer";
@@ -9,12 +10,11 @@ import { Poppins } from "next/font/google";
 // Bootstrap CSS
 import "../../public/css/bootstrap.min.css";
 
-// Fontawesome CSS
+// Fontawesome CSS (if still used)
 import "../../public/css/font-awesome.min.css";
 
 // Icofont CSS
 import "../../public/css/icofont.css";
-
 // Animate CSS
 import "animate.css";
 
@@ -38,8 +38,8 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Dr.Kiran&apos;s Smile Group of Dental Hospitals",
-  description: "Dr.Kiran&apos;s Smile Group of Dental Hospitals",
+  title: "Dr.Kiran's Smile Group of Dental Hospitals",
+  description: "Dr.Kiran's Smile Group of Dental Hospitals",
 };
 
 export default function RootLayout({ children }) {

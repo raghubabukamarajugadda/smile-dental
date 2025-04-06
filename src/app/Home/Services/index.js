@@ -1,6 +1,5 @@
 import SectionHead from "@/components/SectionHead";
 import ServiceCard from "@/components/ServiceCard";
-
 export default function Services() {
   return (
     <>
@@ -54,7 +53,7 @@ export default function Services() {
             {/* Dental Implants */}
             <div className="col-lg-4 col-md-6 col-12">
               <ServiceCard
-                icon="icofont icofont-implant"
+                icon={<FaTooth />}
                 title="Dental Implants"
                 desc="Permanent tooth replacements with 95% osseointegration success. Metal-free zirconia options available."
               />
