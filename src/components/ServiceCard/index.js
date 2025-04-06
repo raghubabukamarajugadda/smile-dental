@@ -16,7 +16,7 @@ export default function ServiceCard(props) {
               alt={title}
               width={50}
               height={50}
-              style={{ objectFit: 'contain' }} // Optional style to maintain aspect ratio
+              style={{ objectFit: 'contain' }} // Optional style to maintain aspect:ratio
             />
           ) : (
             <i className={icon ? icon : "icofont icofont-prescription"}></i> // Render the icon if not an image
