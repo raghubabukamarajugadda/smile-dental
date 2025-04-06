@@ -44,7 +44,7 @@ export default function Schedule() {
                         are available Monday to Saturday, with flexible hours to
                         suit your busy schedule.
                       </p>
-                      <Link href="#">
+                      <Link href="/appointment">
                         BOOK APPOINTMENT <i className="fa fa-long-arrow-right"></i>
                       </Link>
                     </div>

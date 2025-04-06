@@ -3299,12 +3299,12 @@ body {
   display: none;
 }
 .contact-us .contact-info {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .contact-us .single-info {
   background: var(--primary-color);
-  padding: 30px 60px;
-  height: 150px;
+  padding: 30px 40px;
+  height: 250px;
   border-radius: 10px;
   position: relative;
   -webkit-transition: all 0.3s ease-out 0s;
