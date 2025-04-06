@@ -1,6 +1,5 @@
 import SectionHead from "@/components/SectionHead";
 import ServiceCard from "@/components/ServiceCard";
-
 export default function Services() {
   return (
     <>
