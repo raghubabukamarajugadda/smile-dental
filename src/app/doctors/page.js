@@ -62,7 +62,7 @@ export default function Doctors() {
             <div className="col-lg-4 col-md-6 col-12">
               <TeamCard
                 tilt="tilt-disable"
-                image={TeamImg6} // Replace with another doctor's image if available
+
                 name="Dr. Inthihas"
                 designation="Pediatric Dentist"
               />
