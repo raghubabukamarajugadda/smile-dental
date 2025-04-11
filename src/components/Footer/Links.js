@@ -33,9 +33,9 @@ export default function Links() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="#">
+                  <Link href="/testimonials">
                     <i className="fa fa-caret-right" aria-hidden="true"></i>
-                    Other Links
+                    Testimonials
                   </Link>
                 </li>
               </ul>
@@ -43,21 +43,21 @@ export default function Links() {
             <div className="col-lg-6 col-md-6 col-12">
               <ul>
                 <li>
-                  <Link href="#">
+                  <Link href="/privacy-policy">
                     <i className="fa fa-caret-right" aria-hidden="true"></i>
-                    Consuling
+                    Privacy Policy
                   </Link>
                 </li>
                 <li>
-                  <Link href="#">
+                  <Link href="/tnc">
                     <i className="fa fa-caret-right" aria-hidden="true"></i>
-                    Finance
+                    Tnc
                   </Link>
                 </li>
                 <li>
-                  <Link href="/testimonials">
+                  <Link href="/refund-policy">
                     <i className="fa fa-caret-right" aria-hidden="true"></i>
-                    Testimonials
+                    Refund Policy
                   </Link>
                 </li>
                 <li>

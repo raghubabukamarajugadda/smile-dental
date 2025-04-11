@@ -52,7 +52,7 @@ export default function PricingData() {
               <h4 className="title">{pricing.title}</h4>
               <div className="price">
                 <p className="amount">
-                  ${pricing.price}
+                  ₹{pricing.price}
                   <span>/ Per Visit</span>
                 </p>
               </div>
