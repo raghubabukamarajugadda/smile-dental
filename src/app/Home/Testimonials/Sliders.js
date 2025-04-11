@@ -15,7 +15,7 @@ export default function Sliders() {
     {
       id: "slider1",
       img: TestimonialImg1,
-      desc: "After years of hiding my smile, Dr. Kiran&apos;s team gave me perfect aligned teeth with invisible braces. Pain-free and professional - truly life-changing!",
+      desc: "Dr. Kiran's team gave me a confident smile with invisible, pain-free braces – truly professional!",
       name: "Priya S., Guntur",
     },
     {
@@ -27,7 +27,7 @@ export default function Sliders() {
     {
       id: "slider3",
       img: TestimonialImg3,
-      desc: "My dental implants feel completely natural. From consultation to final fitting, every step was explained clearly. 5-star experience!",
+      desc: "My implants feel natural, and every step was clearly explained. A true 5-star experience!",
       name: "Sameera K., Bellandur",
     },
     {

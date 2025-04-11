@@ -19,7 +19,7 @@ export default function Services() {
               <ServiceCard
                 icon="dental-care.png"
                 title="Crowns & Bridges"
-                desc="Restore tooth functionality and aesthetics with custom-designed crowns & bridges. Durable solutions for damaged/missing teeth."
+                desc="Restore function and aesthetics with durable, custom-made solutions for damaged or missing teeth."
               />
             </div>
 
