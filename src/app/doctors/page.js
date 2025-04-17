@@ -67,6 +67,14 @@ export default function Doctors() {
                 designation="Pediatric Dentist"
               />
             </div>
+            <div className="col-lg-4 col-md-6 col-12">
+              <TeamCard
+                tilt="tilt-disable"
+                image={TeamImg1}
+                name="Dr. Somavarapu Gandhi"
+                designation="Smile Dental Clinics"
+              />
+            </div>
           </div>
         </div>
       </section>
