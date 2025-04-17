@@ -222,43 +222,6 @@ const doctors = [
       "Conducted dental awareness camps in schools across Telangana and Andhra Pradesh.",
     ],
   },
-  {
-    id: "dr.somavarapu-gandhi",
-    name: "Dr. Somavarapu Gandhi",
-    designation: "Smile dental Clinics",
-    image: "/img/kiran_img.jpg",
-    contact: {
-      phone: "+91 95502 31862",
-      email: "kiran@drkiranssmilegroup.com",
-      address: "Brindavan Gardens, Guntur, Andhra Pradesh - 522006",
-    },
-    social: {
-      facebook: "#",
-      twitter: "#",
-      linkedin: "#",
-    },
-    workingHours: [
-      { day: "Monday - Friday", time: "8:00 AM - 8:00 PM" },
-      { day: "Saturday", time: "9:00 AM - 6:30 PM" },
-      { day: "Sunday", time: "Closed (Emergencies Only)" },
-    ],
-    biography: [
-      "Dr. Kiran Golla is the visionary founder of Dr. Kiran&apos;s Smile Group of Dental Hospitals. With over 25 years of experience in dentistry, he has established himself as a leading prosthodontist and a pioneer in pain-free dental care.",
-      "He completed his MDS in Prosthodontics from ABC University in 2005 and has since been dedicated to transforming smiles across India and Kuwait. Dr. Kiran is known for his expertise in advanced dental treatments, including dental implants, crowns, and bridges.",
-      "Under his leadership, Dr. Kiran&apos;s Smile Group has grown into a trusted name in dental care, with multiple branches across Andhra Pradesh, Telangana, Karnataka, and Kuwait. His commitment to patient satisfaction and innovative dental solutions has earned him the trust of thousands of patients.",
-    ],
-    education: [
-      "MDS in Prosthodontics from ABC University (2005)",
-      "MBBS from XYZ College (1999)",
-      "Advanced Training in Dental Implants from the International Dental Academy",
-      "Certification in Cosmetic Dentistry from the American Academy of Cosmetic Dentistry",
-    ],
-    achievements: [
-      "Pioneered pain-free dental treatments in Andhra Pradesh.",
-      "Successfully performed over 10,000 dental implant procedures.",
-      "Recognized as 'Best Dentist in Andhra Pradesh' by the Indian Dental Association (2020).",
-    ],
-  },
 ];
 
 export default doctors;

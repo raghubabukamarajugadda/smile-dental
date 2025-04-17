@@ -62,15 +62,6 @@ export default function Team() {
                 description="Dr. Venkatesh specializes in creating beautiful, healthy smiles through customized orthodontic treatments like braces and aligners."
               />
             </div>
-            {/* Dr. Somavarapu Gandhi */}
-            <div className="col-lg-3 col-md-6 col-12">
-              <TeamCard
-                image={TeamImg4}
-                name="Dr. Somavarapu Gandhi"
-                designation="Orthodontist"
-                description="Dr. Gandhi specializes in creating beautiful, healthy smiles through customized orthodontic treatments like braces and aligners."
-              />
-            </div>
           </div>
         </div>
       </section>
