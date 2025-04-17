@@ -5,12 +5,12 @@ export default function PrivacyPolicy() {
 
       <p className="mb-4">
         This Privacy Policy describes how <strong>Smile Dental Clinic</strong> and its affiliates
-        (collectively referred to as "Smile", "we", "our", or "us") collect, use,
+        (collectively referred to as &quot;Smile&quot;, &quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) collect, use,
         share, protect, or otherwise process your personal data through our website,{" "}
         <a href="https://drkiranssmilegroup.com" className="text-blue-600 underline">
           https://drkiranssmilegroup.com
         </a>{" "}
-        (hereinafter referred to as the "Platform"). Please note that you may be able to browse
+        (hereinafter referred to as the &quot;Platform&quot;). Please note that you may be able to browse
         certain sections of the Platform without registering with us.
       </p>
 
@@ -31,7 +31,7 @@ export default function PrivacyPolicy() {
         address, contact number, email ID, proof of identity/address, and payment details. In
         some cases, biometric data may also be collected with your consent for certain features.
         You always have the option to not provide information by choosing not to use a specific
-        service or feature. 
+        service or feature.
       </p>
 
       <p className="mb-4">
@@ -49,8 +49,8 @@ export default function PrivacyPolicy() {
 
       <h2 className="text-2xl font-semibold mt-8 mb-4">How We Use Your Information</h2>
 
-      <p className="mb-4">
-        We use personal data to:
+      <div className="mb-4">
+        <p>We use personal data to:</p>
         <ul className="list-disc pl-6 mt-2">
           <li>Provide requested services</li>
           <li>Fulfill orders and assist our partners</li>
@@ -59,20 +59,22 @@ export default function PrivacyPolicy() {
           <li>Prevent fraud and enforce terms</li>
           <li>Conduct market research and analysis</li>
         </ul>
-      </p>
+      </div>
 
       <h2 className="text-2xl font-semibold mt-8 mb-4">Sharing of Your Information</h2>
 
-      <p className="mb-4">
-        Your data may be shared with:
+      <div className="mb-4">
+        <p>Your data may be shared with:</p>
         <ul className="list-disc pl-6 mt-2">
           <li>Group entities and affiliates</li>
           <li>Sellers, service providers, logistics, and payment partners</li>
           <li>Government or legal authorities (when required by law)</li>
         </ul>
-        Such disclosures are made to provide services, comply with legal obligations, enforce
-        terms, and prevent fraudulent activities.
-      </p>
+        <p className="mt-2">
+          Such disclosures are made to provide services, comply with legal obligations, enforce
+          terms, and prevent fraudulent activities.
+        </p>
+      </div>
 
       <h2 className="text-2xl font-semibold mt-8 mb-4">Security Measures</h2>
 
@@ -82,7 +84,7 @@ export default function PrivacyPolicy() {
         inherent risks. Please safeguard your account login credentials.
       </p>
 
-      <h2 className="text-2xl font-semibold mt-8 mb-4">Data Retention & Deletion</h2>
+      <h2 className="text-2xl font-semibold mt-8 mb-4">Data Retention &amp; Deletion</h2>
 
       <p className="mb-4">
         You can delete your account via your profile settings or by contacting us. Deletion
@@ -122,5 +124,4 @@ export default function PrivacyPolicy() {
       <p className="mb-2">Time: Monday to Friday (9:00 AM – 6:00 PM)</p>
     </div>
   );
-};
-  
+}
