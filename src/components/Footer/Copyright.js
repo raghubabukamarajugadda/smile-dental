@@ -9,6 +9,7 @@ export default function Copyright() {
                 <p>
                   © Copyright 2025 | All Rights Reserved by{" "}
                   <a href="#">Dr.Kiran&apos;s Smile Group of Dental Hospitals</a>{" "}
+                  | Medical registration by : Somavarapu Gandhi - Reg : A8394
                 </p>
               </div>
             </div>
