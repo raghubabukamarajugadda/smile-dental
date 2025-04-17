@@ -48,7 +48,7 @@ export default function RefundPolicy() {
                 receipt and reason for the request.
               </li>
               <li>
-                Approved refunds will be processed within 7-10 business days to
+                Approved refunds will be credited within 7-10 business days to
                 the original payment method.
               </li>
               <li>
