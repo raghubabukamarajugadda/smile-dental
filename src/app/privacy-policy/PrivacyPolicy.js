@@ -31,7 +31,7 @@ export default function PrivacyPolicy() {
         address, contact number, email ID, proof of identity/address, and payment details. In
         some cases, biometric data may also be collected with your consent for certain features.
         You always have the option to not provide information by choosing not to use a specific
-        service or feature.
+        service or feature. 
       </p>
 
       <p className="mb-4">
