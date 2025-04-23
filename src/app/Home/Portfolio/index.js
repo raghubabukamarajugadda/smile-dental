@@ -10,8 +10,7 @@ export default function Portfolio() {
             <div className="col-lg-12">
               <SectionHead
                 title="We Maintain Cleanliness Rules Inside Our Hospital"
-                desc="Strict hygiene protocols for a safe, clean dental experience."
-              />
+                desc="Strict hygiene protocols for a safe, clean dental experience."/>
             </div>
           </div>
         </div>
