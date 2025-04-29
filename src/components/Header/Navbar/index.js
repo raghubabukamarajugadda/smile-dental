@@ -95,13 +95,7 @@ export default function Navbar() {
                 
               </ul>
             </li>
-            <li>
-              <Link className={` ${pathname === "/blog-grid" ? "active" : ""}`}
-                    href="/blog-grid">
-                Blogs 
-              </Link>
-              
-            </li>
+            
             <li>
               <Link
                 className={` ${pathname === "/contact" ? "active" : ""}`}
