@@ -57,14 +57,6 @@ export default function Navbar() {
                 </li>
                 <li>
                   <Link
-                    className={` ${pathname === "/time-table" ? "active" : ""}`}
-                    href="/time-table"
-                  >
-                    Time Table
-                  </Link>
-                </li>
-                <li>
-                  <Link
                     className={` ${
                       pathname === "/testimonials" ? "active" : ""
                     }`}

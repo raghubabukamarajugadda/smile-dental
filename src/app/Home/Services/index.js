@@ -85,6 +85,23 @@ export default function Services() {
                 desc="Laser therapy & flap surgery for severe periodontitis. Stop gum recession effectively."
               />
             </div>
+            {/* Diagnosis & Treatment Planning */}
+            <div className="col-lg-4 col-md-6 col-12">
+              <ServiceCard
+                icon="treatment.png"
+                title="Diagnosis & Treatment Planning"
+                desc="Detailed clinical and radiographic analysis to craft accurate, personalized treatment plans."
+              />
+            </div>
+
+            {/* Oral Pathology */}
+            <div className="col-lg-4 col-md-6 col-12">
+              <ServiceCard
+                icon="microscope.png"
+                title="Oral Pathology"
+                desc="Detection and management of oral diseases, lesions, and abnormalities through biopsy and lab testing."
+              />
+            </div>
           </div>
         </div>
       </section>
