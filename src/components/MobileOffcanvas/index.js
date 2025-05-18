@@ -187,17 +187,6 @@ export default function MobileOffcanvas() {
                         <Link
                           onClick={handleClose}
                           className={` ${
-                            isActive("/time-table") ? "active" : ""
-                          }`}
-                          href="/time-table"
-                        >
-                          Time Table
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          onClick={handleClose}
-                          className={` ${
                             isActive("/testimonials") ? "active" : ""
                           }`}
                           href="/testimonials"
