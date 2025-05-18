@@ -9,7 +9,7 @@ import {Autoplay } from "swiper/modules";
 
 import PortfolioImg1 from "../../../../public/img/newy.png";
 import PortfolioImg2 from "../../../../public/img/hh.png";
-import PortfolioImg3 from "../../../../public/img/chat.png";
+import PortfolioImg3 from "../../../../public/img/Chat.png";
 import PortfolioImg4 from "../../../../public/img/kk.png";
 import PortfolioImg5 from "../../../../public/img/xray.png";
 
