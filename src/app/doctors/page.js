@@ -1,12 +1,12 @@
 import Breadcrumbs from "@/components/Breadcrumbs";
 import TeamCard from "@/components/TeamCard";
 
-import TeamImg1 from "../../../public/img/kiran_img.jpg";
-import TeamImg2 from "../../../public/img/kavitha_img.jpg";
-import TeamImg3 from "../../../public/img/manasa_img.jpg";
-import TeamImg4 from "../../../public/img/venkatesh_img.jpg";
-import TeamImg5 from "../../../public/img/sandhya_img.jpg";
-import TeamImg6 from "../../../public/img/inthihas_img.jpg";
+import TeamImg1 from "../../../public/img/DrKiran.png";
+import TeamImg2 from "../../../public/img/DrKavitha.png";
+import TeamImg3 from "../../../public/img/DrManasa.png";
+import TeamImg4 from "../../../public/img/DrVenkatesh.png";
+import TeamImg5 from "../../../public/img/DrSandhya.png";
+import TeamImg6 from "../../../public/img/DrInthihas.png";
 import Header from "@/components/Header/Header";
 
 export default function Doctors() {

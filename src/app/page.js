@@ -1,15 +1,12 @@
 import Header from "@/components/Header/Header";
-import Appoinment from "./Home/Appoinment";
-import Blog from "./Home/Blog";
-import CallAction from "./Home/CallAction";
-import Clients from "./Home/Clients";
-import Departments from "./Home/Departments";
-import Features from "./Home/Features";
+
+import CleanCare from "./Home/CleanCare";
 import Funfact from "./Home/Funfact";
 import Hero from "./Home/Hero";
-import Portfolio from "./Home/Portfolio";
+
 import Pricing from "./Home/Pricing";
-import Schedule from "./Home/Schedule";
+import BranchFaq from "./Home/BranchFaq";
+
 import Services from "./Home/Services";
 import Team from "./Home/Team";
 import Testimonial from "./Home/Testimonials";
@@ -20,20 +17,14 @@ export default function Home() {
     <>
       <Header />
       <Hero />
-      <Schedule />
-      <Features />
+      <Services />
       <Funfact />
       <WhyChoose />
-      <CallAction />
-      <Portfolio />
-      <Services />
-      <Testimonial />
-      <Departments />
-      <Pricing />
+      <CleanCare />
       <Team />
-      <Blog />
-      <Clients />
-      <Appoinment />
+      <Testimonial />
+      <Pricing />
+      <BranchFaq />
     </>
   );
 }

@@ -1,42 +1,30 @@
-import FunfactCard from "@/components/FunfactCard";
+import { PiToothFill, PiHospitalFill, PiUsersThreeFill, PiShieldCheckFill } from "react-icons/pi";
+
+const stats = [
+  { icon: PiToothFill, title: "50,000+", sub: "Happy Patients", big: true },
+  { icon: PiHospitalFill, title: "Multiple Branches", sub: "AP | Telangana | Karnataka | Kuwait" },
+  { icon: PiUsersThreeFill, title: "Experienced Dentists", sub: "Specialists in All Fields" },
+  { icon: PiShieldCheckFill, title: "Modern & Hygienic Clinics", sub: "International Standards" },
+];
 
 export default function Funfact() {
   return (
-    <>
-      <div id="fun-facts" className="fun-facts section overlay">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-3 col-md-6 col-12">
-              <FunfactCard
-                icon="icofont icofont-tooth"
-                number="8"
-                desc="Clinics Nationwide"
-              />
+    <section className="sh-stats-wrap">
+      <div className="sh-container">
+        <div className="sh-stats">
+          {stats.map(({ icon: Icon, title, sub, big }) => (
+            <div key={title} className="sh-stats__item">
+              <span className="sh-stats__icon">
+                <Icon />
+              </span>
+              <div>
+                <h3 className={big ? "is-big" : ""}>{title}</h3>
+                <p>{sub}</p>
+              </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-12">
-              <FunfactCard
-                icon="icofont icofont-user-alt-3"
-                number="25"
-                desc="Expert Specialists"
-              />
-            </div>
-            <div className="col-lg-3 col-md-6 col-12">
-              <FunfactCard
-                icon="icofont-simple-smile"
-                number="25000"
-                desc="Smiles Transformed"
-              />
-            </div>
-            <div className="col-lg-3 col-md-6 col-12">
-              <FunfactCard
-                icon="icofont icofont-history"
-                number="25"
-                desc="Years of Excellence"
-              />
-            </div>
-          </div>
+          ))}
         </div>
       </div>
-    </>
+    </section>
   );
 }

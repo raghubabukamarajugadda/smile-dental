@@ -1,110 +1,73 @@
-import SectionHead from "@/components/SectionHead";
+"use client";
+
+import Link from "next/link";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Autoplay } from "swiper/modules";
+import { FaArrowRightLong } from "react-icons/fa6";
+import { LuChevronLeft, LuChevronRight } from "react-icons/lu";
 import ServiceCard from "@/components/ServiceCard";
+
+const services = [
+  { image: "dentalimplants.jpeg", title: "Dental Implants", desc: "Permanent solution for missing teeth." },
+  { image: "ortho.jpeg", title: "Braces & Aligners", desc: "Straighten your teeth with confidence." },
+  { image: "rootcanal.jpeg", title: "Root Canal Treatment", desc: "Save your natural tooth painlessly." },
+  { image: "teethscaling.png", title: "Teeth Cleaning & Scaling", desc: "For healthy gums and fresh breath.", contain: true },
+  { image: "tooth-whitening.png", title: "Cosmetic Dentistry", desc: "Enhance your smile, boost your confidence.", contain: true },
+  { image: "pediatric_dentistry.jpeg", title: "Pediatric Dentistry", desc: "Gentle dental care for children." },
+  { image: "dental-care.png", title: "Crowns & Bridges", desc: "Restore damaged or missing teeth naturally.", contain: true },
+  { image: "gingivitis.png", title: "Gum Treatment", desc: "Laser care for healthy, strong gums.", contain: true },
+  { image: "teeth.png", title: "Dentures", desc: "Comfortable, natural-looking full & partial dentures.", contain: true },
+  { image: "dentist.png", title: "Wisdom Tooth Removal", desc: "Safe, gentle extraction of impacted teeth.", contain: true },
+  { image: "xray.png", title: "Digital X-Ray & Diagnosis", desc: "Precise imaging for accurate treatment plans.", contain: true },
+  { image: "treatment.png", title: "Full Mouth Rehabilitation", desc: "Complete restoration of function and aesthetics.", contain: true },
+];
+
 export default function Services() {
   return (
-    <>
-      <section className="services section">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <SectionHead
-                title="Complete Dental Solutions for Your Smile"
-                desc="From preventive care to advanced treatments, we offer comprehensive dental services tailored to patients of all ages."
-              />
-            </div>
+    <section className="sh-services">
+      <div className="sh-container">
+        <div className="sh-services__head">
+          <div className="sh-services__heading">
+            <h2>Our Dental Services</h2>
+            <p>
+              <span className="sh-services__line" />
+              Comprehensive dental solutions for patients of all ages
+              <span className="sh-services__line" />
+            </p>
           </div>
-          <div className="row">
-            {/* Crowns & Bridges */}
-            <div className="col-lg-4 col-md-6 col-12">
-              <ServiceCard
-                icon="dental-care.png"
-                title="Crowns & Bridges"
-                desc="Restore function and aesthetics with durable, custom-made solutions for damaged or missing teeth."
-              />
-            </div>
-
-            {/* Root Canal Treatment */}
-            <div className="col-lg-4 col-md-6 col-12">
-              <ServiceCard
-                icon="root-canal.png"
-                title="Root Canal Treatment"
-                desc="Pain-free RCT using rotary endodontics to save infected teeth. 98% success rate with permanent relief."
-              />
-            </div>
-
-            {/* Cosmetic Dentistry */}
-            <div className="col-lg-4 col-md-6 col-12">
-              <ServiceCard
-                icon="teethscaling.png"
-                title="Cosmetic Dentistry"
-                desc="Smile makeovers with veneers, laminates & teeth contouring. Achieve Hollywood-worthy smiles."
-              />
-            </div>
-
-            {/* Pediatric Dentistry */}
-            <div className="col-lg-4 col-md-6 col-12">
-              <ServiceCard
-                icon="dentist.png"
-                title="Pediatric Dentistry"
-                desc="Fun, fear-free visits for kids. Specialized care for milk teeth and early orthodontic guidance."
-              />
-            </div>
-
-            {/* Dental Implants */}
-            <div className="col-lg-4 col-md-6 col-12">
-              <ServiceCard
-                icon="dental-implant.png"
-                title="Dental Implants"
-                desc="Permanent tooth replacements with 95% osseointegration success. Metal-free zirconia options available."
-              />
-            </div>
-
-            {/* Orthodontics */}
-            <div className="col-lg-4 col-md-6 col-12">
-              <ServiceCard
-                icon="teeth.png"
-                title="Orthodontics"
-                desc="Invisible aligners & modern braces for all ages. Correct crowding, gaps, and bite issues."
-              />
-            </div>
-
-            {/* Teeth Whitening & Scaling */}
-            <div className="col-lg-4 col-md-6 col-12">
-              <ServiceCard
-                icon="tooth-whitening.png"
-                title="Teeth Whitening & Scaling"
-                desc="Professional cleaning & whitening. Remove 10+ years of stains in one session."
-              />
-            </div>
-
-            {/* Gum Treatment */}
-            <div className="col-lg-4 col-md-6 col-12">
-              <ServiceCard
-                icon="gingivitis.png"
-                title="Gum Treatment"
-                desc="Laser therapy & flap surgery for severe periodontitis. Stop gum recession effectively."
-              />
-            </div>
-            {/* Diagnosis & Treatment Planning */}
-            <div className="col-lg-4 col-md-6 col-12">
-              <ServiceCard
-                icon="treatment.png"
-                title="Diagnosis & Treatment Planning"
-                desc="Detailed clinical and radiographic analysis to craft accurate, personalized treatment plans."
-              />
-            </div>
-
-            {/* Oral Pathology */}
-            <div className="col-lg-4 col-md-6 col-12">
-              <ServiceCard
-                icon="microscope.png"
-                title="Oral Pathology"
-                desc="Detection and management of oral diseases, lesions, and abnormalities through biopsy and lab testing."
-              />
-            </div>
-          </div>
+          <Link href="/service" className="sh-services__all">
+            View All Services <FaArrowRightLong />
+          </Link>
         </div>
-      </section>
-    </>
+
+        <div className="sh-services__slider">
+          <button type="button" className="sh-services__nav sh-services__nav--prev" aria-label="Previous services">
+            <LuChevronLeft />
+          </button>
+          <Swiper
+            modules={[Navigation, Autoplay]}
+            navigation={{ prevEl: ".sh-services__nav--prev", nextEl: ".sh-services__nav--next" }}
+            autoplay={{ delay: 3500, disableOnInteraction: false, pauseOnMouseEnter: true }}
+            loop
+            spaceBetween={14}
+            slidesPerView={1}
+            breakpoints={{
+              560: { slidesPerView: 2 },
+              992: { slidesPerView: 3 },
+              1400: { slidesPerView: 4 },
+            }}
+          >
+            {services.map((service) => (
+              <SwiperSlide key={service.title}>
+                <ServiceCard {...service} />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+          <button type="button" className="sh-services__nav sh-services__nav--next" aria-label="Next services">
+            <LuChevronRight />
+          </button>
+        </div>
+      </div>
+    </section>
   );
 }

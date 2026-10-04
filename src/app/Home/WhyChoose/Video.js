@@ -3,15 +3,26 @@
 import { useState } from "react";
 
 import ModalVideo from "react-modal-video";
+import { LuPlay } from "react-icons/lu";
 
 export default function Video() {
   const [isOpen, setOpen] = useState(false);
 
   return (
     <>
-      <a onClick={() => setOpen(true)} className="video video-popup mfp-iframe">
-        <i className="fa fa-play"></i>
-      </a>
+      <button
+        type="button"
+        className="sh-legacy__tour"
+        onClick={() => setOpen(true)}
+      >
+        <span className="sh-legacy__tour-play">
+          <LuPlay />
+        </span>
+        <span className="sh-legacy__tour-text">
+          <strong>Watch Our Clinic Tour</strong>
+          <small>1:30 min</small>
+        </span>
+      </button>
 
       <ModalVideo
         channel="youtube"

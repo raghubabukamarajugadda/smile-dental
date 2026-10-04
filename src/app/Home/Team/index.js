@@ -1,70 +1,60 @@
-import SectionHead from "@/components/SectionHead";
-import TeamCard from "@/components/TeamCard";
+import Image from "next/image";
+import Link from "next/link";
+import { FaArrowRightLong } from "react-icons/fa6";
 
-import SectionImg from "../../../../public/img/section-img2.png";
+import doctors from "@/data/doctors";
 
-import TeamImg1 from "../../../../public/img/kiran_img.jpg";
-import TeamImg2 from "../../../../public/img/kavitha_img.jpg";
-import TeamImg3 from "../../../../public/img/manasa_img.jpg";
-import TeamImg4 from "../../../../public/img/venkatesh_img.jpg";
+const specialty = {
+  "dr.-kiran-golla": "Prosthodontist & Implant Specialist",
+  "dr.-kavitha-reddy": "Preventive & Family Dentistry",
+  "dr.-manasa-reddy": "Full-Mouth Rehabilitation",
+  "dr.-venkatesh": "Braces & Aligners",
+  "dr.-sandhya": "Preventive & Restorative Care",
+  "dr.-inthihas": "Child Dental Care",
+};
 
 export default function Team() {
   return (
-    <>
-      <section id="team" className="team section overlay">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <SectionHead
-                img={SectionImg}
-                title="Meet Our Expert Dental Specialists"
-                desc="Our team of highly skilled dentists and specialists is dedicated to providing personalized, pain-free care for patients of all ages."
-              />
-            </div>
+    <section className="sh-doctors">
+      <div className="sh-container">
+        <div className="sh-sec-head">
+          <div className="sh-sec-head__text">
+            <h2>Meet Our Expert Dental Specialists</h2>
+            <p>
+              Our team of highly skilled dentists and specialists is dedicated to
+              providing personalized, pain-free care for patients of all ages.
+            </p>
           </div>
-          <div className="row">
-            {/* Dr. Kiran Golla */}
-            <div className="col-lg-3 col-md-6 col-12">
-              <TeamCard
-                image={TeamImg1}
-                name="Dr. Kiran Golla"
-                designation="MD & Founder"
-                description="Dr. Kiran has the ability to answer all questions with clear instructions, guiding patients with great patience and expertise."
-              />
-            </div>
-
-            {/* Dr. Kavitha Reddy */}
-            <div className="col-lg-3 col-md-6 col-12">
-              <TeamCard
-                image={TeamImg2}
-                name="Dr. Kavitha Reddy"
-                designation="Founder & General Dentist"
-                description="With over two decades of experience, Dr. Kavitha Reddy is dedicated to delivering exceptional dental care with a compassionate touch."
-              />
-            </div>
-
-            {/* Dr. Manasa Reddy */}
-            <div className="col-lg-3 col-md-6 col-12">
-              <TeamCard
-                image={TeamImg3}
-                name="Dr. Manasa Reddy"
-                designation="CEO & Prosthodontist"
-                description="Dr. Manasa ensures the highest standards of patient care and is an experienced implantologist, specializing in advanced dental solutions."
-              />
-            </div>
-
-            {/* Dr. Venkatesh */}
-            <div className="col-lg-3 col-md-6 col-12">
-              <TeamCard
-                image={TeamImg4}
-                name="Dr. Venkatesh"
-                designation="Orthodontist"
-                description="Dr. Venkatesh specializes in creating beautiful, healthy smiles through customized orthodontic treatments like braces and aligners."
-              />
-            </div>
-          </div>
+          <Link href="/doctors" className="sh-sec-head__link">
+            View All Doctors <FaArrowRightLong />
+          </Link>
         </div>
-      </section>
-    </>
+
+        <div className="sh-doctors__grid">
+          {doctors.map((doc) => (
+            <Link
+              key={doc.id}
+              href={`/doctor-details?doctorId=${doc.id}`}
+              className="sh-doctor-card"
+            >
+              <div className="sh-doctor-card__media">
+                <Image
+                  src={doc.image}
+                  alt={doc.name}
+                  fill
+                  sizes="(max-width: 767px) 100vw, (max-width: 1199px) 33vw, 220px"
+                  style={{ objectFit: "cover" }}
+                />
+              </div>
+              <div className="sh-doctor-card__body">
+                <h4>{doc.name}</h4>
+                <span className="sh-doctor-card__deg">{doc.designation}</span>
+                <span className="sh-doctor-card__role">{specialty[doc.id]}</span>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </section>
   );
 }

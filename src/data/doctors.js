@@ -3,7 +3,7 @@ const doctors = [
     id: "dr.-kiran-golla",
     name: "Dr. Kiran Golla",
     designation: "MD & Founder",
-    image: "/img/kiran_img.jpg",
+    image: "/img/DrKiran.png",
     contact: {
       phone: "+91 95502 31862",
       email: "kiran@drkiranssmilegroup.com",
@@ -40,7 +40,7 @@ const doctors = [
     id: "dr.-kavitha-reddy",
     name: "Dr. Kavitha Reddy",
     designation: "Founder & General Dentist",
-    image: "/img/kavitha_img.jpg",
+    image: "/img/DrKavitha.png",
     contact: {
       phone: "+91 92464 34447",
       email: "kavitha@drkiranssmilegroup.com",
@@ -77,7 +77,7 @@ const doctors = [
     id: "dr.-manasa-reddy",
     name: "Dr. Manasa Reddy",
     designation: "CEO & Prosthodontist",
-    image: "/img/manasa_img.jpg",
+    image: "/img/DrManasa.png",
     contact: {
       phone: "+91 98765 43210",
       email: "manasa@drkiranssmilegroup.com",
@@ -114,7 +114,7 @@ const doctors = [
     id: "dr.-venkatesh",
     name: "Dr. Venkatesh",
     designation: "Orthodontist",
-    image: "/img/venkatesh_img.jpg",
+    image: "/img/DrVenkatesh.png",
     contact: {
       phone: "+91 87654 32109",
       email: "venkatesh@drkiranssmilegroup.com",
@@ -151,7 +151,7 @@ const doctors = [
     id: "dr.-sandhya",
     name: "Dr. Sandhya",
     designation: "General Dentist",
-    image: "/img/sandhya_img.jpg",
+    image: "/img/DrSandhya.png",
     contact: {
       phone: "+91 91234 56789",
       email: "sandhya@drkiranssmilegroup.com",
@@ -189,7 +189,7 @@ const doctors = [
     id: "dr.-inthihas",
     name: "Dr. Inthihas",
     designation: "Pediatric Dentist",
-    image: "/img/inthihas_img.jpg",
+    image: "/img/DrInthihas.png",
     contact: {
       phone: "+91 92345 67890",
       email: "inthihas@drkiranssmilegroup.com",

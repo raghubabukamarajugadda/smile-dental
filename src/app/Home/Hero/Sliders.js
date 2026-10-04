@@ -1,124 +1,100 @@
-"use client";
+import Link from "next/link";
+import { FaUsers, FaArrowRightLong } from "react-icons/fa6";
+import { LuCalendarDays } from "react-icons/lu";
+import { BsChatDotsFill } from "react-icons/bs";
+import { PiTooth, PiUsersThree, PiShieldCheck, PiHeart } from "react-icons/pi";
 
-import { useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Autoplay } from "swiper/modules";
+const features = [
+  { icon: PiTooth, lines: ["Advanced", "Technology"] },
+  { icon: PiUsersThree, lines: ["Experienced", "Team"] },
+  { icon: PiShieldCheck, lines: ["Safe & Hygienic", "Environment"] },
+  { icon: PiHeart, lines: ["Personalized", "Care"] },
+];
 
-import HeroBg1 from "../../../../public/img/slider2.jpg";
-import HeroBg2 from "../../../../public/img/slider.jpg";
-import HeroBg3 from "../../../../public/img/slider3.jpg";
+const highlights = [
+  "Advanced Dental Care",
+  "Experienced Specialists",
+  "Modern Technology",
+  "Compassionate Approach",
+];
 
-export default function Sliders(props) {
-  const { sectionName } = props;
-
-  const [heroSliders, setheroSliders] = useState([
-    {
-      id: "slider1",
-      bgImg: HeroBg1,
-      title:
-        "Welcome to <span>Dr. Kiran&apos;s Smile Group</span> <br/> Where Care Meets <span>Excellence!</span>",
-      subTitle:
-        "Experience world-class dental care with state-of-the-art treatments, trusted by</br> families across India and Kuwait for over 25 years.",      button: {
-        text: "Get Appointment",
-        link: "/appointment",
-      },
-      button2: {
-        text: "Learn More",
-        link: "/about",
-      },
-    },
-    {
-      id: "slider2",
-      bgImg: HeroBg2,
-      title:
-        "Your Smile Deserves <span>Expert</span> Care <br/> You Can <span>Rely On!</span>",
-      subTitle:
-        "From precision treatments to compassionate service, we prioritize your comfort and</br>confidence at every step of your dental journey.",
-        button: {
-        text: "Get Appointment",
-        link: "/appointment",
-      },
-      button2: {
-        text: "About Us",
-        link: "/about",
-      },
-    },
-    {
-      id: "slider3",
-      bgImg: HeroBg3,
-      title:
-      "Experience <span>Pain-Free</span> Dentistry <br/> With a <span>Trusted Team!</span>",
-
-      subTitle:
-      "Our specialists use cutting-edge techniques to ensure gentle, effective care for</br> patients of all ages—because your smile matters.",
-      button: {
-        text: "Get Appointment",
-        link: "/appointment",
-      },
-      button2: {
-        text: "Conatct Now",
-        link: "/contact",
-      },
-    },
-  ]);
-
+export default function Sliders() {
   return (
-    <>
-      {/* <!-- Slider Area --> */}
-      <section className={sectionName ? sectionName : "slider"}>
-        <Swiper
-          autoplay={{ delay: 4000 }}
-          modules={[Navigation, Autoplay]}
-          navigation={{
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-          }}
-          className="hero-slider"
-        >
-          {heroSliders.map((singleSlider) => (
-            <SwiperSlide
-              className="single-slider"
-              style={{
-                backgroundImage: `url(${singleSlider.bgImg.src})`,
-              }}
-              key={singleSlider.id}
-            >
-              <div className="container">
-                <div className="row">
-                  <div className="col-lg-7 col-12">
-                    <div className="text">
-                      <h1
-                        dangerouslySetInnerHTML={{
-                          __html: singleSlider.title,
-                        }}
-                      ></h1>
-                      <p
-                        dangerouslySetInnerHTML={{
-                          __html: singleSlider.subTitle,
-                        }}
-                      ></p>
-                      {/* <!-- Slider Button --> */}
-                      <div className="button">
-                        <a href={singleSlider?.button.link} className="btn">
-                          {singleSlider?.button.text}
-                        </a>
-                        <a
-                          href={singleSlider?.button2.link}
-                          className="btn primary"
-                        >
-                          {singleSlider?.button2.text}
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-        <div className="swiper-button-next"></div>
-        <div className="swiper-button-prev"></div>
-      </section>
-    </>
+    <section className="sh-hero">
+      {/* Background artwork: slider.png keeps its 3:1 ratio, anchored right */}
+      <div className="sh-hero__art">
+        <div className="sh-hero__img" role="img" aria-label="Happy family with Dr. Kiran at Smile Dental" />
+
+        <div className="sh-hero__script" aria-hidden="true">
+          <span>Expert Care</span>
+          <span>Comfortable Experience</span>
+          <span>Beautiful Smiles</span>
+          <svg className="sh-hero__smile" viewBox="0 0 90 34" fill="none">
+            <path d="M4 8 C 20 30, 56 32, 80 10" stroke="currentColor" strokeWidth="3.2" strokeLinecap="round" />
+            <path d="M68 7 L81 9 L77 21" stroke="currentColor" strokeWidth="3.2" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+        </div>
+
+        <div className="sh-hero__doctor">
+          <h5>Dr. Kiran</h5>
+          <p>MDS - Prosthodontist</p>
+          <p>Founder &amp; Chief Dentist</p>
+        </div>
+      </div>
+
+      <div className="sh-container sh-hero__content">
+        <div className="sh-hero__text">
+          <span className="sh-hero__badge">
+            <FaUsers /> Trusted by 50,000+ Happy Patients
+          </span>
+          <h1 className="sh-hero__title">
+            Healthy Smiles
+            <br />
+            <span>for a Brighter</span>
+            <br />
+            Tomorrow
+          </h1>
+          <p className="sh-hero__subtitle">
+            {highlights.map((item, i) => (
+              <span key={item}>
+                {item}
+                {i < highlights.length - 1 && <i className="sh-hero__pipe">|</i>}
+                {i === 1 && <br />}
+              </span>
+            ))}
+          </p>
+          <div className="sh-hero__actions">
+            <Link href="/appointment" className="sh-btn sh-btn--orange sh-btn--lg">
+              <LuCalendarDays className="sh-btn__icon" />
+              Book Appointment
+              <FaArrowRightLong className="sh-btn__arrow" />
+            </Link>
+            <Link href="/doctors" className="sh-btn sh-btn--outline sh-btn--lg">
+              <BsChatDotsFill className="sh-btn__icon sh-btn__icon--blue" />
+              Consult a Dentist
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      <div className="sh-hero__features">
+        <div className="sh-container">
+          <ul className="sh-hero__features-list">
+            {features.map(({ icon: Icon, lines }) => (
+              <li key={lines.join(" ")}>
+                <span className="sh-hero__feature-icon">
+                  <Icon />
+                </span>
+                <span className="sh-hero__feature-text">
+                  {lines[0]}
+                  <br />
+                  {lines[1]}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </section>
   );
 }

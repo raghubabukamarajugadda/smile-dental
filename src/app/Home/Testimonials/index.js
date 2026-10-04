@@ -1,27 +1,27 @@
-import SectionHead from "@/components/SectionHead";
-import SectionImg from "../../../../public/img/section-img2.png";
+import Link from "next/link";
+import { FaArrowRightLong } from "react-icons/fa6";
+
 import Sliders from "./Sliders";
 
 export default function Testimonial() {
   return (
-    <>
-      <section className="section testimonials overlay">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <SectionHead
-                title="What Our Patients Say About Our Medical Treatments"
-                img={SectionImg}
-              />
-            </div>
+    <section className="sh-reviews">
+      <div className="sh-container">
+        <div className="sh-sec-head">
+          <div className="sh-sec-head__text">
+            <h2>What Our Patients Say</h2>
+            <p>
+              Real stories. Real smiles. Trusted by thousands across India and
+              Kuwait.
+            </p>
           </div>
-          <div className="row">
-            <div className="col-lg-12 col-12">
-              <Sliders />
-            </div>
-          </div>
+          <Link href="/testimonials" className="sh-sec-head__link">
+            View All Reviews <FaArrowRightLong />
+          </Link>
         </div>
-      </section>
-    </>
+
+        <Sliders />
+      </div>
+    </section>
   );
 }
