@@ -2310,14 +2310,14 @@ body {
 
 .sh-about-hero__text {
   margin: auto 0;
-  max-width: 540px;
+  max-width: 480px;
 }
 
 .sh-about-hero__eyebrow,
 .sh-story__eyebrow {
   display: inline-block;
-  margin-bottom: 12px;
-  font-size: 13px;
+  margin-bottom: 10px;
+  font-size: 12.5px;
   font-weight: 700;
   letter-spacing: 1.2px;
   text-transform: uppercase;
@@ -2325,10 +2325,10 @@ body {
 }
 
 .sh-about-hero__text h1 {
-  margin: 0 0 20px;
-  font-size: clamp(34px, 3.75vw, 56px);
+  margin: 0 0 16px;
+  font-size: clamp(30px, 3.2vw, 48px);
   font-weight: 700;
-  line-height: 1.12;
+  line-height: 1.14;
   letter-spacing: -0.5px;
   color: var(--sh-navy);
 }
@@ -2338,10 +2338,10 @@ body {
 }
 
 .sh-about-hero__text > p {
-  max-width: 470px;
-  margin: 0 0 28px;
-  font-size: 15.5px;
-  line-height: 1.7;
+  max-width: 440px;
+  margin: 0 0 24px;
+  font-size: 15px;
+  line-height: 1.65;
   color: #33415c;
 }
 
@@ -2353,7 +2353,7 @@ body {
 .sh-about-hero__actions {
   display: flex;
   align-items: center;
-  gap: 18px;
+  gap: 14px;
   flex-wrap: wrap;
 }
 
@@ -2361,11 +2361,11 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 12px;
-  height: 54px;
-  padding: 0 28px;
+  gap: 10px;
+  height: 48px;
+  padding: 0 22px;
   border-radius: 8px;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
   transition: background 0.2s, color 0.2s, transform 0.2s;
 }
@@ -2375,7 +2375,6 @@ body {
 }
 
 .sh-about-btn--orange {
-  min-width: 250px;
   background: #f26b1d;
   color: #fff;
   box-shadow: 0 10px 22px rgba(242, 107, 29, 0.28);
@@ -2393,7 +2392,6 @@ body {
 }
 
 .sh-about-btn--outline {
-  min-width: 170px;
   background: #fff;
   border: 1.5px solid var(--sh-blue);
   color: var(--sh-blue);
