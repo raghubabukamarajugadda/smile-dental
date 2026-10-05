@@ -2665,7 +2665,9 @@ body {
   }
 
   .sh-about-hero__bg {
-    background-position: right 120px top 30%;
+    background:
+      linear-gradient(90deg, #eaf3fc 0%, rgba(234, 243, 252, 0.98) 45%, rgba(234, 243, 252, 0.75) 56%, transparent 70%) no-repeat,
+      url("/img/AboutusDocs.png?v=2") right -160px top 30% / cover no-repeat;
   }
 
   .sh-about-hero__inner {
@@ -2673,18 +2675,19 @@ body {
   }
 
   .sh-about-hero__text {
-    max-width: 340px;
+    max-width: 260px;
+    margin: 0 0 auto 0;
   }
 
   .sh-about-hero__text h1 {
-    font-size: clamp(26px, 2.4vw, 34px);
-    margin-bottom: 14px;
+    font-size: clamp(22px, 2vw, 26px);
+    margin-bottom: 10px;
   }
 
   .sh-about-hero__text > p {
-    font-size: 13.5px;
-    max-width: 300px;
-    margin-bottom: 22px;
+    font-size: 12.5px;
+    max-width: 240px;
+    margin-bottom: 18px;
   }
 
   .sh-about-hero__actions {
@@ -2698,13 +2701,13 @@ body {
   }
 
   .sh-about-hero__badge {
-    padding: 9px 13px;
-    bottom: 70px;
+    padding: 8px 12px;
+    bottom: 60px;
   }
 
   .sh-about-hero__badge--kiran {
     left: auto;
-    right: 52%;
+    right: 50%;
     margin-right: 10px;
   }
 
@@ -2755,8 +2758,8 @@ body {
     position: relative;
     inset: auto;
     order: 2;
-    aspect-ratio: 4 / 3;
-    background-position: 70% center;
+    aspect-ratio: 16 / 9;
+    background-position: right bottom;
   }
 
   .sh-about-hero__badge {
@@ -2839,8 +2842,8 @@ body {
     position: relative;
     inset: auto;
     order: 2;
-    aspect-ratio: 4 / 3;
-    background-position: 78% center;
+    aspect-ratio: 16 / 9;
+    background-position: right bottom;
   }
 
   .sh-about-hero__badge {
