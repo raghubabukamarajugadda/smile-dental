@@ -2661,40 +2661,53 @@ body {
   color: #4a5672;
 }
 
-@media (max-width: 1199px) {
-  .sh-about-hero__frame {
-    height: clamp(480px, calc(100vh - 200px), 560px);
+@media (max-width: 1439px) {
+  .sh-about-hero__bg {
+    background-position: right 120px top 30%;
+  }
+
+  .sh-about-hero__text {
+    max-width: 340px;
   }
 
   .sh-about-hero__text h1 {
-    font-size: clamp(28px, 3vw, 40px);
+    font-size: clamp(26px, 2.4vw, 34px);
+    margin-bottom: 14px;
   }
 
   .sh-about-hero__text > p {
-    font-size: 14px;
-    max-width: 420px;
+    font-size: 13.5px;
+    max-width: 300px;
+    margin-bottom: 22px;
+  }
+
+  .sh-about-hero__actions {
+    gap: 12px;
   }
 
   .sh-about-btn {
-    height: 48px;
-    padding: 0 22px;
-    font-size: 14px;
+    height: 44px;
+    padding: 0 18px;
+    font-size: 13.5px;
   }
 
   .sh-about-hero__badge {
-    padding: 10px 14px;
+    padding: 9px 13px;
+    bottom: 60px;
   }
 
-  .sh-about-hero__badge strong {
-    font-size: 14px;
+  .sh-about-hero__badge--kiran {
+    left: auto;
+    right: 52%;
+    margin-right: 10px;
   }
 
-  .sh-about-hero__badge span {
-    font-size: 11px;
+  .sh-about-hero__badge--kavitha {
+    right: 3%;
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
   .sh-about-hero__frame {
     height: auto;
     display: flex;
@@ -2712,7 +2725,7 @@ body {
   }
 
   .sh-about-hero__text h1 {
-    font-size: clamp(26px, 4vw, 38px);
+    font-size: clamp(26px, 3.5vw, 38px);
     margin-bottom: 14px;
   }
 
@@ -2762,7 +2775,9 @@ body {
   .sh-about-hero__badge span {
     font-size: 10.5px;
   }
+}
 
+@media (max-width: 991px) {
   .sh-about-stats {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 20px;
