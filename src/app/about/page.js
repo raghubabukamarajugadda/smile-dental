@@ -1,17 +1,26 @@
-import Breadcrumbs from "@/components/Breadcrumbs";
-import AboutSection from "./AboutSection";
-import Vission from "./Vission";
-import Mission from "./Mission";
 import Header from "@/components/Header/Header";
+
+import AboutHero from "./AboutHero";
+import Story from "./Story";
+import Milestones from "./Milestones";
+import Founders from "./Founders";
+import Purpose from "./Purpose";
+import Clinics from "./Clinics";
+import AboutBranches from "./AboutBranches";
+import AboutCta from "./AboutCta";
 
 export default function About() {
   return (
     <>
       <Header />
-      <Breadcrumbs title="About Us" menuText="About Us" />
-      <AboutSection />
-      <Vission />
-      <Mission />
+      <AboutHero />
+      <Story />
+      <Milestones />
+      <Founders />
+      <Purpose />
+      <Clinics />
+      <AboutBranches />
+      <AboutCta />
     </>
   );
 }
