@@ -2265,7 +2265,7 @@ body {
 
 .sh-about-hero__frame {
   position: relative;
-  height: clamp(460px, calc(100vh - 250px), 600px);
+  height: clamp(520px, calc(100vh - 180px), 620px);
   overflow: hidden;
   background: #eaf3fc;
 }
@@ -2283,7 +2283,7 @@ body {
   display: flex;
   flex-direction: column;
   padding-top: 22px;
-  padding-bottom: 56px;
+  padding-bottom: 40px;
 }
 
 .sh-about-hero__crumb {
@@ -2660,8 +2660,16 @@ body {
 }
 
 @media (max-width: 1439px) {
+  .sh-about-hero__frame {
+    height: clamp(540px, calc(100vh - 160px), 620px);
+  }
+
   .sh-about-hero__bg {
     background-position: right 120px top 30%;
+  }
+
+  .sh-about-hero__inner {
+    padding-bottom: 32px;
   }
 
   .sh-about-hero__text {
@@ -2691,7 +2699,7 @@ body {
 
   .sh-about-hero__badge {
     padding: 9px 13px;
-    bottom: 60px;
+    bottom: 70px;
   }
 
   .sh-about-hero__badge--kiran {
