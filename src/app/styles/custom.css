@@ -2662,23 +2662,27 @@ body {
 }
 
 @media (max-width: 1199px) {
-  .sh-about-hero__badge--kiran {
-    left: 45%;
+  .sh-about-hero__frame {
+    height: clamp(480px, calc(100vh - 200px), 560px);
   }
 
-  .sh-about-hero__badge--kavitha {
-    left: auto;
-    right: 2%;
+  .sh-about-hero__text h1 {
+    font-size: clamp(28px, 3vw, 40px);
   }
-}
 
-@media (max-width: 991px) {
-  .sh-about-hero__text {
-    max-width: 52%;
+  .sh-about-hero__text > p {
+    font-size: 14px;
+    max-width: 420px;
+  }
+
+  .sh-about-btn {
+    height: 48px;
+    padding: 0 22px;
+    font-size: 14px;
   }
 
   .sh-about-hero__badge {
-    padding: 9px 13px;
+    padding: 10px 14px;
   }
 
   .sh-about-hero__badge strong {
@@ -2687,6 +2691,76 @@ body {
 
   .sh-about-hero__badge span {
     font-size: 11px;
+  }
+}
+
+@media (max-width: 991px) {
+  .sh-about-hero__frame {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sh-about-hero__inner {
+    height: auto;
+    padding-bottom: 28px;
+  }
+
+  .sh-about-hero__text {
+    max-width: 100%;
+    margin: 22px 0 0;
+  }
+
+  .sh-about-hero__text h1 {
+    font-size: clamp(26px, 4vw, 38px);
+    margin-bottom: 14px;
+  }
+
+  .sh-about-hero__text > p {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .sh-about-hero__actions {
+    gap: 12px;
+  }
+
+  .sh-about-btn {
+    height: 44px;
+    padding: 0 18px;
+    font-size: 13.5px;
+    min-width: auto;
+  }
+
+  .sh-about-hero__bg {
+    position: relative;
+    inset: auto;
+    order: 2;
+    aspect-ratio: 4 / 3;
+    background-position: 70% center;
+  }
+
+  .sh-about-hero__badge {
+    padding: 8px 12px;
+    bottom: 55px;
+  }
+
+  .sh-about-hero__badge--kiran {
+    left: auto;
+    right: 50%;
+    margin-right: 8px;
+  }
+
+  .sh-about-hero__badge--kavitha {
+    right: 8px;
+  }
+
+  .sh-about-hero__badge strong {
+    font-size: 13px;
+  }
+
+  .sh-about-hero__badge span {
+    font-size: 10.5px;
   }
 
   .sh-about-stats {
