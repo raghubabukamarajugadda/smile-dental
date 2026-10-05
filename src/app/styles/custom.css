@@ -2273,7 +2273,7 @@ body {
 .sh-about-hero__bg {
   position: absolute;
   inset: 0;
-  background: url("/img/AboutusDocs.png") right 30% / cover no-repeat;
+  background: url("/img/AboutusDocs.png?v=2") right 30% / cover no-repeat;
 }
 
 .sh-about-hero__inner {
