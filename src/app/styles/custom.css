@@ -2665,9 +2665,7 @@ body {
   }
 
   .sh-about-hero__bg {
-    background:
-      linear-gradient(90deg, #eaf3fc 0%, rgba(234, 243, 252, 0.98) 45%, rgba(234, 243, 252, 0.75) 56%, transparent 70%) no-repeat,
-      url("/img/AboutusDocs.png?v=2") right -160px top 30% / cover no-repeat;
+    background-position: right -240px top 30%;
   }
 
   .sh-about-hero__inner {
@@ -2675,44 +2673,43 @@ body {
   }
 
   .sh-about-hero__text {
-    max-width: 260px;
-    margin: 0 0 auto 0;
+    max-width: 320px;
   }
 
   .sh-about-hero__text h1 {
-    font-size: clamp(22px, 2vw, 26px);
-    margin-bottom: 10px;
+    font-size: clamp(24px, 2.2vw, 32px);
+    margin-bottom: 12px;
   }
 
   .sh-about-hero__text > p {
-    font-size: 12.5px;
-    max-width: 240px;
-    margin-bottom: 18px;
+    font-size: 13px;
+    max-width: 280px;
+    margin-bottom: 20px;
   }
 
   .sh-about-hero__actions {
-    gap: 12px;
+    gap: 10px;
   }
 
   .sh-about-btn {
     height: 44px;
     padding: 0 18px;
-    font-size: 13.5px;
+    font-size: 13px;
   }
 
   .sh-about-hero__badge {
     padding: 8px 12px;
-    bottom: 60px;
+    bottom: 65px;
   }
 
   .sh-about-hero__badge--kiran {
     left: auto;
-    right: 50%;
+    right: 55%;
     margin-right: 10px;
   }
 
   .sh-about-hero__badge--kavitha {
-    right: 3%;
+    right: 20px;
   }
 }
 
@@ -2758,13 +2755,16 @@ body {
     position: relative;
     inset: auto;
     order: 2;
-    aspect-ratio: 16 / 9;
-    background-position: right bottom;
+    aspect-ratio: 2170 / 725;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #eaf3fc;
   }
 
   .sh-about-hero__badge {
     padding: 8px 12px;
-    bottom: 55px;
+    bottom: 20px;
   }
 
   .sh-about-hero__badge--kiran {
@@ -2784,9 +2784,7 @@ body {
   .sh-about-hero__badge span {
     font-size: 10.5px;
   }
-}
 
-@media (max-width: 991px) {
   .sh-about-stats {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 20px;
@@ -2822,40 +2820,33 @@ body {
 }
 
 @media (max-width: 767px) {
-  .sh-about-hero__frame {
-    height: auto;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .sh-about-hero__inner {
-    height: auto;
-    padding-bottom: 28px;
-  }
-
-  .sh-about-hero__text {
-    max-width: 100%;
-    margin-top: 22px;
-  }
-
   .sh-about-hero__bg {
-    position: relative;
-    inset: auto;
-    order: 2;
-    aspect-ratio: 16 / 9;
-    background-position: right bottom;
+    aspect-ratio: 2170 / 725;
+    background-size: contain;
+    background-position: center;
   }
 
   .sh-about-hero__badge {
-    bottom: 34px;
+    padding: 6px 10px;
+    bottom: 16px;
   }
 
   .sh-about-hero__badge--kiran {
-    left: 4%;
+    left: auto;
+    right: 50%;
+    margin-right: 6px;
   }
 
   .sh-about-hero__badge--kavitha {
-    right: 4%;
+    right: 6px;
+  }
+
+  .sh-about-hero__badge strong {
+    font-size: 12px;
+  }
+
+  .sh-about-hero__badge span {
+    font-size: 10px;
   }
 }
 
