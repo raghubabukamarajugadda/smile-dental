@@ -2,8 +2,12 @@ const doctors = [
   {
     id: "dr.-kiran-golla",
     name: "Dr. Kiran Golla",
-    designation: "MD & Founder",
+    designation: "Founder & Prosthodontist",
+    specialty: "Prosthodontics",
+    location: "Guntur | India",
     image: "/img/DrKiran.png",
+    excerpt:
+      "Expert in advanced restorations and comprehensive dental care, committed to creating healthy, confident smiles.",
     contact: {
       phone: "+91 95502 31862",
       email: "kiran@drkiranssmilegroup.com",
@@ -40,7 +44,11 @@ const doctors = [
     id: "dr.-kavitha-reddy",
     name: "Dr. Kavitha Reddy",
     designation: "Founder & General Dentist",
+    specialty: "General Dentistry",
+    location: "Guntur | India",
     image: "/img/DrKavitha.png",
+    excerpt:
+      "Focuses on preventive and comprehensive dental care for patients of all ages with a gentle and personalized approach.",
     contact: {
       phone: "+91 92464 34447",
       email: "kavitha@drkiranssmilegroup.com",
@@ -77,7 +85,11 @@ const doctors = [
     id: "dr.-manasa-reddy",
     name: "Dr. Manasa Reddy",
     designation: "CEO & Prosthodontist",
+    specialty: "Prosthodontics",
+    location: "Guntur | India",
     image: "/img/DrManasa.png",
+    excerpt:
+      "Leads with a vision for clinical excellence and modern dental care, specializing in advanced prosthodontic treatments.",
     contact: {
       phone: "+91 98765 43210",
       email: "manasa@drkiranssmilegroup.com",
@@ -114,7 +126,11 @@ const doctors = [
     id: "dr.-venkatesh",
     name: "Dr. Venkatesh",
     designation: "Orthodontist",
+    specialty: "Orthodontics",
+    location: "Guntur | India",
     image: "/img/DrVenkatesh.png",
+    excerpt:
+      "Specializes in aligning smiles with modern orthodontic solutions for children and adults.",
     contact: {
       phone: "+91 87654 32109",
       email: "venkatesh@drkiranssmilegroup.com",
@@ -151,7 +167,11 @@ const doctors = [
     id: "dr.-sandhya",
     name: "Dr. Sandhya",
     designation: "General Dentist",
+    specialty: "General Dentistry",
+    location: "Guntur | India",
     image: "/img/DrSandhya.png",
+    excerpt:
+      "Provides comprehensive dental care with a focus on patient comfort and long-term oral health.",
     contact: {
       phone: "+91 91234 56789",
       email: "sandhya@drkiranssmilegroup.com",
@@ -189,7 +209,11 @@ const doctors = [
     id: "dr.-inthihas",
     name: "Dr. Inthihas",
     designation: "Pediatric Dentist",
+    specialty: "Pediatric Dentistry",
+    location: "Guntur | India",
     image: "/img/DrInthihas.png",
+    excerpt:
+      "Dedicated to providing gentle and compassionate dental care for children with a friendly approach.",
     contact: {
       phone: "+91 92345 67890",
       email: "inthihas@drkiranssmilegroup.com",
