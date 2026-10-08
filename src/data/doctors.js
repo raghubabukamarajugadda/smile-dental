@@ -2,8 +2,13 @@ const doctors = [
   {
     id: "dr.-kiran-golla",
     name: "Dr. Kiran Golla",
-    designation: "Founder & Prosthodontist",
+    designation: "Founder & Chief Dentist",
     specialty: "Prosthodontics",
+    highlights: [
+      "MDS - Prosthodontics",
+      "Founder, Dr. Kiran's Smile Group",
+      "25+ years of clinical experience",
+    ],
     location: "Guntur | India",
     image: "/img/DrKiran.png",
     excerpt:
@@ -45,6 +50,11 @@ const doctors = [
     name: "Dr. Kavitha Reddy",
     designation: "Founder & General Dentist",
     specialty: "General Dentistry",
+    highlights: [
+      "General Dentist",
+      "Founder, Dr. Kiran's Smile Group",
+      "25+ years of clinical experience",
+    ],
     location: "Guntur | India",
     image: "/img/DrKavitha.png",
     excerpt:

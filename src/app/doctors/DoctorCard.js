@@ -1,5 +1,11 @@
 import Link from "next/link";
-import { LuMapPin, LuCalendar, LuUser } from "react-icons/lu";
+import {
+  LuMapPin,
+  LuCalendar,
+  LuUser,
+  LuAward,
+  LuCircleCheck,
+} from "react-icons/lu";
 
 function ToothIcon({ className }) {
   return (
@@ -17,9 +23,56 @@ function ToothIcon({ className }) {
   );
 }
 
+const bulletIcons = [ToothIcon, LuAward, LuCircleCheck];
+
 export default function DoctorCard({ doctor, featured = false }) {
+  if (featured) {
+    return (
+      <div className="sh-doctor-card sh-doctor-card--featured">
+        <div className="sh-doctor-card__media">
+          <img src={doctor.image} alt={doctor.name} />
+        </div>
+        <div className="sh-doctor-card__body">
+          <h3>{doctor.name}</h3>
+          <span className="sh-doctor-card__role">{doctor.designation}</span>
+
+          <ul className="sh-doctor-card__highlights">
+            {(doctor.highlights || []).map((item, i) => {
+              const Icon = bulletIcons[i] || ToothIcon;
+              return (
+                <li key={item}>
+                  <Icon />
+                  <span>{item}</span>
+                </li>
+              );
+            })}
+          </ul>
+
+          <p className="sh-doctor-card__excerpt">{doctor.excerpt}</p>
+
+          <div className="sh-doctor-card__actions">
+            <Link
+              href={`/doctors/${doctor.id}`}
+              className="sh-doctor-card__btn sh-doctor-card__btn--outline"
+            >
+              <LuUser />
+              View Profile
+            </Link>
+            <Link
+              href="/appointment"
+              className="sh-doctor-card__btn sh-doctor-card__btn--orange"
+            >
+              <LuCalendar />
+              Book Appointment
+            </Link>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return (
-    <div className={`sh-doctor-card${featured ? " sh-doctor-card--featured" : ""}`}>
+    <div className="sh-doctor-card">
       <div className="sh-doctor-card__media">
         <img src={doctor.image} alt={doctor.name} />
       </div>
@@ -28,13 +81,13 @@ export default function DoctorCard({ doctor, featured = false }) {
         <span className="sh-doctor-card__role">{doctor.designation}</span>
 
         <div className="sh-doctor-card__meta">
-          <span className="sh-doctor-card__location">
-            <LuMapPin />
-            {doctor.location}
-          </span>
           <span className="sh-doctor-card__specialty">
             <ToothIcon className="sh-doctor-card__tooth" />
             {doctor.specialty}
+          </span>
+          <span className="sh-doctor-card__location">
+            <LuMapPin />
+            {doctor.location}
           </span>
         </div>
 

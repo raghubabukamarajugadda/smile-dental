@@ -1,5 +1,6 @@
 import doctors from "@/data/doctors";
 import DoctorCard from "./DoctorCard";
+import Specialties from "./Specialties";
 
 export default function DoctorsTeam() {
   const founders = doctors.slice(0, 2);
@@ -10,7 +11,7 @@ export default function DoctorsTeam() {
       <div className="sh-container">
         <div className="sh-docs-team__head">
           <div>
-            <span className="sh-story__eyebrow">Our Specialist Team</span>
+            <span className="sh-docs-hero__eyebrow">Our Founders</span>
             <h2>Built on Experience. Driven by Patient Care.</h2>
           </div>
           <p>
@@ -30,6 +31,7 @@ export default function DoctorsTeam() {
       <div className="sh-container">
         <div className="sh-docs-team__head">
           <div>
+            <span className="sh-docs-hero__eyebrow">Our Specialist Team</span>
             <h2>A Team of Experts for Complete Dental Care</h2>
           </div>
           <p>
@@ -43,6 +45,10 @@ export default function DoctorsTeam() {
             <DoctorCard key={doctor.id} doctor={doctor} />
           ))}
         </div>
+      </div>
+
+      <div className="sh-container">
+        <Specialties />
       </div>
     </section>
   );
