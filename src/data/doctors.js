@@ -174,48 +174,6 @@ const doctors = [
     ],
   },
   {
-    id: "dr.-sandhya",
-    name: "Dr. Sandhya",
-    designation: "General Dentist",
-    specialty: "General Dentistry",
-    location: "Guntur | India",
-    image: "/img/DrSandhya.png",
-    excerpt:
-      "Provides comprehensive dental care with a focus on patient comfort and long-term oral health.",
-    contact: {
-      phone: "+91 91234 56789",
-      email: "sandhya@drkiranssmilegroup.com",
-      address: "2nd Floor, Dental Clinic, Guntur, Andhra Pradesh - 522006",
-    },
-    social: {
-      facebook: "#",
-      twitter: "#",
-      linkedin: "#",
-    },
-    workingHours: [
-      { day: "Monday - Friday", time: "9:00 AM - 7:00 PM" },
-      { day: "Saturday", time: "10:00 AM - 5:00 PM" },
-      { day: "Sunday", time: "Closed (Emergencies Only)" },
-    ],
-    biography: [
-      "Dr. Sandhya provides expert oral care tailored to your needs. From routine check-ups to advanced treatments, she ensures that your smile stays healthy and bright.",
-      "With over 10 years of experience in general dentistry, Dr. Sandhya specializes in preventive care, cavity treatments, dental fillings, and gum health.",
-      "Her patient-centric approach and attention to detail have earned her the trust of countless patients seeking comprehensive dental care.",
-    ],
-    education: [
-      "MDS in General Dentistry from XYZ University (2015)",
-      "BDS from ABC College (2012)",
-      "Advanced Training in Endodontics from the Indian Dental Association",
-      "Certification in Oral Surgery from the Dental Council of India",
-    ],
-    achievements: [
-      "Awarded 'Best General Dentist' by the Indian Dental Association (2021).",
-      "Successfully performed over 5,000 dental procedures.",
-      "Conducted community dental awareness programs for rural areas.",
-    ],
-  },
-
-  {
     id: "dr.-inthihas",
     name: "Dr. Inthihas",
     designation: "Pediatric Dentist",
@@ -254,6 +212,123 @@ const doctors = [
       "Awarded 'Best Pediatric Dentist' by the Indian Dental Association (2022).",
       "Successfully treated over 3,000 child patients.",
       "Conducted dental awareness camps in schools across Telangana and Andhra Pradesh.",
+    ],
+  },
+  {
+    id: "dr.-hitha",
+    name: "Dr. Hitha",
+    designation: "General Dentist",
+    specialty: "General Dentistry",
+    location: "Guntur | India",
+    image: "/img/DrHitha.png",
+    excerpt:
+      "Provides friendly, comprehensive dental care focused on comfort and lasting oral health.",
+    contact: {
+      phone: "+91 90000 00000",
+      email: "hitha@drkiranssmilegroup.com",
+      address: "Dr. Kiran's Smile Group, Guntur, Andhra Pradesh - 522006",
+    },
+    social: {
+      facebook: "#",
+      twitter: "#",
+      linkedin: "#",
+    },
+    workingHours: [
+      { day: "Monday - Friday", time: "9:00 AM - 7:00 PM" },
+      { day: "Saturday", time: "10:00 AM - 5:00 PM" },
+      { day: "Sunday", time: "Closed (Emergencies Only)" },
+    ],
+    biography: [
+      "Dr. Hitha is a skilled general dentist at Dr. Kiran&apos;s Smile Group, known for her warm approach and attention to patient comfort.",
+      "She focuses on preventive dentistry, routine check-ups, fillings and restorative care for patients of all ages.",
+      "Her gentle, patient-friendly manner helps make every visit stress-free and comfortable.",
+    ],
+    education: [
+      "BDS from a reputed dental college",
+      "Advanced Training in General and Preventive Dentistry",
+      "Certification in Aesthetic Restorations",
+    ],
+    achievements: [
+      "Consistently rated highly for patient care and comfort.",
+      "Conducted community dental awareness programs.",
+    ],
+  },
+  {
+    id: "dr.-gowtham",
+    name: "Dr. Gowtham",
+    designation: "General Dentist",
+    specialty: "General Dentistry",
+    location: "Guntur | India",
+    image: "/img/Drgowtham.png",
+    excerpt:
+      "Focused on modern, pain-free dentistry and personalised treatment plans for every patient.",
+    contact: {
+      phone: "+91 90000 00000",
+      email: "gowtham@drkiranssmilegroup.com",
+      address: "Dr. Kiran's Smile Group, Guntur, Andhra Pradesh - 522006",
+    },
+    social: {
+      facebook: "#",
+      twitter: "#",
+      linkedin: "#",
+    },
+    workingHours: [
+      { day: "Monday - Friday", time: "9:00 AM - 7:00 PM" },
+      { day: "Saturday", time: "10:00 AM - 5:00 PM" },
+      { day: "Sunday", time: "Closed (Emergencies Only)" },
+    ],
+    biography: [
+      "Dr. Gowtham is a dedicated general dentist at Dr. Kiran&apos;s Smile Group with a focus on modern, pain-free dental treatments.",
+      "He provides comprehensive care including extractions, root canal support, gum care and restorative treatments.",
+      "His clear communication and calm chairside manner put patients at ease during every procedure.",
+    ],
+    education: [
+      "BDS from a reputed dental college",
+      "Advanced Training in Endodontics and Restorative Dentistry",
+      "Certification in Pain-Free Dental Techniques",
+    ],
+    achievements: [
+      "Recognised for excellence in pain-free dental care.",
+      "Performed thousands of successful dental procedures.",
+    ],
+  },
+  {
+    id: "dr.-bhavya",
+    name: "Dr. Bhavya",
+    designation: "General Dentist",
+    specialty: "General Dentistry",
+    location: "Guntur | India",
+    image: "/img/DrBhavya.png",
+    excerpt:
+      "Delivers gentle, detail-oriented dental care with an emphasis on prevention and healthy smiles.",
+    contact: {
+      phone: "+91 90000 00000",
+      email: "bhavya@drkiranssmilegroup.com",
+      address: "Dr. Kiran's Smile Group, Guntur, Andhra Pradesh - 522006",
+    },
+    social: {
+      facebook: "#",
+      twitter: "#",
+      linkedin: "#",
+    },
+    workingHours: [
+      { day: "Monday - Friday", time: "9:00 AM - 7:00 PM" },
+      { day: "Saturday", time: "10:00 AM - 5:00 PM" },
+      { day: "Sunday", time: "Closed (Emergencies Only)" },
+    ],
+    biography: [
+      "Dr. Bhavya is a caring general dentist at Dr. Kiran&apos;s Smile Group, committed to preventive care and long-term oral health.",
+      "She handles routine dentistry, cleaning, fillings and family dental care with a gentle touch.",
+      "Her detail-oriented approach ensures every patient leaves with a healthier, brighter smile.",
+    ],
+    education: [
+      "BDS from a reputed dental college",
+      "Advanced Training in Preventive and Family Dentistry",
+      "Certification in Cosmetic Restorations",
+    ],
+    achievements: [
+      "Known for exceptional patient rapport and gentle care.",
+      "Conducted dental health camps for families and schools.",
     ],
   },
 ];

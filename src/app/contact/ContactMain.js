@@ -10,14 +10,25 @@ import {
 } from "react-icons/lu";
 import { FaArrowRightLong } from "react-icons/fa6";
 
+import ContactMap from "./ContactMap";
+
 const locations = [
-  { name: "Guntur", addr: "Arundelpet, Guntur, Andhra Pradesh" },
-  { name: "Vijayawada", addr: "Moghalrajapuram, Vijayawada, Andhra Pradesh" },
-  { name: "Kakinada", addr: "Rama Rao Peta, Kakinada, Andhra Pradesh" },
-  { name: "Rajahmundry", addr: "Morampudi, Rajahmundry, Andhra Pradesh" },
-  { name: "Ongole", addr: "Mangamuru Road, Ongole, Andhra Pradesh" },
-  { name: "Chennai", addr: "Poonamallee, Chennai, Tamil Nadu" },
-  { name: "Kuwait", addr: "Fahaheel, Kuwait" },
+  {
+    name: "Smile Dental Clinics - Guntur",
+    addr: "Opp. Ayyappa Swamy Temple, Brindavan Gardens, Guntur, Andhra Pradesh 522006",
+  },
+  {
+    name: "Smile Super Specialty Dental Hospital - Nellore",
+    addr: "Kandukuri Shopping Mall, Ramesh Reddy Nagar, Nellore, Andhra Pradesh 524003",
+  },
+  {
+    name: "Smilax Dental Clinic - Thubrahalli",
+    addr: "No 2, Varthur Main Rd, near Thubrahalli Bus Stop, Bengaluru, Karnataka 560066",
+  },
+  {
+    name: "Smilax Dental Clinics - Bellandur",
+    addr: "Sy. No 78, Soul Space Spirit Central Mall, Bellandur, Bengaluru, Karnataka 560103",
+  },
 ];
 
 export default function ContactMain() {
@@ -73,11 +84,7 @@ export default function ContactMain() {
           </div>
 
           <div className="sh-contact-card sh-contact-map">
-            <iframe
-              title="Smile Group clinic locations"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3829.19250436279!2d80.41859207576356!3d16.3131052328618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4a757cd1e93281%3A0x175c834c89696b1f!2sSmile%20Dental%20Clinics%20-%20Best%20Dental%20Hospital%20in%20Guntur%20for%20RCT%2C%20Dental%20Implants%20and%20Oral%20Health%20Care!5e0!3m2!1sen!2sin!4v1741255258215!5m2!1sen!2sin"
-              loading="lazy"
-            />
+            <ContactMap />
           </div>
 
           <div className="sh-contact-card sh-contact-locs">
@@ -86,14 +93,23 @@ export default function ContactMain() {
             <ul>
               {locations.map((l) => (
                 <li key={l.name}>
-                  <span className="sh-contact-locs__pin">
-                    <LuMapPin />
-                  </span>
-                  <div>
-                    <strong>{l.name}</strong>
-                    <span>{l.addr}</span>
-                  </div>
-                  <LuChevronRight className="sh-contact-locs__chev" />
+                  <a
+                    href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+                      `${l.name}, ${l.addr}`
+                    )}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="sh-contact-locs__link"
+                  >
+                    <span className="sh-contact-locs__pin">
+                      <LuMapPin />
+                    </span>
+                    <div>
+                      <strong>{l.name}</strong>
+                      <span>{l.addr}</span>
+                    </div>
+                    <LuChevronRight className="sh-contact-locs__chev" />
+                  </a>
                 </li>
               ))}
             </ul>
