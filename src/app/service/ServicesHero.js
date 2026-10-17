@@ -55,13 +55,15 @@ const pills = [
 export default function ServicesHero() {
   return (
     <section className="sh-docs-hero sh-svc-hero">
+      <div className="sh-container">
+        <nav className="sh-docs-hero__crumb" aria-label="Breadcrumb">
+          <Link href="/">Home</Link>
+          <span>&gt;</span>
+          <strong>Dental Services</strong>
+        </nav>
+      </div>
       <div className="sh-container sh-docs-hero__inner">
         <div className="sh-docs-hero__text">
-          <nav className="sh-docs-hero__crumb" aria-label="Breadcrumb">
-            <Link href="/">Home</Link>
-            <span>&gt;</span>
-            <strong>Dental Services</strong>
-          </nav>
           <span className="sh-docs-hero__eyebrow">Dental Services</span>
           <h1>
             Complete Dental Care,

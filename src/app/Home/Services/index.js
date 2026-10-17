@@ -8,18 +8,18 @@ import { LuChevronLeft, LuChevronRight } from "react-icons/lu";
 import ServiceCard from "@/components/ServiceCard";
 
 const services = [
-  { image: "dental-implants.jpg", title: "Dental Implants", desc: "Permanent solution for missing teeth." },
-  { image: "braces-aligners.jpg", title: "Braces & Aligners", desc: "Straighten your teeth with confidence." },
-  { image: "root-canal-treatment.jpg", title: "Root Canal Treatment", desc: "Save your natural tooth painlessly." },
-  { image: "teeth-cleaning-scaling.jpg", title: "Teeth Cleaning & Scaling", desc: "For healthy gums and fresh breath." },
-  { image: "cosmetic-dentistry.jpg", title: "Cosmetic Dentistry", desc: "Enhance your smile, boost your confidence." },
-  { image: "pediatric-dentistry.jpg", title: "Pediatric Dentistry", desc: "Gentle dental care for children." },
-  { image: "crowns-bridges.jpg", title: "Crowns & Bridges", desc: "Restore damaged or missing teeth naturally." },
-  { image: "gum-treatment.jpg", title: "Gum Treatment", desc: "Laser care for healthy, strong gums." },
-  { image: "dentures.jpg", title: "Dentures", desc: "Comfortable, natural-looking full & partial dentures." },
-  { image: "wisdom-tooth-removal.jpg", title: "Wisdom Tooth Removal", desc: "Safe, gentle extraction of impacted teeth." },
-  { image: "digital-xray-diagnostics.jpg", title: "Digital X-Ray & Diagnosis", desc: "Precise imaging for accurate treatment plans." },
-  { image: "full-mouth-rehabilitation.jpg", title: "Full Mouth Rehabilitation", desc: "Complete restoration of function and aesthetics." },
+  { id: "svc-implants", image: "dental-implants.jpg", title: "Dental Implants", desc: "Permanent solution for missing teeth." },
+  { id: "svc-braces", image: "braces-aligners.jpg", title: "Braces & Aligners", desc: "Straighten your teeth with confidence." },
+  { id: "svc-rootcanal", image: "root-canal-treatment.jpg", title: "Root Canal Treatment", desc: "Save your natural tooth painlessly." },
+  { id: "svc-cleaning", image: "teeth-cleaning-scaling.jpg", title: "Teeth Cleaning & Scaling", desc: "For healthy gums and fresh breath." },
+  { id: "svc-cosmetic", image: "cosmetic-dentistry.jpg", title: "Cosmetic Dentistry", desc: "Enhance your smile, boost your confidence." },
+  { id: "svc-pediatric", image: "pediatric-dentistry.jpg", title: "Pediatric Dentistry", desc: "Gentle dental care for children." },
+  { id: "svc-crowns", image: "crowns-bridges.jpg", title: "Crowns & Bridges", desc: "Restore damaged or missing teeth naturally." },
+  { id: "svc-gum", image: "gum-treatment.jpg", title: "Gum Treatment", desc: "Laser care for healthy, strong gums." },
+  { id: "svc-dentures", image: "dentures.jpg", title: "Dentures", desc: "Comfortable, natural-looking full & partial dentures." },
+  { id: "svc-wisdom", image: "wisdom-tooth-removal.jpg", title: "Wisdom Tooth Removal", desc: "Safe, gentle extraction of impacted teeth." },
+  { id: "svc-xray", image: "digital-xray-diagnostics.jpg", title: "Digital X-Ray & Diagnosis", desc: "Precise imaging for accurate treatment plans." },
+  { id: "svc-rehab", image: "full-mouth-rehabilitation.jpg", title: "Full Mouth Rehabilitation", desc: "Complete restoration of function and aesthetics." },
 ];
 
 export default function Services() {
@@ -58,8 +58,11 @@ export default function Services() {
             }}
           >
             {services.map((service) => (
-              <SwiperSlide key={service.title}>
-                <ServiceCard {...service} />
+              <SwiperSlide key={service.id}>
+                <ServiceCard
+                  {...service}
+                  href={`/service-details?service=${service.id}`}
+                />
               </SwiperSlide>
             ))}
           </Swiper>

@@ -17,13 +17,15 @@ const stats = [
 export default function DoctorsHero() {
   return (
     <section className="sh-docs-hero">
+      <div className="sh-container">
+        <nav className="sh-docs-hero__crumb" aria-label="Breadcrumb">
+          <Link href="/">Home</Link>
+          <span>&gt;</span>
+          <strong>Our Doctors</strong>
+        </nav>
+      </div>
       <div className="sh-container sh-docs-hero__inner">
         <div className="sh-docs-hero__text">
-          <nav className="sh-docs-hero__crumb" aria-label="Breadcrumb">
-            <Link href="/">Home</Link>
-            <span>&gt;</span>
-            <strong>Our Doctors</strong>
-          </nav>
           <span className="sh-docs-hero__eyebrow">Our Dental Team</span>
           <h1>
             Meet the People

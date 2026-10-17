@@ -117,7 +117,10 @@ export default function ServicesGrid() {
                 </span>
                 <h3>{s.title}</h3>
                 <p>{s.desc}</p>
-                <Link href="/service-details" className="sh-svc-card__link">
+                <Link
+                  href={`/service-details?service=${s.id}`}
+                  className="sh-svc-card__link"
+                >
                   Learn More <FaArrowRightLong />
                 </Link>
               </div>

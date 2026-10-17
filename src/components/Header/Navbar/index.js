@@ -11,25 +11,24 @@ const menu = [
   {
     label: "Dental Services",
     href: "/service",
+    wide: true,
     children: [
-      { label: "All Services", href: "/service" },
-      { label: "Dental Implants", href: "/service-details" },
-      { label: "Braces & Aligners", href: "/service-details" },
-      { label: "Root Canal Treatment", href: "/service-details" },
-      { label: "Cosmetic Dentistry", href: "/service-details" },
-      { label: "Pediatric Dentistry", href: "/service-details" },
+      { label: "All Services", href: "/service", full: true },
+      { label: "Dental Implants", href: "/service-details?service=svc-implants" },
+      { label: "Braces & Aligners", href: "/service-details?service=svc-braces" },
+      { label: "Root Canal Treatment", href: "/service-details?service=svc-rootcanal" },
+      { label: "Cleaning & Scaling", href: "/service-details?service=svc-cleaning" },
+      { label: "Cosmetic Dentistry", href: "/service-details?service=svc-cosmetic" },
+      { label: "Pediatric Dentistry", href: "/service-details?service=svc-pediatric" },
+      { label: "Crowns & Bridges", href: "/service-details?service=svc-crowns" },
+      { label: "Gum Treatment", href: "/service-details?service=svc-gum" },
+      { label: "Dentures", href: "/service-details?service=svc-dentures" },
+      { label: "Wisdom Tooth Removal", href: "/service-details?service=svc-wisdom" },
+      { label: "Digital X-Ray & Diagnostics", href: "/service-details?service=svc-xray" },
+      { label: "Full Mouth Rehabilitation", href: "/service-details?service=svc-rehab" },
     ],
   },
-  {
-    label: "Our Branches",
-    href: "#",
-    children: [
-      { label: "Andhra Pradesh", href: "#" },
-      { label: "Telangana", href: "#" },
-      { label: "Karnataka", href: "#" },
-      { label: "Kuwait", href: "#" },
-    ],
-  },
+  { label: "Our Branches", href: "/branches" },
   {
     label: "Patient Guide",
     href: "#",
@@ -37,10 +36,9 @@ const menu = [
       { label: "Book Appointment", href: "/appointment" },
       { label: "FAQs", href: "/faq" },
       { label: "Testimonials", href: "/testimonials" },
-      { label: "Our Pricing", href: "/pricing" },
     ],
   },
-  { label: "Gallery", href: "/portfolio-details" },
+  { label: "Articles", href: "/blog-grid" },
   { label: "Contact Us", href: "/contact" },
 ];
 
@@ -61,9 +59,14 @@ export default function Navbar() {
                   {item.children && <LuChevronDown className="sh-nav__chevron" />}
                 </Link>
                 {item.children && (
-                  <ul className="dropdown">
+                  <ul
+                    className={`dropdown${item.wide ? " dropdown--wide" : ""}`}
+                  >
                     {item.children.map((child) => (
-                      <li key={child.label}>
+                      <li
+                        key={child.label}
+                        className={child.full ? "dropdown__full" : undefined}
+                      >
                         <Link href={child.href}>{child.label}</Link>
                       </li>
                     ))}
