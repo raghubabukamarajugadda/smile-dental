@@ -10,7 +10,13 @@ import {
 } from "react-icons/lu";
 import { FaArrowRightLong } from "react-icons/fa6";
 
-import ContactMap from "./ContactMap";
+import dynamic from "next/dynamic";
+
+// Leaflet accesses window at import time — must never render on the server
+const ContactMap = dynamic(() => import("./ContactMap"), {
+  ssr: false,
+  loading: () => <div className="sh-contact-map__leaflet" />,
+});
 
 const locations = [
   {
