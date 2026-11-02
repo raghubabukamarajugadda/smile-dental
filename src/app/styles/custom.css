@@ -8908,3 +8908,163 @@ body {
     justify-content: flex-start;
   }
 }
+
+/* ===== Doctors page — CEO spotlight ===== */
+.sh-docs-ceo {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  gap: 0;
+  background: linear-gradient(135deg, #f4f9ff 0%, #eaf4ff 55%, #fff8f2 100%);
+  border: 1px solid var(--sh-border);
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.sh-docs-ceo__media {
+  position: relative;
+  min-height: 380px;
+  overflow: hidden;
+}
+
+.sh-docs-ceo__media img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  transition: transform 0.5s ease;
+}
+
+.sh-docs-ceo:hover .sh-docs-ceo__media img {
+  transform: scale(1.03);
+}
+
+.sh-docs-ceo__badge {
+  position: absolute;
+  left: 18px;
+  bottom: 18px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 16px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(6px);
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--sh-navy);
+  box-shadow: 0 6px 20px rgba(15, 45, 90, 0.15);
+}
+
+.sh-docs-ceo__badge svg {
+  width: 15px;
+  height: 15px;
+  color: var(--sh-orange);
+}
+
+.sh-docs-ceo__body {
+  padding: 44px 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sh-docs-ceo__intro {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px 18px;
+  margin-bottom: 14px;
+}
+
+.sh-docs-ceo__intro h3 {
+  margin: 0;
+  font-size: clamp(24px, 2vw, 30px);
+  font-weight: 700;
+  color: var(--sh-navy);
+}
+
+.sh-docs-ceo__intro .sh-doctor-card__location {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 13px;
+  color: var(--sh-muted);
+}
+
+.sh-docs-ceo__intro .sh-doctor-card__location svg {
+  width: 14px;
+  height: 14px;
+  color: var(--sh-blue);
+}
+
+.sh-docs-ceo__bio {
+  margin: 0 0 20px;
+  font-size: 15px;
+  line-height: 1.75;
+  color: #33415c;
+  max-width: 62ch;
+}
+
+.sh-docs-ceo__chips {
+  list-style: none;
+  margin: 0 0 26px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.sh-docs-ceo__chips li {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: #fff;
+  border: 1px solid var(--sh-border);
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--sh-navy);
+}
+
+.sh-docs-ceo__chips svg {
+  width: 14px;
+  height: 14px;
+  color: var(--sh-blue);
+}
+
+.sh-docs-ceo__actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.sh-docs-ceo__actions .sh-doctor-card__btn {
+  height: 44px;
+  padding: 0 22px;
+  font-size: 13.5px;
+}
+
+@media (max-width: 991px) {
+  .sh-docs-ceo {
+    grid-template-columns: 320px 1fr;
+  }
+  .sh-docs-ceo__body {
+    padding: 32px 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .sh-docs-ceo {
+    grid-template-columns: 1fr;
+  }
+  .sh-docs-ceo__media {
+    min-height: 320px;
+    aspect-ratio: 4 / 3;
+  }
+  .sh-docs-ceo__body {
+    padding: 28px 22px;
+  }
+}

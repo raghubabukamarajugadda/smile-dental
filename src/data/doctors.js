@@ -96,6 +96,11 @@ const doctors = [
     name: "Dr. Manasa Reddy",
     designation: "CEO & Prosthodontist",
     specialty: "Prosthodontics",
+    highlights: [
+      "MDS - Prosthodontics",
+      "Chief Executive Officer",
+      "15+ years of clinical experience",
+    ],
     location: "Guntur | India",
     image: "/img/DrManasa.png",
     excerpt:

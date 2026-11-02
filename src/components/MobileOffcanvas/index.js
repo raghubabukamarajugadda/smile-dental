@@ -25,6 +25,41 @@ export default function MobileOffcanvas() {
   // Function to check if a menu item is active
   const isActive = (path) => pathname === path;
 
+  const menu = [
+    { label: "Home", href: "/" },
+    { label: "About Us", href: "/about" },
+    { label: "Our Doctors", href: "/doctors" },
+    {
+      label: "Dental Services",
+      children: [
+        { label: "All Services", href: "/service" },
+        { label: "Dental Implants", href: "/service-details?service=svc-implants" },
+        { label: "Braces & Aligners", href: "/service-details?service=svc-braces" },
+        { label: "Root Canal Treatment", href: "/service-details?service=svc-rootcanal" },
+        { label: "Cleaning & Scaling", href: "/service-details?service=svc-cleaning" },
+        { label: "Cosmetic Dentistry", href: "/service-details?service=svc-cosmetic" },
+        { label: "Pediatric Dentistry", href: "/service-details?service=svc-pediatric" },
+        { label: "Crowns & Bridges", href: "/service-details?service=svc-crowns" },
+        { label: "Gum Treatment", href: "/service-details?service=svc-gum" },
+        { label: "Dentures", href: "/service-details?service=svc-dentures" },
+        { label: "Wisdom Tooth Removal", href: "/service-details?service=svc-wisdom" },
+        { label: "Digital X-Ray & Diagnostics", href: "/service-details?service=svc-xray" },
+        { label: "Full Mouth Rehabilitation", href: "/service-details?service=svc-rehab" },
+      ],
+    },
+    { label: "Our Branches", href: "/branches" },
+    {
+      label: "Patient Guide",
+      children: [
+        { label: "Book Appointment", href: "/appointment" },
+        { label: "FAQs", href: "/faq" },
+        { label: "Testimonials", href: "/testimonials" },
+      ],
+    },
+    { label: "Articles", href: "/blog-grid" },
+    { label: "Contact Us", href: "/contact" },
+  ];
+
   return (
     <>
       <button
@@ -55,249 +90,43 @@ export default function MobileOffcanvas() {
               {/* Offcanvas Menu */}
               <nav id="offcanvas-menu" className="navigation offcanvas-menu">
                 <ul id="nav" className="list-none offcanvas-men-list">
-                  <li>
-                    <Link
-                      className="menu-arrow"
-                      onClick={() => toggleSubMenu(1)}
-                      href="#"
-                    >
-                      Home <i className="icofont-rounded-down"></i>
-                    </Link>
-                    <ul
-                      className={`sub-menu ${openSubMenu === 1 ? "open" : ""}`}
-                    >
-                      <li>
+                  {menu.map((item, i) => (
+                    <li key={item.label}>
+                      {item.children ? (
+                        <>
+                          <Link
+                            className="menu-arrow"
+                            onClick={() => toggleSubMenu(i)}
+                            href="#"
+                          >
+                            {item.label}{' '}
+                            <i className="icofont-rounded-down"></i>
+                          </Link>
+                          <ul
+                            className={`sub-menu ${
+                              openSubMenu === i ? "open" : ""
+                            }`}
+                          >
+                            {item.children.map((child) => (
+                              <li key={child.label}>
+                                <Link onClick={handleClose} href={child.href}>
+                                  {child.label}
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        </>
+                      ) : (
                         <Link
                           onClick={handleClose}
-                          className={` ${isActive("/") ? "active" : ""}`}
-                          href="/"
+                          className={isActive(item.href) ? 'active' : ''}
+                          href={item.href}
                         >
-                          Home Page 1
+                          {item.label}
                         </Link>
-                      </li>
-                      <li>
-                        <Link
-                          onClick={handleClose}
-                          className={` ${isActive("/home-2") ? "active" : ""}`}
-                          href="/home-2"
-                        >
-                          Home Page 2
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <Link
-                      className="menu-arrow"
-                      onClick={() => toggleSubMenu(2)}
-                      href="#"
-                    >
-                      Doctors <i className="icofont-rounded-down"></i>
-                    </Link>
-                    <ul
-                      className={`sub-menu ${openSubMenu === 2 ? "open" : ""}`}
-                    >
-                      <li>
-                        <Link
-                          onClick={handleClose}
-                          className={` ${isActive("/doctors") ? "active" : ""}`}
-                          href="/doctors"
-                        >
-                          Doctor
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          onClick={handleClose}
-                          className={` ${
-                            isActive("/doctor-details") ? "active" : ""
-                          }`}
-                          href="/doctor-details"
-                        >
-                          Doctor Details
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <Link
-                      className="menu-arrow"
-                      onClick={() => toggleSubMenu(3)}
-                      href="#"
-                    >
-                      Services <i className="icofont-rounded-down"></i>
-                    </Link>
-                    <ul
-                      className={`sub-menu ${openSubMenu === 3 ? "open" : ""}`}
-                    >
-                      <li>
-                        <Link
-                          onClick={handleClose}
-                          className={` ${isActive("/service") ? "active" : ""}`}
-                          href="/service"
-                        >
-                          Service
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          onClick={handleClose}
-                          className={` ${
-                            isActive("/service-details") ? "active" : ""
-                          }`}
-                          href="/service-details"
-                        >
-                          Service Details
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <Link
-                      className="menu-arrow"
-                      onClick={() => toggleSubMenu(4)}
-                      href="#"
-                    >
-                      Pages <i className="icofont-rounded-down"></i>
-                    </Link>
-                    <ul
-                      className={`sub-menu ${openSubMenu === 4 ? "open" : ""}`}
-                    >
-                      <li>
-                        <Link
-                          onClick={handleClose}
-                          className={` ${isActive("/about") ? "active" : ""}`}
-                          href="/about"
-                        >
-                          About Us
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          onClick={handleClose}
-                          className={` ${
-                            isActive("/appointment") ? "active" : ""
-                          }`}
-                          href="/appointment"
-                        >
-                          Appointment
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          onClick={handleClose}
-                          className={` ${
-                            isActive("/testimonials") ? "active" : ""
-                          }`}
-                          href="/testimonials"
-                        >
-                          Testimonials
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          onClick={handleClose}
-                          className={` ${isActive("/pricing") ? "active" : ""}`}
-                          href="/pricing"
-                        >
-                          Our Pricing
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          onClick={handleClose}
-                          className={` ${
-                            isActive("/register") ? "active" : ""
-                          }`}
-                          href="/register"
-                        >
-                          Sign Up
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          onClick={handleClose}
-                          className={` ${isActive("/login") ? "active" : ""}`}
-                          href="/login"
-                        >
-                          Login
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          onClick={handleClose}
-                          className={` ${isActive("/faq") ? "active" : ""}`}
-                          href="/faq"
-                        >
-                          Faq
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          onClick={handleClose}
-                          className={` ${
-                            isActive("/mail-success") ? "active" : ""
-                          }`}
-                          href="/mail-success"
-                        >
-                          Mail Success
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          onClick={handleClose}
-                          className={` ${isActive("/404") ? "active" : ""}`}
-                          href="/404"
-                        >
-                          404 Error
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <Link
-                      className="menu-arrow"
-                      onClick={() => toggleSubMenu(5)}
-                      href="#"
-                    >
-                      Blogs <i className="icofont-rounded-down"></i>
-                    </Link>
-                    <ul
-                      className={`sub-menu ${openSubMenu === 5 ? "open" : ""}`}
-                    >
-                      <li>
-                        <Link
-                          onClick={handleClose}
-                          className={` ${
-                            isActive("/blog-grid") ? "active" : ""
-                          }`}
-                          href="/blog-grid"
-                        >
-                          Blog Grid
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          onClick={handleClose}
-                          className={` ${
-                            isActive("/blog-single") ? "active" : ""
-                          }`}
-                          href="/blog-single"
-                        >
-                          Blog Details
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <Link
-                      onClick={handleClose}
-                      className={` ${isActive("/contact") ? "active" : ""}`}
-                      href="/contact"
-                    >
-                      Contact Us
-                    </Link>
-                  </li>
+                      )}
+                    </li>
+                  ))}
                 </ul>
               </nav>
             </div>

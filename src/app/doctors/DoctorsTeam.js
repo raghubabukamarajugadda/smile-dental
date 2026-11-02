@@ -1,10 +1,12 @@
 import doctors from "@/data/doctors";
 import DoctorCard from "./DoctorCard";
+import CeoSpotlight from "./CeoSpotlight";
 import Specialties from "./Specialties";
 
 export default function DoctorsTeam() {
   const founders = doctors.slice(0, 2);
-  const team = doctors.slice(2);
+  const ceo = doctors.find((d) => d.id === "dr.-manasa-reddy");
+  const team = doctors.slice(2).filter((d) => d.id !== ceo?.id);
 
   return (
     <section className="sh-docs-team" id="team">
@@ -27,6 +29,23 @@ export default function DoctorsTeam() {
           ))}
         </div>
       </div>
+
+      {ceo && (
+        <div className="sh-container">
+          <div className="sh-docs-team__head">
+            <div>
+              <span className="sh-docs-hero__eyebrow">Our Leadership</span>
+              <h2>Leading the Next Generation of Dental Care</h2>
+            </div>
+            <p>
+              Guiding every branch with a vision for clinical excellence,
+              advanced technology, and care that puts patients first.
+            </p>
+          </div>
+
+          <CeoSpotlight doctor={ceo} />
+        </div>
+      )}
 
       <div className="sh-container">
         <div className="sh-docs-team__head">
