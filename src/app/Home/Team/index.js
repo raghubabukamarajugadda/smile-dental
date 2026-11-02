@@ -18,6 +18,12 @@ const specialty = {
   "dr.-hitha": "Family & Preventive Dentistry",
   "dr.-gowtham": "Pain-Free Restorative Care",
   "dr.-bhavya": "Gentle Family Dentistry",
+  "dr.-sandhya": "Painless Root Canals",
+  "dr.-harshini": "Family & Preventive Dentistry",
+  "dr.-krishna-lohitha": "Gum Health & Periodontics",
+  "dr.-namratha-mashetty": "Smile Design & Makeovers",
+  "dr.-payel-mazumder": "Child Dental Care",
+  "dr.-vinuta-naik": "Wisdom Tooth & Oral Surgery",
 };
 
 export default function Team() {

@@ -52,7 +52,7 @@ export default function DoctorCard({ doctor, featured = false }) {
 
           <div className="sh-doctor-card__actions">
             <Link
-              href={`/doctors/${doctor.id}`}
+              href={`/doctor-details?doctorId=${doctor.id}`}
               className="sh-doctor-card__btn sh-doctor-card__btn--outline"
             >
               <LuUser />
@@ -95,7 +95,7 @@ export default function DoctorCard({ doctor, featured = false }) {
 
         <div className="sh-doctor-card__actions">
           <Link
-            href={`/doctors/${doctor.id}`}
+            href={`/doctor-details?doctorId=${doctor.id}`}
             className="sh-doctor-card__btn sh-doctor-card__btn--outline"
           >
             <LuUser />

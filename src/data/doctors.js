@@ -336,6 +336,239 @@ const doctors = [
       "Conducted dental health camps for families and schools.",
     ],
   },
+  {
+    id: "dr.-sandhya",
+    name: "Dr. Sandhya",
+    designation: "Endodontist",
+    specialty: "Endodontics",
+    location: "Guntur | India",
+    image: "/img/DrSandhya.png",
+    excerpt:
+      "Specialises in painless root canal treatments and saving natural teeth with precision care.",
+    contact: {
+      phone: "+91 90000 00000",
+      email: "sandhya@drkiranssmilegroup.com",
+      address: "Dr. Kiran's Smile Group, Guntur, Andhra Pradesh - 522006",
+    },
+    social: {
+      facebook: "#",
+      twitter: "#",
+      linkedin: "#",
+    },
+    workingHours: [
+      { day: "Monday - Friday", time: "9:00 AM - 7:00 PM" },
+      { day: "Saturday", time: "10:00 AM - 5:00 PM" },
+      { day: "Sunday", time: "Closed (Emergencies Only)" },
+    ],
+    biography: [
+      "Dr. Sandhya is a skilled endodontist at Dr. Kiran&apos;s Smile Group, specialising in root canal treatments and the preservation of natural teeth.",
+      "She uses modern rotary endodontics and magnification to deliver precise, comfortable, single-visit root canal treatments.",
+      "Her calm approach and gentle technique make even complex root canal cases stress-free for patients.",
+    ],
+    education: [
+      "MDS in Conservative Dentistry & Endodontics",
+      "BDS from a reputed dental college",
+      "Advanced Training in Rotary Endodontics",
+    ],
+    achievements: [
+      "Performed thousands of successful root canal treatments.",
+      "Known for single-visit, painless RCT protocols.",
+    ],
+  },
+  {
+    id: "dr.-harshini",
+    name: "Dr. Harshini",
+    designation: "General Dentist",
+    specialty: "General Dentistry",
+    location: "Hyderabad | India",
+    image: "/img/DrHarshini.png",
+    excerpt:
+      "Provides comprehensive family dental care with a friendly, patient-first approach.",
+    contact: {
+      phone: "+91 90000 00000",
+      email: "harshini@drkiranssmilegroup.com",
+      address: "Dr. Kiran's Smile Group, Kukatpally, Hyderabad, Telangana - 500072",
+    },
+    social: {
+      facebook: "#",
+      twitter: "#",
+      linkedin: "#",
+    },
+    workingHours: [
+      { day: "Monday - Friday", time: "9:00 AM - 7:00 PM" },
+      { day: "Saturday", time: "10:00 AM - 5:00 PM" },
+      { day: "Sunday", time: "Closed (Emergencies Only)" },
+    ],
+    biography: [
+      "Dr. Harshini is a general dentist at Dr. Kiran&apos;s Smile Group, providing complete dental care for patients of all ages.",
+      "She focuses on preventive dentistry, fillings, extractions and routine oral health maintenance.",
+      "Her warm, approachable manner helps patients feel comfortable and well-informed at every visit.",
+    ],
+    education: [
+      "BDS from a reputed dental college",
+      "Advanced Training in General and Preventive Dentistry",
+    ],
+    achievements: [
+      "Rated highly for patient comfort and clear communication.",
+      "Regularly conducts oral health awareness sessions.",
+    ],
+  },
+  {
+    id: "dr.-krishna-lohitha",
+    name: "Dr. Krishna Lohitha",
+    designation: "Periodontist",
+    specialty: "Periodontics",
+    location: "Hyderabad | India",
+    image: "/img/DrKrishnaLohitha.png",
+    excerpt:
+      "Expert in gum health, treating gum disease and performing advanced periodontal procedures.",
+    contact: {
+      phone: "+91 90000 00000",
+      email: "krishnalohitha@drkiranssmilegroup.com",
+      address: "Dr. Kiran's Smile Group, Bachupally, Hyderabad, Telangana - 500090",
+    },
+    social: {
+      facebook: "#",
+      twitter: "#",
+      linkedin: "#",
+    },
+    workingHours: [
+      { day: "Monday - Friday", time: "9:00 AM - 7:00 PM" },
+      { day: "Saturday", time: "10:00 AM - 5:00 PM" },
+      { day: "Sunday", time: "Closed (Emergencies Only)" },
+    ],
+    biography: [
+      "Dr. Krishna Lohitha is a periodontist at Dr. Kiran&apos;s Smile Group, specialising in the prevention, diagnosis and treatment of gum disease.",
+      "She performs advanced periodontal procedures including deep cleaning, flap surgeries and gum grafting with a gentle touch.",
+      "Her focus on early intervention helps patients preserve their natural teeth and maintain healthy gums for life.",
+    ],
+    education: [
+      "MDS in Periodontics",
+      "BDS from a reputed dental college",
+      "Advanced Training in Laser Gum Therapy",
+    ],
+    achievements: [
+      "Successfully treated hundreds of advanced gum disease cases.",
+      "Specialises in minimally invasive periodontal procedures.",
+    ],
+  },
+  {
+    id: "dr.-namratha-mashetty",
+    name: "Dr. Namratha Mashetty",
+    designation: "Cosmetic Dentist",
+    specialty: "Cosmetic Dentistry",
+    location: "Bengaluru | India",
+    image: "/img/DrNamrathaMashetty.png",
+    excerpt:
+      "Designs beautiful, natural-looking smiles with veneers, whitening and smile makeovers.",
+    contact: {
+      phone: "+91 90000 00000",
+      email: "namratha@drkiranssmilegroup.com",
+      address: "Dr. Kiran's Smile Group, Bellandur, Bengaluru, Karnataka - 560103",
+    },
+    social: {
+      facebook: "#",
+      twitter: "#",
+      linkedin: "#",
+    },
+    workingHours: [
+      { day: "Monday - Friday", time: "10:00 AM - 7:00 PM" },
+      { day: "Saturday", time: "10:00 AM - 5:00 PM" },
+      { day: "Sunday", time: "Closed (Emergencies Only)" },
+    ],
+    biography: [
+      "Dr. Namratha Mashetty is a cosmetic dentist at Dr. Kiran&apos;s Smile Group, specialising in smile design and aesthetic dentistry.",
+      "She crafts natural-looking smiles using veneers, teeth whitening, bonding and complete smile makeovers.",
+      "Her artistic eye and attention to detail have helped many patients rediscover confidence in their smiles.",
+    ],
+    education: [
+      "BDS from a reputed dental college",
+      "Certification in Aesthetic & Cosmetic Dentistry",
+      "Advanced Training in Digital Smile Design",
+    ],
+    achievements: [
+      "Completed hundreds of smile makeover cases.",
+      "Known for natural-looking veneer and whitening results.",
+    ],
+  },
+  {
+    id: "dr.-payel-mazumder",
+    name: "Dr. Payel Mazumder",
+    designation: "Pediatric Dentist",
+    specialty: "Pediatric Dentistry",
+    location: "Bengaluru | India",
+    image: "/img/DrPayelMazumder.png",
+    excerpt:
+      "Makes dental visits fun and stress-free for children with gentle, specialised care.",
+    contact: {
+      phone: "+91 90000 00000",
+      email: "payel@drkiranssmilegroup.com",
+      address: "Dr. Kiran's Smile Group, Thubrahalli, Bengaluru, Karnataka - 560066",
+    },
+    social: {
+      facebook: "#",
+      twitter: "#",
+      linkedin: "#",
+    },
+    workingHours: [
+      { day: "Monday - Friday", time: "10:00 AM - 6:00 PM" },
+      { day: "Saturday", time: "10:00 AM - 4:00 PM" },
+      { day: "Sunday", time: "Closed (Emergencies Only)" },
+    ],
+    biography: [
+      "Dr. Payel Mazumder is a pediatric dentist at Dr. Kiran&apos;s Smile Group, dedicated to gentle dental care for infants, children and teens.",
+      "She specialises in cavity prevention, habit counselling and managing dental anxiety in young patients.",
+      "Her playful, reassuring approach turns dental visits into positive experiences that build lifelong healthy habits.",
+    ],
+    education: [
+      "MDS in Pediatric Dentistry",
+      "BDS from a reputed dental college",
+      "Training in Child Behaviour Management",
+    ],
+    achievements: [
+      "Treated thousands of young patients with a gentle approach.",
+      "Conducts school dental health programs across Bengaluru.",
+    ],
+  },
+  {
+    id: "dr.-vinuta-naik",
+    name: "Dr. Vinuta Naik",
+    designation: "Oral & Maxillofacial Surgeon",
+    specialty: "Oral Surgery",
+    location: "Guntur | India",
+    image: "/img/DrVinutaNaik.png",
+    excerpt:
+      "Performs wisdom tooth removal and surgical procedures with safe, comfortable techniques.",
+    contact: {
+      phone: "+91 90000 00000",
+      email: "vinuta@drkiranssmilegroup.com",
+      address: "Dr. Kiran's Smile Group, Guntur, Andhra Pradesh - 522006",
+    },
+    social: {
+      facebook: "#",
+      twitter: "#",
+      linkedin: "#",
+    },
+    workingHours: [
+      { day: "Monday - Friday", time: "9:00 AM - 7:00 PM" },
+      { day: "Saturday", time: "10:00 AM - 5:00 PM" },
+      { day: "Sunday", time: "Closed (Emergencies Only)" },
+    ],
+    biography: [
+      "Dr. Vinuta Naik is an oral and maxillofacial surgeon at Dr. Kiran&apos;s Smile Group, specialising in surgical dental procedures.",
+      "She performs wisdom tooth extractions, complex removals and minor oral surgeries with a focus on patient comfort and safety.",
+      "Her precise technique and thorough aftercare guidance ensure smooth, quick recoveries for every patient.",
+    ],
+    education: [
+      "MDS in Oral & Maxillofacial Surgery",
+      "BDS from a reputed dental college",
+      "Advanced Training in Impacted Tooth Surgery",
+    ],
+    achievements: [
+      "Performed thousands of safe surgical extractions.",
+      "Specialises in painless wisdom tooth removal.",
+    ],
+  },
 ];
 
 export default doctors;

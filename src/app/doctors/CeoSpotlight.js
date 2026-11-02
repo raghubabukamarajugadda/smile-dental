@@ -46,7 +46,7 @@ export default function CeoSpotlight({ doctor }) {
 
         <div className="sh-docs-ceo__actions">
           <Link
-            href={`/doctors/${doctor.id}`}
+            href={`/doctor-details?doctorId=${doctor.id}`}
             className="sh-doctor-card__btn sh-doctor-card__btn--outline"
           >
             <LuUser />
