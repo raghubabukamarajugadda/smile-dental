@@ -416,12 +416,13 @@ const doctors = [
   {
     id: "dr.-krishna-lohitha",
     name: "Dr. Krishna Lohitha",
-    designation: "Periodontist",
-    specialty: "Periodontics",
+    designation: "Oral & Maxillofacial Surgeon",
+    specialty: "Oral Surgery",
+    imgPos: "center 30%",
     location: "Hyderabad | India",
     image: "/img/DrKrishnaLohitha.png",
     excerpt:
-      "Expert in gum health, treating gum disease and performing advanced periodontal procedures.",
+      "Specialises in surgical procedures including wisdom tooth removal and complex extractions.",
     contact: {
       phone: "+91 90000 00000",
       email: "krishnalohitha@drkiranssmilegroup.com",
@@ -438,18 +439,18 @@ const doctors = [
       { day: "Sunday", time: "Closed (Emergencies Only)" },
     ],
     biography: [
-      "Dr. Krishna Lohitha is a periodontist at Dr. Kiran&apos;s Smile Group, specialising in the prevention, diagnosis and treatment of gum disease.",
-      "She performs advanced periodontal procedures including deep cleaning, flap surgeries and gum grafting with a gentle touch.",
-      "Her focus on early intervention helps patients preserve their natural teeth and maintain healthy gums for life.",
+      "Dr. Krishna Lohitha is an oral and maxillofacial surgeon at Dr. Kiran&apos;s Smile Group, specialising in surgical dental procedures.",
+      "She performs wisdom tooth extractions, complex removals and minor oral surgeries with a focus on patient comfort and safety.",
+      "Her precise technique and thorough aftercare guidance ensure smooth, quick recoveries for every patient.",
     ],
     education: [
-      "MDS in Periodontics",
+      "MDS in Oral & Maxillofacial Surgery",
       "BDS from a reputed dental college",
-      "Advanced Training in Laser Gum Therapy",
+      "Advanced Training in Impacted Tooth Surgery",
     ],
     achievements: [
-      "Successfully treated hundreds of advanced gum disease cases.",
-      "Specialises in minimally invasive periodontal procedures.",
+      "Performed thousands of safe surgical extractions.",
+      "Specialises in painless wisdom tooth removal.",
     ],
   },
   {

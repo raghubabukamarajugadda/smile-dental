@@ -30,7 +30,13 @@ export default function DoctorCard({ doctor, featured = false }) {
     return (
       <div className="sh-doctor-card sh-doctor-card--featured">
         <div className="sh-doctor-card__media">
-          <img src={doctor.image} alt={doctor.name} />
+          <img
+            src={doctor.image}
+            alt={doctor.name}
+            style={
+              doctor.imgPos ? { objectPosition: doctor.imgPos } : undefined
+            }
+          />
         </div>
         <div className="sh-doctor-card__body">
           <h3>{doctor.name}</h3>
@@ -74,7 +80,11 @@ export default function DoctorCard({ doctor, featured = false }) {
   return (
     <div className="sh-doctor-card">
       <div className="sh-doctor-card__media">
-        <img src={doctor.image} alt={doctor.name} />
+        <img
+          src={doctor.image}
+          alt={doctor.name}
+          style={doctor.imgPos ? { objectPosition: doctor.imgPos } : undefined}
+        />
       </div>
       <div className="sh-doctor-card__body">
         <h3>{doctor.name}</h3>

@@ -20,7 +20,7 @@ const specialty = {
   "dr.-bhavya": "Gentle Family Dentistry",
   "dr.-sandhya": "Painless Root Canals",
   "dr.-harshini": "Family & Preventive Dentistry",
-  "dr.-krishna-lohitha": "Gum Health & Periodontics",
+  "dr.-krishna-lohitha": "Oral & Maxillofacial Surgery",
   "dr.-namratha-mashetty": "Smile Design & Makeovers",
   "dr.-payel-mazumder": "Child Dental Care",
   "dr.-vinuta-naik": "Wisdom Tooth & Oral Surgery",
@@ -84,7 +84,10 @@ export default function Team() {
                       alt={doc.name}
                       fill
                       sizes="(max-width: 767px) 50vw, (max-width: 1199px) 33vw, 220px"
-                      style={{ objectFit: "cover" }}
+                      style={{
+                        objectFit: "cover",
+                        objectPosition: doc.imgPos || "center 15%",
+                      }}
                     />
                   </div>
                   <div className="sh-doctor-card__body">
