@@ -10,6 +10,17 @@ export default function Copyright() {
                   © Copyright 2026 | All Rights Reserved by{" "}
                   <a href="#">Dr.Kiran&apos;s Smile Group of Dental Hospitals</a>
                 </p>
+                <p className="sh-anvino-credit">
+                  Designed and developed by{" "}
+                  <a
+                    href="https://anvino.tech"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src="/img/anvino-favicon.png" alt="Anvino" />
+                    Anvino Tech Software Solutions
+                  </a>
+                </p>
               </div>
             </div>
           </div>
